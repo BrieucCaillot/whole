@@ -11,17 +11,17 @@ public class Flock : MonoBehaviour
     public FlockBehavior behavior;
 
     [Range(10, 500)]
-    public int startingCount = 100;
-    const float AgentDensity = 0.5f;
+    public int startingCount = 200;
+    // const float AgentDensity = 0.5f;
 
     [Range(1.0f, 100.0f)]
-    public float driveFactor = 10.0f;
+    public float driveFactor = 15.0f;
 
     [Range(1.0f, 100.0f)]
     public float maxSpeed = 10.0f;
 
-    [Range(1.0f, 15.0f)]
-    public float neighborRadius = 1.5f;
+    [Range(1.0f, 50.0f)]
+    public float neighborRadius = 10.0f;
 
     [Range(0.0f, 5.0f)]
     public float avoidanceRadiusMultiplier = 0.5f;
@@ -36,13 +36,15 @@ public class Flock : MonoBehaviour
     {
         squareMaxSpeed = maxSpeed * maxSpeed;
         squareNeighborRadius = neighborRadius * neighborRadius;
-        squareAvoidanceRadius = squareNeighborRadius * avoidanceRadiusMultiplier * avoidanceRadiusMultiplier;
+        //TODO: Find which one is best ?
+        // squareAvoidanceRadius = squareNeighborRadius * avoidanceRadiusMultiplier * avoidanceRadiusMultiplier;
+        squareAvoidanceRadius = squareNeighborRadius * squareNeighborRadius * avoidanceRadiusMultiplier;
 
         for (int i = 0; i < startingCount; i++)
         {
             FlockAgent newAgent = Instantiate(
                 agentPrefab,
-                Random.insideUnitSphere * startingCount * AgentDensity,
+                Random.insideUnitSphere * 50,
                 Quaternion.identity,
                 transform
             );

@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b1607886e3214aef81d84c1de7352f8, type: 3}
-  m_Name: StayInRadius
+  m_Script: {fileID: 11500000, guid: eb9b944d6acba417e8e46cb03e238724, type: 3}
+  m_Name: SteeredAlignmentBehavior
   m_EditorClassIdentifier: 
+  filter: {fileID: 0}
   agentSmoothTime: 0.5
-  container: {fileID: 7513894106081171571, guid: e9c19bf2f106d47ca94b9aa85b106bc8,
-    type: 3}
-  radius: 0
-  center: {x: 0, y: 0, z: 0}
