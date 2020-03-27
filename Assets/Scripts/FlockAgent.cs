@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
-
 public class FlockAgent : MonoBehaviour
 {
     Flock agentFlock;
@@ -25,7 +24,7 @@ public class FlockAgent : MonoBehaviour
     public void Move(Vector3 velocity)
     {
         //Portential issue transform.up ? transform.forward ? rotate ?
-        transform.Rotate(velocity * Time.deltaTime);
+        transform.forward = velocity;
         transform.position += velocity * Time.deltaTime;
     }
 }

@@ -7,23 +7,24 @@ public class Flock : MonoBehaviour
 
     public FlockAgent agentPrefab;
     List<FlockAgent> agents = new List<FlockAgent>();
+
     public FlockBehavior behavior;
 
     [Range(10, 500)]
     public int startingCount = 100;
-    const float AgentDensity = 0.08f;
+    const float AgentDensity = 0.5f;
 
     [Range(1.0f, 100.0f)]
     public float driveFactor = 10.0f;
 
     [Range(1.0f, 100.0f)]
-    public float maxSpeed = 5.0f;
+    public float maxSpeed = 10.0f;
 
-    [Range(1.0f, 10.0f)]
+    [Range(1.0f, 15.0f)]
     public float neighborRadius = 1.5f;
 
-    [Range(0.0f, 1.0f)]
-    public float avoidanceRadiusMultiplier = 0.5f; 
+    [Range(0.0f, 5.0f)]
+    public float avoidanceRadiusMultiplier = 0.5f;
 
     float squareMaxSpeed;
     float squareNeighborRadius;
@@ -42,7 +43,7 @@ public class Flock : MonoBehaviour
             FlockAgent newAgent = Instantiate(
                 agentPrefab,
                 Random.insideUnitSphere * startingCount * AgentDensity,
-                Quaternion.Euler(new Vector3(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))),
+                Quaternion.identity,
                 transform
             );
 
