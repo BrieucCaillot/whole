@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dde581fa736745049ac568cd69e8e76, type: 3}
-  m_Name: SteeredAvoidanceBehavior
+  m_Script: {fileID: 11500000, guid: 2789554312c3446af90f409b7e727720, type: 3}
+  m_Name: GoToTargetBehavior
   m_EditorClassIdentifier: 
-  filter: {fileID: 0}
-  agentSmoothTime: 0.9
+  targetPosition: {x: 0, y: 0, z: 0}
