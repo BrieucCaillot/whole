@@ -15,15 +15,11 @@ public class BezierFollow : MonoBehaviour
     [SerializeField] private float speed = 0.5f; 
     private bool coroutineAllowed;
 
-    
-    // Start is called before the first frame update
     void Start()
     {
     coroutineAllowed = true;
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (coroutineAllowed){

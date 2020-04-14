@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0.9, y: 1}
     - _ReflectionTex:
-        m_Texture: {fileID: 2800000, guid: 68386fc9897223346a683105b4dc1662, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1.14, y: 1.08}
         m_Offset: {x: 61.5, y: 2.28}
     - _ReflectiveColor:
@@ -106,8 +106,8 @@ Material:
     - _FadeExp: 0.91503274
     - _FoamWaveDependency: 0.10205479
     - _FresnelPower: 1.7931035
-    - _FresnelScale: 2.58
-    - _GerstnerIntensity: 6.98
+    - _FresnelScale: 1.64
+    - _GerstnerIntensity: 85.73
     - _HeightDisplacement: 3.2722514
     - _InvFade: 0.628783
     - _InvFadeDepthFade: 0.07197756
@@ -115,7 +115,7 @@ Material:
     - _NormalsDisplacement: 0
     - _ReflDistort: 0.9267696
     - _RefrDistort: 1.4393286
-    - _Shininess: 2.05
+    - _Shininess: 2.94
     - _ShoreTiling: 56.862743
     - _Speed: 0.4137931
     - _WaterDepth: 40.98077
@@ -126,16 +126,16 @@ Material:
     - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
     - _AnimationDirection: {r: 5.17, g: 9.86, b: 2, a: 39.67}
     - _AnimationTiling: {r: 7.74, g: 0.0182, b: 0.045714468, a: 0.027129691}
-    - _BaseColor: {r: 0.7169812, g: 0.3477494, b: 0.1318975, a: 0.82}
-    - _BumpDirection: {r: 1.02, g: 1, b: 1, a: -60}
+    - _BaseColor: {r: 0.2267711, g: 0.28801954, b: 0.5283019, a: 0.9137255}
+    - _BumpDirection: {r: 1.02, g: 1, b: 0.6, a: -278.63}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _BumpTiling: {r: 0.12, g: 0.07, b: 0.08, a: 0.06}
+    - _BumpTiling: {r: 0.36, g: 3.22, b: 0.01, a: 0.001}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0.027511697, g: 0.14179105, b: 0.13226777, a: 0.4627451}
     - _DepthColorFade: {r: 0.8880597, g: 0.27834705, b: 0.44463244, a: 0.22352941}
     - _Displacement: {r: 6.6371665, g: 20.353983, b: -1, a: -0.681416}
     - _DisplacementXz: {r: 0.6499999, g: -2.9203715, b: 1.6599998, a: -3.9363046}
-    - _DistortParams: {r: -0.19, g: 176.8, b: 1.8, a: -2.16}
+    - _DistortParams: {r: 0.1, g: 24.6, b: 2.3, a: -3}
     - _Extinction: {r: 4.5, g: 75, b: 300, a: 1}
     - _Foam: {r: 1.8, g: 1.31, b: 3.3, a: 0}
     - _FoamWaveParams: {r: 0, g: 0.24918434, b: 3.3395782, a: 1}
@@ -144,12 +144,12 @@ Material:
     - _GDirectionAB: {r: 0.46914357, g: 0.35405126, b: -0.2, a: 0.1}
     - _GDirectionCD: {r: 0.7033888, g: -0.6799999, b: 0.7175735, a: -0.2}
     - _GFrequency: {r: 70.42, g: 65.98, b: 0, a: 88.14}
-    - _GSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _GSteepness: {r: 14.65, g: 2, b: 326.64, a: 2}
+    - _GSpeed: {r: 0.51, g: 0, b: 0, a: 0}
+    - _GSteepness: {r: 10.05, g: 16.1, b: 326.64, a: 7.07}
     - _HorizonColor: {r: 0.052907113, g: 0.24486735, b: 0.2835821, a: 1}
-    - _InvFadeParemeter: {r: 2.33, g: 18.78, b: 4.89, a: 0.12}
+    - _InvFadeParemeter: {r: 141.79, g: 169.18, b: 197.8, a: 32.24}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _ReflectionColor: {r: 0.23943663, g: 0, b: 1, a: 0.6156863}
+    - _ReflectionColor: {r: 0.455383, g: 0.26366144, b: 0.745283, a: 1}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
@@ -160,11 +160,11 @@ Material:
     - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShorePerturbation: {r: 0, g: 0, b: 0, a: 0}
     - _ShoreTiling: {r: 1, g: 1, b: 0.1, a: 0.1}
-    - _SpecularColor: {r: 0.8396226, g: 0.19406372, b: 0.19406372, a: 1}
+    - _SpecularColor: {r: 0.8509804, g: 0.42814386, b: 0.28627455, a: 1}
     - _UnderwaterColor: {r: 0.6950323, g: 0.89552236, b: 0.7502397, a: 1}
     - _WaveOffset: {r: 1, g: 1, b: -0.01, a: -0.01}
     - _WaveScale4: {r: 0.1, g: 0.1, b: 0.01, a: 0.01}
-    - _WorldLightDir: {r: 8.36, g: 3.7, b: 3.7, a: 77.8}
+    - _WorldLightDir: {r: 1.34, g: 0.03, b: 0.08, a: 2.12}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6

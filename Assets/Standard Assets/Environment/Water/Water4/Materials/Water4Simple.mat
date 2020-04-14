@@ -56,7 +56,7 @@ Material:
     - _InvFadeParemeter: {r: 0.15, g: 0.15, b: 0.5, a: 1}
     - _ReflectionColor: {r: 0.3972499, g: 0.4279379, b: 0.745283, a: 0.5}
     - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
-    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
+    - _WorldLightDir: {r: -0.030375138, g: -0.20139083, b: -0.97903997, a: 0}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6
