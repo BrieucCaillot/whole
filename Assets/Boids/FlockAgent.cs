@@ -23,6 +23,7 @@ public class FlockAgent : MonoBehaviour
 
     public void Move(Vector3 velocity)
     {
+        Debug.Log(velocity);
         //Portential issue transform.up ? transform.forward ? rotate ?
         transform.forward = velocity;
         transform.position += velocity * Time.deltaTime;

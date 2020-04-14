@@ -14,6 +14,7 @@ public class GoToTargetBehavior : FlockBehavior
     {
         Vector3 targetMove = targetPosition - agent.transform.position;
 
+        //TODO: find out why not working with smoothDamp
         // targetMove = Vector3.SmoothDamp(agent.transform.forward, targetMove, ref currentVelocity, agentSmoothTime);
 
         return targetMove;
