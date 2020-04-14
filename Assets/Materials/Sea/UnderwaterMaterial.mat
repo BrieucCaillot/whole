@@ -66,11 +66,11 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NoiseFrequency: 0.98
-    - _NoiseScale: 4.62
+    - _NoiseScale: 7.82
     - _NoiseSpeed: 3.35
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PixelOffset: 0.004
+    - _PixelOffset: 0.005
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
