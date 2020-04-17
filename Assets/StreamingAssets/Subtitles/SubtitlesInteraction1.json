@@ -1,16 +1,12 @@
 ﻿{
   "subtitles": [
     {
-      "content": "Interaction 1 - First subtitle",
-      "duration": 3
+      "content": "Bienvenue dans une aventure magnifique, qui vous fera évoluer dans des endroits inexplorables par les corps humains : le ciel et la mer",
+      "duration": 8
     },
     {
-      "content": "Interaction 1 - Second subtitle",
-      "duration": 3
-    },
-    {
-      "content": "Interaction 1 - Third Subtitle",
-      "duration": 3
+      "content": "Vous allez voler, pêcher, et nager. Vous allez avancer, ensemble, dans l’une des plus belle aventure de la nature : celle de la migration",
+      "duration": 9
     }
   ]
 }
