@@ -171,7 +171,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press space
+  m_Text: "Subtitles -> Press space \nAmbient -> Press A"
 --- !u!222 &278231136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2029762425}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -211,6 +211,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf61b5d1c19594f4da8083d66ef1d0e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &592360138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592360139}
+  - component: {fileID: 592360140}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &592360139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592360138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2029762425}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592360140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592360138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1917e7387587f6a40a5fac1b58d47c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &653867595
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +265,7 @@ GameObject:
   - component: {fileID: 653867597}
   - component: {fileID: 653867596}
   m_Layer: 0
-  m_Name: Audio
+  m_Name: Voiceover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,7 +280,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 653867595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1917e7387587f6a40a5fac1b58d47c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 59562ed21fc24317b3b960d83d2f748c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &653867597
@@ -247,12 +290,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653867595}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 266.25143, y: 274.26172, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -248.24857, y: 26.761719, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 2029762425}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -617,8 +660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c395369fc03b9c249a439af1b3cdab8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioController: {fileID: 653867596}
-  _subtitleController: {fileID: 278231138}
+  _AudioManager: {fileID: 592360140}
+  _VoiceoverManager: {fileID: 653867596}
+  _SubtitleManager: {fileID: 278231138}
 --- !u!4 &1663362490
 Transform:
   m_ObjectHideFlags: 0
@@ -631,7 +675,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029762424
 GameObject:
@@ -646,7 +690,7 @@ GameObject:
   - component: {fileID: 2029762427}
   - component: {fileID: 2029762426}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,6 +707,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 592360139}
+  - {fileID: 653867597}
   - {fileID: 278231137}
   m_Father: {fileID: 0}
   m_RootOrder: 4
