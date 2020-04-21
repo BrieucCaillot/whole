@@ -10,7 +10,7 @@ public class Flock : MonoBehaviour
 
     public FlockBehavior behavior;
 
-    [Range(10, 500)]
+    [Range(10, 300)]
     public int containerSize = 200;
 
     [Range(10, 500)]
@@ -46,7 +46,6 @@ public class Flock : MonoBehaviour
             FlockAgent newAgent = Instantiate(
                 agentPrefab,
                 Random.insideUnitSphere * containerSize,
-                // Quaternion.identity,
                 Quaternion.Euler(Vector3.forward * Random.Range(0f, 360f)),
                 transform
             );

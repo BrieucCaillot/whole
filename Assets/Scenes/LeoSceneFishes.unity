@@ -1030,10 +1030,10 @@ MonoBehaviour:
   behavior: {fileID: 11400000, guid: 1f58c25817faa4370bc199e8fa912879, type: 2}
   containerSize: 100
   startingCount: 500
-  driveFactor: 15
-  maxSpeed: 19
+  driveFactor: 21
+  maxSpeed: 28
   neighborRadius: 35.9
-  avoidanceRadiusMultiplier: 0.55
+  avoidanceRadiusMultiplier: 0.41
 --- !u!4 &1142492541
 Transform:
   m_ObjectHideFlags: 0
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186598245}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
