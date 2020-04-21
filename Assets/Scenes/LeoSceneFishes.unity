@@ -1031,7 +1031,7 @@ MonoBehaviour:
   containerSize: 100
   startingCount: 500
   driveFactor: 21
-  maxSpeed: 28
+  maxSpeed: 19
   neighborRadius: 35.9
   avoidanceRadiusMultiplier: 0.41
 --- !u!4 &1142492541
