@@ -1,0 +1,16 @@
+﻿{
+  "subtitles": [
+    {
+      "content": "Interaction 1 - First subtitle",
+      "duration": 3
+    },
+    {
+      "content": "Interaction 1 - Second subtitle",
+      "duration": 3
+    },
+    {
+      "content": "Interaction 1 - Third Subtitle",
+      "duration": 3
+    }
+  ]
+}
