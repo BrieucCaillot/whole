@@ -8,11 +8,20 @@ public class FlockAgent : MonoBehaviour
     Flock agentFlock;
     public Flock AgentFlock { get { return agentFlock; } }
     
+    //maybe dont use colliders for performances issues
     Collider agentCollider;
     public Collider AgentCollider { get { return agentCollider; } }
 
+    Vector3 agentPosition;
+    public Vector3 AgentPosition { get { return agentPosition; } }
+
+    Transform agentTransform;
+    public Transform AgentTransform { get { return agentTransform; } }
+
     void Start()
     {
+        agentTransform = transform;
+        agentPosition = transform.position;
         agentCollider = GetComponent<Collider>();
     }
 
