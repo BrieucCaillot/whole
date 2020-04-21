@@ -2,18 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider))]
 public class FlockAgent : MonoBehaviour
 {
     Flock agentFlock;
     public Flock AgentFlock { get { return agentFlock; } }
     
-    Collider agentCollider;
-    public Collider AgentCollider { get { return agentCollider; } }
+
+    Vector3 agentPosition;
+    public Vector3 AgentPosition { get { return agentPosition; } }
+
+    Transform agentTransform;
+    public Transform AgentTransform { get { return agentTransform; } }
 
     void Start()
     {
-        agentCollider = GetComponent<Collider>();
+        agentTransform = transform;
+        agentPosition = transform.position;
     }
 
     public void Initialize(Flock flock)
@@ -23,7 +27,6 @@ public class FlockAgent : MonoBehaviour
 
     public void Move(Vector3 velocity)
     {
-        //Portential issue transform.up ? transform.forward ? rotate ?
         transform.forward = velocity;
         transform.position += velocity * Time.deltaTime;
     }

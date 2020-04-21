@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b1607886e3214aef81d84c1de7352f8, type: 3}
   m_Name: StayInRadius
   m_EditorClassIdentifier: 
-  agentSmoothTime: 0.5
-  container: {fileID: 7513894106081171571, guid: e9c19bf2f106d47ca94b9aa85b106bc8,
-    type: 3}
-  radius: 0
   center: {x: 0, y: 0, z: 0}
+  radius: 300
