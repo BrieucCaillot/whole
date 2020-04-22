@@ -7,11 +7,17 @@ using UnityEngine.UI;
 [System.Serializable] 
 public class SubtitleManager : MonoBehaviour
 {
-    private Text subtitleContent;
+    public AnimationManager _AnimationManager;
+    private Text textComponent;
     private Array allSubtitles;
     private string path;
     private string jsonString;
     private bool isActive = false;
+
+    private void Awake()
+    {
+        textComponent = gameObject.GetComponent<Text>();
+    }
 
     public void GetSubtitles(int interactionNumber)
     {
@@ -33,7 +39,7 @@ public class SubtitleManager : MonoBehaviour
         catch (FileNotFoundException e)
         {
             Debug.Log(e);
-            gameObject.GetComponent<Text>().text = "No more subtitles for this interaction";
+            textComponent.text = "No more subtitles for this interaction";
             return;
         }
         
@@ -47,12 +53,20 @@ public class SubtitleManager : MonoBehaviour
 
         foreach (Subtitle subtitle in allSubtitles)
         {
-            gameObject.GetComponent<Text>().text = subtitle.content;
-            yield return new WaitForSeconds(subtitle.duration);
+            StartCoroutine(_AnimationManager.FadeTextToFullAlpha(1f, textComponent));
+            textComponent.text = subtitle.content;
+            
+            yield return new WaitForSeconds(subtitle.duration - 1);
+            
+            StartCoroutine(_AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+            
+            yield return new WaitForSeconds(1);
             
             if (index == allSubtitles.Length - 1)
             {
-                gameObject.GetComponent<Text>().text = "";
+                StartCoroutine(_AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+                
+                textComponent.text = "";
                 allSubtitles = null;
                 isActive = false;
             }
