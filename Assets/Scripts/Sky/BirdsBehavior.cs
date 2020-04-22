@@ -15,7 +15,9 @@ public class BirdsBehavior : MonoBehaviour
     public float frequency = 1;
     public float amplitude = 0.01f;
     public float min = -10000;
-    bool needVPosition = false;
+    bool needVBirdPosition = false;
+    bool needBirdDownToFishs = false;
+
 
     void Start()
     {
@@ -34,14 +36,22 @@ public class BirdsBehavior : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown("space")) {
-            needVPosition = true;
+            needVBirdPosition = true;
         }
 
-        if(needVPosition == true) {
-            VBirdPosition();
+        if(Input.GetKeyDown("a")) {
+            needBirdDownToFishs = true;
+            needVBirdPosition = false;
+        }
+
+        if(needVBirdPosition) {
+            BirdAnimations.setVPosition(allBirds, parent);
         }
             UpdateSinWaveMovement();
 
+        if(needBirdDownToFishs) {
+            BirdAnimations.goDownToWater(allBirds, parent);
+        }
     }
 
     void UpdateSinWaveMovement() 
@@ -53,30 +63,9 @@ public class BirdsBehavior : MonoBehaviour
 
                 // bird.transform.LookAt(CenterMountain.transform.position);
                 bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
-                bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
+                // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
 
             }
     }
-
-    void VBirdPosition() {
-        Vector3 VBirdPosition = new Vector3(0, 1, 0);
-        int leftV = 0;
-        int rightV = 0;
-        
-        for (int i = 0; i < numOfBirds; i++) {
-            if(i%2==0 && i != 0) {
-                leftV++;
-                VBirdPosition = new Vector3(leftV, 1, -leftV);
-            }
-            if(i%2==1) {
-                rightV++;
-                VBirdPosition = new Vector3(rightV, 1, rightV);
-            }
-
-            allBirds[i].transform.position = Vector3.Slerp(allBirds[i].transform.position, parent.transform.position + VBirdPosition, 0.02f);
-        }
-        
-    }
-
     
 }
