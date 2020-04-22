@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 5129288972135453063, guid: 12c05e558b8c5439c85b4b2b13befa64, type: 3}
-  spawnRadius: 20
+  spawnRadius: 10
   spawnCount: 1000
   colour: {r: 1, g: 0.36320752, b: 0.36320752, a: 1}
   showSpawnRegion: 2
@@ -572,7 +572,7 @@ Transform:
   m_GameObject: {fileID: 568368454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 560786507}
   - {fileID: 2057322148}

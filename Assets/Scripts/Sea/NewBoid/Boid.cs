@@ -46,9 +46,9 @@ public class Boid : MonoBehaviour
     }
 
     public void SetColour (Color col) {
-        if (material != null) {
-            material.color = col;
-        }
+        // if (material != null) {
+        //     material.color = col;
+        // }
     }
 
     public void UpdateBoid () {
