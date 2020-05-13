@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
     public enum GizmoType { Never, SelectedOnly, Always }
 
     public Boid prefab;
+    public int id = 0;
     public float spawnRadius = 10;
     public int spawnCount = 10;
     public Color colour;
