@@ -8,7 +8,6 @@ public class BoidManager : MonoBehaviour
 
     public BoidSettings settings;
     public ComputeShader compute;
-<<<<<<< HEAD
     public Transform target;
     Boid[] boids;
 
@@ -20,14 +19,7 @@ public class BoidManager : MonoBehaviour
             // b.Initialize (settings, null);
             b.Initialize (settings, target);
             agentsPositions.Add(Vector3.zero);
-=======
-    Boid[] boids;
-
-    void Start () {
-        boids = FindObjectsOfType<Boid> ();
-        foreach (Boid b in boids) {
-            b.Initialize (settings, null);
->>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f
+            
         }
     }
 
@@ -40,10 +32,7 @@ public class BoidManager : MonoBehaviour
             for (int i = 0; i < boids.Length; i++) {
                 boidData[i].position = boids[i].position;
                 boidData[i].direction = boids[i].forward;
-<<<<<<< HEAD
                 agentsPositions[i] = boids[i].position;
-=======
->>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f
             }
 
             var boidBuffer = new ComputeBuffer (numBoids, BoidData.Size);
