@@ -58,8 +58,13 @@
         {
             float3 v0 = v.vertex.xyz;
             float3 bitangent = cross(v.normal, v.tangent.xyz);
+<<<<<<< HEAD
             float3 v1 = v0 + (v.tangent.xyz * 0.1);
             float3 v2 = v0 + (bitangent * 5);
+=======
+            float3 v1 = v0 + (v.tangent.xyz * 0.01);
+            float3 v2 = v0 + (bitangent * 0.01);
+>>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f
 
             float ns0 = _NoiseScale * snoise(float3(v0.x + _NoiseOffset.x , v0.y + _NoiseOffset.y, v0.z + _NoiseOffset.z) * _NoiseFrequency);
             v0.xyz += ((ns0+1)/2) * v.normal;

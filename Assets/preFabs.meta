@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/preFabs.meta
 guid: 7adec3474c9ff409d907cd67cf04c3aa
+=======
+guid: 3638c4f6d2c7ff740954cdecf188a9b3
+>>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f:Assets/Librairies/Kinect/OverlayDemo/Materials.meta
+=======
+guid: 7adec3474c9ff409d907cd67cf04c3aa
+>>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

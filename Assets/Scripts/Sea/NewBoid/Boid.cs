@@ -41,11 +41,16 @@ public class Boid : MonoBehaviour
         position = cachedTransform.position;
         forward = cachedTransform.forward;
 
+<<<<<<< HEAD
         //Two different start speed mode
         float startSpeed = (settings.minSpeed + settings.maxSpeed) / 2;
         float randomStartSpeed = Random.Range(settings.minSpeed, settings.maxSpeed);
 
         velocity = transform.forward * randomStartSpeed;
+=======
+        float startSpeed = (settings.minSpeed + settings.maxSpeed) / 2;
+        velocity = transform.forward * startSpeed;
+>>>>>>> e35621fe45827db6de541fb73925d1dba7db8e2f
     }
 
     public void SetColour (Color col) {
