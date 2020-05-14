@@ -4,14 +4,15 @@ using UnityEngine;
 
 public static class ReturnCentroid
 {
-    public static Vector3 FindCentroid ( List< FlockAgent > targets ) {
+    public static Vector3 FindCentroid ( List<Vector3> targets ) {
  
          Vector3 centroid;
-         Vector3 minPoint = targets[ 0 ].transform.position;
-         Vector3 maxPoint = targets[ 0 ].transform.position;
+         
+         Vector3 minPoint = targets[0];
+         Vector3 maxPoint = targets[0];
  
          for ( int i = 1; i < targets.Count; i ++ ) {
-             Vector3 pos = targets[ i ].transform.position;
+             Vector3 pos = targets[ i ];
              if( pos.x < minPoint.x )
                  minPoint.x = pos.x;
              if( pos.x > maxPoint.x )
