@@ -4,6 +4,19 @@ using System.Collections;
  
 public class AnimationManager : MonoBehaviour
 {
+    
+    public static AnimationManager Instance;
+    void Awake(){
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
     public IEnumerator FadeTextToFullAlpha(float t, Text i)
     {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 0);

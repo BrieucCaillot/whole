@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance;
     private AudioSource audioSource;
     private AudioClip audioClip;
     private string path;
@@ -10,12 +11,21 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        path = "file://" + Application.streamingAssetsPath + "/Audio/Sounds/";
+        if (Instance == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            path = "file://" + Application.streamingAssetsPath + "/Audio/Sounds/";
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void PlaySound(string name)
     {
+        PauseSound();
         if (!GetActive())
         {
             StartCoroutine(LoadAudio(name));

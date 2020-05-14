@@ -7,7 +7,7 @@ using UnityEngine.UI;
 [System.Serializable] 
 public class SubtitleManager : MonoBehaviour
 {
-    public AnimationManager _AnimationManager;
+    public static SubtitleManager Instance;
     private Text textComponent;
     private Array allSubtitles;
     private string path;
@@ -16,24 +16,30 @@ public class SubtitleManager : MonoBehaviour
 
     private void Awake()
     {
-        textComponent = gameObject.GetComponent<Text>();
-    }
-
-    public void GetSubtitles(int interactionNumber)
-    {
-        if (!isActive)
+        if (Instance == null)
         {
-            GetSubtitlesFromJson(interactionNumber);
-            StartCoroutine(DisplaySubtitles());
+            textComponent = gameObject.GetComponent<Text>();
+            Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
+    }
+    
+    public void GetSubtitles()
+    {
+        GetSubtitlesFromJson();
+        StartCoroutine(DisplaySubtitles());
     }
 
-    private void GetSubtitlesFromJson(int interactionNumber)
+    private void GetSubtitlesFromJson()
     {
         isActive = true;
         try
         {
-            path = Application.streamingAssetsPath + "/Subtitles/SubtitlesInteraction" + interactionNumber + ".json";
+            path = Application.streamingAssetsPath + "/Subtitles/SubtitlesInteraction" + GameManager.Instance.InteractionNumber + ".json";
             jsonString = File.ReadAllText(path);
         }
         catch (FileNotFoundException e)
@@ -53,18 +59,18 @@ public class SubtitleManager : MonoBehaviour
 
         foreach (Subtitle subtitle in allSubtitles)
         {
-            StartCoroutine(_AnimationManager.FadeTextToFullAlpha(1f, textComponent));
+            StartCoroutine(AnimationManager.Instance.FadeTextToFullAlpha(1f, textComponent));
             textComponent.text = subtitle.content;
             
             yield return new WaitForSeconds(subtitle.duration - 1);
             
-            StartCoroutine(_AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+            StartCoroutine(AnimationManager.Instance.FadeTextToZeroAlpha(1f, textComponent));
             
             yield return new WaitForSeconds(1);
             
             if (index == allSubtitles.Length - 1)
             {
-                StartCoroutine(_AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+                StartCoroutine(AnimationManager.Instance.FadeTextToZeroAlpha(1f, textComponent));
                 
                 textComponent.text = "";
                 allSubtitles = null;

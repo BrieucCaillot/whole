@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class VoiceoverManager : MonoBehaviour
 {
+    public static VoiceoverManager Instance;
     private AudioSource audioSource;
     private AudioClip audioClip;
     private string path;
@@ -10,16 +11,21 @@ public class VoiceoverManager : MonoBehaviour
 
     private void Awake()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
+        if (Instance == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    public void PlayVoiceover(int interactionNumber)
+    public void PlayVoiceover()
     {
-        if (!GetActive())
-        {
-            StartCoroutine(LoadAudio(interactionNumber));
-        }
+        StartCoroutine(LoadAudio());
     }
     
     private WWW GetAudioFromFile(string path, string fileName)
@@ -29,9 +35,9 @@ public class VoiceoverManager : MonoBehaviour
         return request;
     }
 
-    private IEnumerator LoadAudio(int interactionNumber)
+    private IEnumerator LoadAudio()
     {
-        audioName = "Voiceover" + interactionNumber + ".wav";
+        audioName = "Voiceover" + GameManager.Instance.InteractionNumber + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;
