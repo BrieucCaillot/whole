@@ -5,7 +5,7 @@ Properties {
 	_ReflectionTex ("Internal reflection", 2D) = "white" {}
 	
 	_MainTex ("Fallback texture", 2D) = "black" {}
-	_ShoreTex ("Shore & Foam texture ", 2D) = "black" {}
+	_ShoreTex ("Shore & Foam texture ", 2D) = "white" {}
 	_BumpMap ("Normals ", 2D) = "bump" {}
 	
 	_DistortParams ("Distortions (Bump waves, Reflection, Fresnel power, Fresnel bias)", Vector) = (1.0 ,1.0, 2.0, 1.15)

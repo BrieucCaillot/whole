@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,18 +29,12 @@ public class BirdAnimations : MonoBehaviour
         }
         
     }
-    public static void goDownToWater(List<GameObject> allBirds, Transform parent) {
-        // if(!isDownToFishComplete)
-        foreach (GameObject bird in allBirds)
-            {
-                // Vector3 randomBirdPosition = new Vector3(Random.Range(-1, 1), Random.Range(-1, 1), Random.Range(-1, 1));
-                // bird.transform.position = Vector3.Slerp(bird.transform.position, parent.transform.position + randomBirdPosition, 0.02f);
-                // bird.transform.LookAt(new Vector3(-55, -20, 200));
-                bird.transform.eulerAngles = new Vector3(0, 0, 55);
-
-                
-            }
-            parent.transform.position = Vector3.Slerp(parent.transform.position, new Vector3(parent.transform.position.x, 0, parent.transform.position.z), 0.02f);
-            // isDownToFishComplete = true;
+    public static void DiveBird(List<GameObject> allBirds, Transform parent) {
+        Sequence seq = DOTween.Sequence();
+        foreach (var bird in allBirds)
+        {
+            seq.Append(bird.transform.DOMove(bird.transform.position + new Vector3(0f, 2f, 0f), 0.5f).SetEase(Ease.InOutCubic));
+            seq.Append(bird.transform.DOMove(Vector3.zero, 1f).SetEase(Ease.InQuint));
         }
+    }
 }

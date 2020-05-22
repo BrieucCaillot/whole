@@ -65,13 +65,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.57
     - _GlossyReflections: 1
     - _InvFade: 1
-    - _Metallic: 0
+    - _Metallic: 0.869
     - _Mode: 0
-    - _NoiseFrequency: 100
-    - _NoiseScale: 20
+    - _NoiseFrequency: 8
+    - _NoiseScale: -20.9
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ScrollingSpeed: 2

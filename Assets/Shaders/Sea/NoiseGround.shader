@@ -58,16 +58,16 @@
         {
             float3 v0 = v.vertex.xyz;
             float3 bitangent = cross(v.normal, v.tangent.xyz);
-            float3 v1 = v0 + (v.tangent.xyz * 0.01);
-            float3 v2 = v0 + (bitangent * 0.01);
+            float3 v1 = v0 + (v.tangent.xyz * 3.);
+            float3 v2 = v0 + (bitangent * 10.);
 
-            float ns0 = _NoiseScale * snoise(float3(v0.x + _NoiseOffset.x , v0.y + _NoiseOffset.y, v0.z + _NoiseOffset.z) * _NoiseFrequency);
+            float ns0 = _NoiseScale * snoise(float3(v0.x + _NoiseOffset.x , v0.y + _NoiseOffset.y, v0.z + _NoiseOffset.z * 0.0001) * _NoiseFrequency);
             v0.xyz += ((ns0+1)/2) * v.normal;
 
-            float ns1 = _NoiseScale * snoise(float3(v1.x + _NoiseOffset.x , v1.y + _NoiseOffset.y, v1.z + _NoiseOffset.z) * _NoiseFrequency);
+            float ns1 = _NoiseScale * snoise(float3(v1.x + _NoiseOffset.x , v1.y + _NoiseOffset.y, v1.z + _NoiseOffset.z * 0.0001) * _NoiseFrequency);
             v1.xyz += ((ns1+1)/2) * v.normal;
 
-            float ns2 = _NoiseScale * snoise(float3(v2.x + _NoiseOffset.x , v2.y + _NoiseOffset.y, v2.z + _NoiseOffset.z) * _NoiseFrequency);
+            float ns2 = _NoiseScale * snoise(float3(v2.x + _NoiseOffset.x , v2.y + _NoiseOffset.y, v2.z + _NoiseOffset.z * 0.0001) * _NoiseFrequency);
             v2.xyz += ((ns2+1)/2) * v.normal;
 
             float3 vn = cross(v2-v0,v1-v0);

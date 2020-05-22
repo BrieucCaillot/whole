@@ -35,6 +35,13 @@ public class BirdsBehavior : MonoBehaviour
     }
     void Update()
     {
+        
+        DetectAnimations();
+        UpdateSinWaveMovement();
+
+    }
+
+    void DetectAnimations() {
         if(Input.GetKeyDown("space")) {
             needVBirdPosition = true;
         }
@@ -47,10 +54,11 @@ public class BirdsBehavior : MonoBehaviour
         if(needVBirdPosition) {
             BirdAnimations.setVPosition(allBirds, parent);
         }
-            UpdateSinWaveMovement();
 
         if(needBirdDownToFishs) {
-            BirdAnimations.goDownToWater(allBirds, parent);
+            BirdAnimations.DiveBird(allBirds, parent);
+            Destroy(GetComponent<BezierFollow>());
+            // BirdAnimations.goDownToWater(allBirds, parent);
         }
     }
 
@@ -60,10 +68,13 @@ public class BirdsBehavior : MonoBehaviour
             {
                 float speedBird = Random.Range(-0.4f, 0.4f);
                 float velocity = ReturnSinSpeed.sinSpeed(Time.time - bias, speedBird * amplitude, frequency, 0);
-
-                // bird.transform.LookAt(CenterMountain.transform.position);
-                bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
-                // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
+                
+                // bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
+                
+                if (!needBirdDownToFishs) {
+                    // bird.transform.LookAt(CenterMountain.transform.position);
+                    // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
+                }
 
             }
     }
