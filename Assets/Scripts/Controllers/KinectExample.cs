@@ -20,22 +20,30 @@ public class KinectExample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        // EVERYONE IS DETECTED
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            IntroManager.Instance.Hide();
+        }
+        
         // SWITCH EXAMPLE
         // BIRDS SCENE
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             SceneController.Instance.BirdsScene();
         }    
         // BOID SCENE
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             SceneController.Instance.BoidScene();
         }    
-        // INTRO SCENE
-        if (Input.GetKeyDown(KeyCode.B))
+        
+        // DISPLAY LOADER
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneController.Instance.Intro();
-        }  
+            PictoLoadingManager.Instance.LoaderInit();
+        }   
         
         // NEW INTERACTION
         if (Input.GetKeyDown(KeyCode.Space))
