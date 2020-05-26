@@ -15,9 +15,9 @@ public class BirdsBehavior : MonoBehaviour
     public float frequency = 1;
     public float amplitude = 0.01f;
     public float min = -10000;
-    bool needVBirdPosition = false;
-    bool needBirdDownToFishs = false;
-
+    bool needVPosition = false;
+    bool needDive = false;
+    bool needToFly = true;
 
     void Start()
     {
@@ -35,30 +35,25 @@ public class BirdsBehavior : MonoBehaviour
     }
     void Update()
     {
-        
-        DetectAnimations();
+        DetectInteractions();
         UpdateSinWaveMovement();
-
     }
 
-    void DetectAnimations() {
-        if(Input.GetKeyDown("space")) {
-            needVBirdPosition = true;
+    void DetectInteractions() {
+
+        if(needToFly) {
+            InteractionManager.Instance.normalFly(allBirds, parent);
         }
 
-        if(Input.GetKeyDown("a")) {
-            needBirdDownToFishs = true;
-            needVBirdPosition = false;
+        if(Input.GetKeyDown("space") && !needVPosition) {
+            needVPosition = true;
+            InteractionManager.Instance.setVPosition(allBirds, parent);
         }
 
-        if(needVBirdPosition) {
-            BirdAnimations.setVPosition(allBirds, parent);
-        }
-
-        if(needBirdDownToFishs) {
-            BirdAnimations.DiveBird(allBirds, parent);
+        if(Input.GetKeyDown("a") && !needDive) {
+            needDive = true;
+            InteractionManager.Instance.DiveBird(parent);
             Destroy(GetComponent<BezierFollow>());
-            // BirdAnimations.goDownToWater(allBirds, parent);
         }
     }
 
@@ -71,7 +66,7 @@ public class BirdsBehavior : MonoBehaviour
                 
                 // bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
                 
-                if (!needBirdDownToFishs) {
+                if (!needDive) {
                     // bird.transform.LookAt(CenterMountain.transform.position);
                     // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
                 }

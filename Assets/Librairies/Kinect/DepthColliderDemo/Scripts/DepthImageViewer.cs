@@ -41,7 +41,8 @@ public class DepthImageViewer : MonoBehaviour
 			string sColObjectName = ((KinectWrapper.NuiSkeletonPositionIndex)i).ToString() + "Collider";
 			jointColliders[i] = new GameObject(sColObjectName);
 			jointColliders[i].transform.parent = transform;
-			
+
+			Debug.Log((KinectWrapper.NuiSkeletonPositionIndex)i);
 			SphereCollider collider = jointColliders[i].AddComponent<SphereCollider>();
 			collider.radius = 1f;
 		}
