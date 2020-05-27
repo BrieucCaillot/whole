@@ -13,12 +13,10 @@ public class InteractionManager : Singleton<InteractionManager>
     [SerializeField] private CinemachineVirtualCamera[] CinemachineCameras;
     [SerializeField] private Camera MainCamera;
 
-    public GameObject target;
-
+    public static GameObject boidsTarget;
 
     public int cameraIndex = 0;
     private float speed = 0;
-
 
     public void normalFly(List<GameObject> allBirds, Transform parent) {
         parent.position = new Vector3(parent.position.x, parent.position.y, parent.position.z + 0.5f);
@@ -74,6 +72,10 @@ public class InteractionManager : Singleton<InteractionManager>
     }
 
     public void UpdateUserKinectPosition(Vector3 position) {
-        target.transform.position = position;
+        if(!boidsTarget){
+            boidsTarget = GameObject.Find("Boids/Target");
+        }
+        
+        boidsTarget.transform.position = position;
     }
 }

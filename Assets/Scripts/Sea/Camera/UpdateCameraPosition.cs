@@ -14,7 +14,7 @@ public class UpdateCameraPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = (ReturnCentroid.FindCentroid(BoidManager.agentsPositions));
+        // transform.position = (ReturnCentroid.FindCentroid(BoidManager.agentsPositions));
         // Debug.Log(ReturnCentroid.FindCentroid(Flock.agents));
     }
 }
