@@ -235,10 +235,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TwoUsers: 0
-  ComputeUserMap: 1
+  ComputeUserMap: 0
   ComputeColorMap: 0
-  DisplayUserMap: 1
-  DisplayColorMap: 1
+  DisplayUserMap: 0
+  DisplayColorMap: 0
   DisplaySkeletonLines: 0
   DisplayMapsWidthPercent: 20
   SensorHeight: 1

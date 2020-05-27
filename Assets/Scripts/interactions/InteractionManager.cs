@@ -13,6 +13,7 @@ public class InteractionManager : Singleton<InteractionManager>
     [SerializeField] private CinemachineVirtualCamera[] CinemachineCameras;
     [SerializeField] private Camera MainCamera;
 
+    public GameObject target;
 
 
     public int cameraIndex = 0;
@@ -70,5 +71,9 @@ public class InteractionManager : Singleton<InteractionManager>
 
     public void CameraHandler(int cameraIndex) {
         CinemachineCameras[cameraIndex].Priority = 10;
+    }
+
+    public void UpdateUserKinectPosition(Vector3 position) {
+        target.transform.position = position;
     }
 }
