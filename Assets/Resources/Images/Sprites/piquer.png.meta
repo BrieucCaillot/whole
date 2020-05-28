@@ -1,0 +1,3920 @@
+fileFormatVersion: 2
+guid: d1cf60ab60690485ea281dac0906847e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8160203916722964429
+    second: piquer_0
+  - first:
+      213: -2568316192711089345
+    second: piquer_1
+  - first:
+      213: -1084935831034993360
+    second: piquer_2
+  - first:
+      213: 7092868079095920609
+    second: piquer_3
+  - first:
+      213: -5275656162984985868
+    second: piquer_4
+  - first:
+      213: -7817292028306260701
+    second: piquer_5
+  - first:
+      213: -4113793413020709664
+    second: piquer_6
+  - first:
+      213: 7613583136277241829
+    second: piquer_7
+  - first:
+      213: -5301818821087227748
+    second: piquer_8
+  - first:
+      213: 5362709353730991635
+    second: piquer_9
+  - first:
+      213: 6461490421339287759
+    second: piquer_10
+  - first:
+      213: 9187439372098917375
+    second: piquer_11
+  - first:
+      213: 4558946198233799843
+    second: piquer_12
+  - first:
+      213: -1671403886095398908
+    second: piquer_13
+  - first:
+      213: 826821582627807659
+    second: piquer_14
+  - first:
+      213: 7253056306602416431
+    second: piquer_15
+  - first:
+      213: -3699275076334561782
+    second: piquer_16
+  - first:
+      213: 7071431904366989007
+    second: piquer_17
+  - first:
+      213: -9137829832195555537
+    second: piquer_18
+  - first:
+      213: 1732652785194120272
+    second: piquer_19
+  - first:
+      213: 1448591209541287970
+    second: piquer_20
+  - first:
+      213: 249122886759553901
+    second: piquer_21
+  - first:
+      213: 8234212238457867412
+    second: piquer_22
+  - first:
+      213: -1499269789747905903
+    second: piquer_23
+  - first:
+      213: 8240531057302711024
+    second: piquer_24
+  - first:
+      213: -8804807869356986558
+    second: piquer_25
+  - first:
+      213: -2971091978821432972
+    second: piquer_26
+  - first:
+      213: -5213523609398270642
+    second: piquer_27
+  - first:
+      213: -5518360223694780221
+    second: piquer_28
+  - first:
+      213: -4942119321863165913
+    second: piquer_29
+  - first:
+      213: -7953748099326104983
+    second: piquer_30
+  - first:
+      213: 1859560562945076263
+    second: piquer_31
+  - first:
+      213: 1488523776094167580
+    second: piquer_32
+  - first:
+      213: -2500270982133126134
+    second: piquer_33
+  - first:
+      213: -5209251129685106540
+    second: piquer_34
+  - first:
+      213: -7487711668892317342
+    second: piquer_35
+  - first:
+      213: 6324064842299773822
+    second: piquer_36
+  - first:
+      213: -3831232071533002808
+    second: piquer_37
+  - first:
+      213: 8843317560217585245
+    second: piquer_38
+  - first:
+      213: -1571488865371647530
+    second: piquer_39
+  - first:
+      213: -8593508297263181264
+    second: piquer_40
+  - first:
+      213: -5827277014388158335
+    second: piquer_41
+  - first:
+      213: -4388884091785426660
+    second: piquer_42
+  - first:
+      213: -1219531264944098948
+    second: piquer_43
+  - first:
+      213: -8387961305352497346
+    second: piquer_44
+  - first:
+      213: 4327690239885371109
+    second: piquer_45
+  - first:
+      213: -7701194157611149453
+    second: piquer_46
+  - first:
+      213: -1681600323512663183
+    second: piquer_47
+  - first:
+      213: -7265559801094924476
+    second: piquer_48
+  - first:
+      213: -4987636932259343377
+    second: piquer_49
+  - first:
+      213: 5346845630227939440
+    second: piquer_50
+  - first:
+      213: -9081844436840229194
+    second: piquer_51
+  - first:
+      213: -8010197382216792100
+    second: piquer_52
+  - first:
+      213: -233340264109579546
+    second: piquer_53
+  - first:
+      213: -6815477557691511030
+    second: piquer_54
+  - first:
+      213: 2386815957625936474
+    second: piquer_55
+  - first:
+      213: -899414390795429076
+    second: piquer_56
+  - first:
+      213: -9215510108671848884
+    second: piquer_57
+  - first:
+      213: -3362395855521156075
+    second: piquer_58
+  - first:
+      213: -6235223083356526993
+    second: piquer_59
+  - first:
+      213: -6129145459571771923
+    second: piquer_60
+  - first:
+      213: 6990000532524555762
+    second: piquer_61
+  - first:
+      213: 3830501821271921154
+    second: piquer_62
+  - first:
+      213: -7074768926902276974
+    second: piquer_63
+  - first:
+      213: 595518189523135822
+    second: piquer_64
+  - first:
+      213: -1581738688995032106
+    second: piquer_65
+  - first:
+      213: 7975866842267581038
+    second: piquer_66
+  - first:
+      213: -5553032410090550346
+    second: piquer_67
+  - first:
+      213: 217432167157266120
+    second: piquer_68
+  - first:
+      213: 1194632804595783952
+    second: piquer_69
+  - first:
+      213: -2544160292261177364
+    second: piquer_70
+  - first:
+      213: -5690844057670311159
+    second: piquer_71
+  - first:
+      213: 4354110074556943311
+    second: piquer_72
+  - first:
+      213: 4030716294942927261
+    second: piquer_73
+  - first:
+      213: 7952514534358112896
+    second: piquer_74
+  - first:
+      213: 6005705311656123658
+    second: piquer_75
+  - first:
+      213: 4623198912377386134
+    second: piquer_76
+  - first:
+      213: 7749794108914833806
+    second: piquer_77
+  - first:
+      213: -8628116829896107940
+    second: piquer_78
+  - first:
+      213: -7643233345029785294
+    second: piquer_79
+  - first:
+      213: 7863686761689374179
+    second: piquer_80
+  - first:
+      213: 3979839549018611995
+    second: piquer_81
+  - first:
+      213: -1658794138176944203
+    second: piquer_82
+  - first:
+      213: 8176002894787809487
+    second: piquer_83
+  - first:
+      213: -504648454109002057
+    second: piquer_84
+  - first:
+      213: 1847932864590037415
+    second: piquer_85
+  - first:
+      213: -3800922714389674248
+    second: piquer_86
+  - first:
+      213: -2697419113443685500
+    second: piquer_87
+  - first:
+      213: 6963388285359938832
+    second: piquer_88
+  - first:
+      213: -7212403338415753423
+    second: piquer_89
+  - first:
+      213: 7980594975839812645
+    second: piquer_90
+  - first:
+      213: 7134628749160928020
+    second: piquer_91
+  - first:
+      213: -3673364949708707672
+    second: piquer_92
+  - first:
+      213: 1047792039887792996
+    second: piquer_93
+  - first:
+      213: 8611557731375310477
+    second: piquer_94
+  - first:
+      213: 8791080367983583748
+    second: piquer_95
+  - first:
+      213: 3008599248126668448
+    second: piquer_96
+  - first:
+      213: 4872147180323632122
+    second: piquer_97
+  - first:
+      213: 1500809383270374084
+    second: piquer_98
+  - first:
+      213: 6691767279743784475
+    second: piquer_99
+  - first:
+      213: 4263561692154699653
+    second: piquer_100
+  - first:
+      213: -3785015401569883986
+    second: piquer_101
+  - first:
+      213: -4953082672167991247
+    second: piquer_102
+  - first:
+      213: 4026629561762698293
+    second: piquer_103
+  - first:
+      213: 2393153863545580067
+    second: piquer_104
+  - first:
+      213: 7466535704012594639
+    second: piquer_105
+  - first:
+      213: 8463310729937437672
+    second: piquer_106
+  - first:
+      213: 3530596795317449740
+    second: piquer_107
+  - first:
+      213: 5289401238760210258
+    second: piquer_108
+  - first:
+      213: -7065260929308203228
+    second: piquer_109
+  - first:
+      213: -2783997711471166940
+    second: piquer_110
+  - first:
+      213: 6448935355543120192
+    second: piquer_111
+  - first:
+      213: -3460837228603528427
+    second: piquer_112
+  - first:
+      213: -8201064202614518342
+    second: piquer_113
+  - first:
+      213: 7884174057926711628
+    second: piquer_114
+  - first:
+      213: -3465386803017799207
+    second: piquer_115
+  - first:
+      213: 6982362789237201207
+    second: piquer_116
+  - first:
+      213: 2213793363772148934
+    second: piquer_117
+  - first:
+      213: 8535765322268112195
+    second: piquer_118
+  - first:
+      213: -8026300415256710505
+    second: piquer_119
+  - first:
+      213: -7114658692041667340
+    second: piquer_120
+  - first:
+      213: -4848328031794995586
+    second: piquer_121
+  - first:
+      213: 2039176327388612481
+    second: piquer_122
+  - first:
+      213: -950882615137863871
+    second: piquer_123
+  - first:
+      213: -4152795750863075690
+    second: piquer_124
+  - first:
+      213: -2172167811757105841
+    second: piquer_125
+  - first:
+      213: 7627180166337534761
+    second: piquer_126
+  - first:
+      213: 1130650455201361
+    second: piquer_127
+  - first:
+      213: 6894294626315552909
+    second: piquer_128
+  - first:
+      213: -444423195471287824
+    second: piquer_129
+  - first:
+      213: -6489583796714686513
+    second: piquer_130
+  - first:
+      213: -1937169889698271758
+    second: piquer_131
+  - first:
+      213: 713714963996124020
+    second: piquer_132
+  - first:
+      213: 5699133352933798920
+    second: piquer_133
+  - first:
+      213: 8807101594751928708
+    second: piquer_134
+  - first:
+      213: -8809614251619903181
+    second: piquer_135
+  - first:
+      213: -8758887155957295622
+    second: piquer_136
+  - first:
+      213: 6678742324863881832
+    second: piquer_137
+  - first:
+      213: -5460758767630795305
+    second: piquer_138
+  - first:
+      213: -7162449462236511357
+    second: piquer_139
+  - first:
+      213: -8947260370834460088
+    second: piquer_140
+  - first:
+      213: -1024746721834393230
+    second: piquer_141
+  - first:
+      213: 8445501273818057960
+    second: piquer_142
+  - first:
+      213: -1983088645140309966
+    second: piquer_143
+  - first:
+      213: 7399864375028573402
+    second: piquer_144
+  - first:
+      213: 4185699629309388931
+    second: piquer_145
+  - first:
+      213: -8392337246484812098
+    second: piquer_146
+  - first:
+      213: 7205164022535899227
+    second: piquer_147
+  - first:
+      213: -2155343605945267052
+    second: piquer_148
+  - first:
+      213: 6498774587367539895
+    second: piquer_149
+  - first:
+      213: -1388430014245143570
+    second: piquer_150
+  - first:
+      213: -6459409768919875068
+    second: piquer_151
+  - first:
+      213: 1650100475499275286
+    second: piquer_152
+  - first:
+      213: 5730739147388768679
+    second: piquer_153
+  - first:
+      213: -6419599034277010997
+    second: piquer_154
+  - first:
+      213: 4465418546907387514
+    second: piquer_155
+  - first:
+      213: -6791671928193298473
+    second: piquer_156
+  - first:
+      213: -606827470524847450
+    second: piquer_157
+  - first:
+      213: -1557570079233100795
+    second: piquer_158
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: piquer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338f9f8b5c121ce80800000000000000
+      internalID: -8160203916722964429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_1
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33629eb7028b5cd0800000000000000
+      internalID: -2568316192711089345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_2
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035e0132c9881f0f0800000000000000
+      internalID: -1084935831034993360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_3
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7383530fdee6260800000000000000
+      internalID: 7092868079095920609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_4
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fafd20ebaa19c6b0800000000000000
+      internalID: -5275656162984985868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_5
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dff4b6156638390800000000000000
+      internalID: -7817292028306260701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_6
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec0f89cfaed8e6c0800000000000000
+      internalID: -4113793413020709664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_7
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef95b12681e8a960800000000000000
+      internalID: 7613583136277241829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_8
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c909d995fd72c66b0800000000000000
+      internalID: -5301818821087227748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_9
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ecce8ebb2c6a40800000000000000
+      internalID: 5362709353730991635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_10
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc07483cd43dba950800000000000000
+      internalID: 6461490421339287759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_11
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 12272
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d4698e67508f70800000000000000
+      internalID: 9187439372098917375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acd7d7b961a44f30800000000000000
+      internalID: 4558946198233799843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_13
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4088315650bfdc8e0800000000000000
+      internalID: -1671403886095398908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_14
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1282549d5797b00800000000000000
+      internalID: 826821582627807659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_15
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2991f2584808a460800000000000000
+      internalID: 7253056306602416431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_16
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065f9ceae889acc0800000000000000
+      internalID: -3699275076334561782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_17
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce8829d9d5c22260800000000000000
+      internalID: 7071431904366989007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_18
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f34029e28ef2180800000000000000
+      internalID: -9137829832195555537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_19
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0543694378e9b0810800000000000000
+      internalID: 1732652785194120272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_20
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2204675b70e6a1410800000000000000
+      internalID: 1448591209541287970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_21
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b19b212ff057300800000000000000
+      internalID: 249122886759553901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_22
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c8476776cc54270800000000000000
+      internalID: 8234212238457867412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_23
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 11328
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19af997d116813be0800000000000000
+      internalID: -1499269789747905903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2a1f165f3c5270800000000000000
+      internalID: 8240531057302711024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_25
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fa96784e90fc580800000000000000
+      internalID: -8804807869356986558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_26
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4790657369f84c6d0800000000000000
+      internalID: -2971091978821432972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_27
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4524b156e7d5a7b0800000000000000
+      internalID: -5213523609398270642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_28
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c807043d98da63b0800000000000000
+      internalID: -5518360223694780221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_29
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72860c649a01a6bb0800000000000000
+      internalID: -4942119321863165913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_30
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aaab29e3c9e9190800000000000000
+      internalID: -7953748099326104983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_31
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72caaa8ca7c7ec910800000000000000
+      internalID: 1859560562945076263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_32
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12e0d1ec7c48a410800000000000000
+      internalID: 1488523776094167580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_33
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cecbbe9c04d4dd0800000000000000
+      internalID: -2500270982133126134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_34
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490215582b505b7b0800000000000000
+      internalID: -5209251129685106540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_35
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 10384
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2694023a8ed461890800000000000000
+      internalID: -7487711668892317342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7390ddb77793c750800000000000000
+      internalID: 6324064842299773822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_37
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff03ccabab4dac0800000000000000
+      internalID: -3831232071533002808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_38
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564eb49776c9ba70800000000000000
+      internalID: 8843317560217585245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_39
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d19a0bf333f03ae0800000000000000
+      internalID: -1571488865371647530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_40
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329147ebb9bdb880800000000000000
+      internalID: -8593508297263181264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_41
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180589dfd6a512fa0800000000000000
+      internalID: -5827277014388158335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_42
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1944ccfb2d8713c0800000000000000
+      internalID: -4388884091785426660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_43
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713680a6ca531fe0800000000000000
+      internalID: -1219531264944098948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_44
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e371eb452a9f79b80800000000000000
+      internalID: -8387961305352497346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_45
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ea46185b0f0c30800000000000000
+      internalID: 4327690239885371109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_46
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377164167bcdf1590800000000000000
+      internalID: -7701194157611149453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_47
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 9440
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17388de4a61c9a8e0800000000000000
+      internalID: -1681600323512663183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44711610bdb8b2b90800000000000000
+      internalID: -7265559801094924476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_49
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31010c2aa58cab0800000000000000
+      internalID: -4987636932259343377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_50
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070069a95cfc33a40800000000000000
+      internalID: 5346845630227939440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_51
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d7c43a9ec6f180800000000000000
+      internalID: -9081844436840229194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_52
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74434bbef06d090800000000000000
+      internalID: -8010197382216792100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_53
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2e3fd144203ccf0800000000000000
+      internalID: -233340264109579546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_54
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f862f654f8a61a0800000000000000
+      internalID: -6815477557691511030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_55
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1782b77caf1120800000000000000
+      internalID: 2386815957625936474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_56
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b93ca7063a483f0800000000000000
+      internalID: -899414390795429076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_57
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec79cc16eeb1080800000000000000
+      internalID: -9215510108671848884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_58
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5147a6db8ce5651d0800000000000000
+      internalID: -3362395855521156075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_59
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 8496
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e73d24a90879a0800000000000000
+      internalID: -6235223083356526993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b6899da6e0faa0800000000000000
+      internalID: -6129145459571771923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_61
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddae02378710160800000000000000
+      internalID: 6990000532524555762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_62
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20256609c1da82530800000000000000
+      internalID: 3830501821271921154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_63
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca40c052f51dd90800000000000000
+      internalID: -7074768926902276974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_64
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6fcf53a4b34800800000000000000
+      internalID: 595518189523135822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_65
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d385f2fa098c0ae0800000000000000
+      internalID: -1581738688995032106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_66
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6afc2592a8ffae60800000000000000
+      internalID: 7975866842267581038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_67
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb425ab17aafe2b0800000000000000
+      internalID: -5553032410090550346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_68
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6f62e6769740300800000000000000
+      internalID: 217432167157266120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_69
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019d5f2d430349010800000000000000
+      internalID: 1194632804595783952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_70
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce75e1891b351bcd0800000000000000
+      internalID: -2544160292261177364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_71
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 7552
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9032b6e1b7f0601b0800000000000000
+      internalID: -5690844057670311159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8ae23b08ec6c30800000000000000
+      internalID: 4354110074556943311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_73
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99a3765d1bffe730800000000000000
+      internalID: 4030716294942927261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_74
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08adb83b5d10d5e60800000000000000
+      internalID: 7952514534358112896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_75
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d90fe492d885350800000000000000
+      internalID: 6005705311656123658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_76
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694f9328ae6e82040800000000000000
+      internalID: 4623198912377386134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_77
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8998409eaccc8b60800000000000000
+      internalID: 7749794108914833806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_78
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c581979f475c24880800000000000000
+      internalID: -8628116829896107940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_79
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239341ea4c7cde590800000000000000
+      internalID: -7643233345029785294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_80
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eddf67327d612d60800000000000000
+      internalID: 7863686761689374179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_81
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b112e46dbfa3b3730800000000000000
+      internalID: 3979839549018611995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_82
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7867e1587caf8e0800000000000000
+      internalID: -1658794138176944203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_83
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 6608
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc09462805ff67170800000000000000
+      internalID: 8176002894787809487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6026c97e02ff8f0800000000000000
+      internalID: -504648454109002057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_85
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1c8aa462d25a910800000000000000
+      internalID: 1847932864590037415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_86
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6071eede8604bc0800000000000000
+      internalID: -3800922714389674248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_87
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b07dc9b97d09ad0800000000000000
+      internalID: -2697419113443685500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_88
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ddefd70cce2a060800000000000000
+      internalID: 6963388285359938832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_89
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13733ec606568eb90800000000000000
+      internalID: -7212403338415753423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_90
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cf237f8d4c0ce60800000000000000
+      internalID: 7980594975839812645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_91
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d606eb0b430360800000000000000
+      internalID: 7134628749160928020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_92
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8ed326a06950dc0800000000000000
+      internalID: -3673364949708707672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_93
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b6eff0f418a8e00800000000000000
+      internalID: 1047792039887792996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_94
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86e4657126628770800000000000000
+      internalID: 8611557731375310477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_95
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 5664
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402629d7401300a70800000000000000
+      internalID: 8791080367983583748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee8107311b0c920800000000000000
+      internalID: 3008599248126668448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_97
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af37c98fb085d9340800000000000000
+      internalID: 4872147180323632122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_98
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca5765be22f3d410800000000000000
+      internalID: 1500809383270374084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_99
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16d5bce2eeeddc50800000000000000
+      internalID: 6691767279743784475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_100
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f18da05c63b2b30800000000000000
+      internalID: 4263561692154699653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_101
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea86b00db8ce87bc0800000000000000
+      internalID: -3785015401569883986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_102
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c84e5d8d134bb0800000000000000
+      internalID: -4953082672167991247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_103
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534d3fe904671e730800000000000000
+      internalID: 4026629561762698293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_104
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aec7962c0363120800000000000000
+      internalID: 2393153863545580067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_105
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd1174d9a67e9760800000000000000
+      internalID: 7466535704012594639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_106
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e34ca1b448b37570800000000000000
+      internalID: 8463310729937437672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_107
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 4720
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04770654133ff030800000000000000
+      internalID: 3530596795317449740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f30d6f66ab76940800000000000000
+      internalID: 5289401238760210258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_109
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427632f3e9623fd90800000000000000
+      internalID: -7065260929308203228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_110
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ab248e4d04d59d0800000000000000
+      internalID: -2783997711471166940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_111
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049ea96b9883f7950800000000000000
+      internalID: 6448935355543120192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_112
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ba3ab70e2a8ffc0800000000000000
+      internalID: -3460837228603528427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_113
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd4dfe0f87ff2e80800000000000000
+      internalID: -8201064202614518342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_114
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49521698863a6d60800000000000000
+      internalID: 7884174057926711628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_115
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d92cc4201978efc0800000000000000
+      internalID: -3465386803017799207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_116
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739936176f556e060800000000000000
+      internalID: 6982362789237201207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_117
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc81cdc559f8be10800000000000000
+      internalID: 2213793363772148934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_118
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34573ef0651257670800000000000000
+      internalID: 8535765322268112195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_119
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 3776
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792bd082c4adc9090800000000000000
+      internalID: -8026300415256710505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc06ba5d97a34d90800000000000000
+      internalID: -7114658692041667340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_121
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e5a46b75747bcb0800000000000000
+      internalID: -4848328031794995586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_122
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1874264d01c9c4c10800000000000000
+      internalID: 2039176327388612481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_123
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147fc9dac49cdc2f0800000000000000
+      internalID: -950882615137863871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_124
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6960e0d544e4e56c0800000000000000
+      internalID: -4152795750863075690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_125
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d1ea342e8ead1e0800000000000000
+      internalID: -2172167811757105841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_126
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b147463ff29d960800000000000000
+      internalID: 7627180166337534761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_127
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1565fb21254040000800000000000000
+      internalID: 1130650455201361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_128
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d884c626f647daf50800000000000000
+      internalID: 6894294626315552909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_129
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96df7557715d9f0800000000000000
+      internalID: -444423195471287824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_130
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7b0b09bed50f5a0800000000000000
+      internalID: -6489583796714686513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_131
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 2832
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fda3f6bf3acd15e0800000000000000
+      internalID: -1937169889698271758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473aed37aff97e900800000000000000
+      internalID: 713714963996124020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_133
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8043335d693671f40800000000000000
+      internalID: 5699133352933798920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_134
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48907f70d3c193a70800000000000000
+      internalID: 8807101594751928708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_135
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3391af37386fdb580800000000000000
+      internalID: -8809614251619903181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_136
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af51f69c98e227680800000000000000
+      internalID: -8758887155957295622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_137
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862d0eb42c8afac50800000000000000
+      internalID: 6678742324863881832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_138
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd344b45dc7734b0800000000000000
+      internalID: -5460758767630795305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_139
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38384b1992ed99c90800000000000000
+      internalID: -7162449462236511357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_140
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8427b7be812f4d380800000000000000
+      internalID: -8947260370834460088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_141
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271a05c294e57c1f0800000000000000
+      internalID: -1024746721834393230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_142
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecc80099a2743570800000000000000
+      internalID: 8445501273818057960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_143
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 1888
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381d445267aa74e0800000000000000
+      internalID: -1983088645140309966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad465a3617991b660800000000000000
+      internalID: 7399864375028573402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_145
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3886875d2a7961a30800000000000000
+      internalID: 4185699629309388931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_146
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe2ef32dbd688b80800000000000000
+      internalID: -8392337246484812098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_147
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584daff082edf360800000000000000
+      internalID: 7205164022535899227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_148
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c09bee86ea612e0800000000000000
+      internalID: -2155343605945267052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_149
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c0632e09403a50800000000000000
+      internalID: 6498774587367539895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_150
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb7d6d124e4bbce0800000000000000
+      internalID: -1388430014245143570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_151
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c7d0e9019b56a0800000000000000
+      internalID: -6459409768919875068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_152
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61466ddc3a556e610800000000000000
+      internalID: 1650100475499275286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_153
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1588c44eca78f40800000000000000
+      internalID: 5730739147388768679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_154
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc16a79d0b009e6a0800000000000000
+      internalID: -6419599034277010997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_155
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 944
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a761bd5728a58fd30800000000000000
+      internalID: 4465418546907387514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfcb097d522fb1a0800000000000000
+      internalID: -6791671928193298473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_157
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaea6371ad1497f0800000000000000
+      internalID: -606827470524847450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piquer_158
+      rect:
+        serializedVersion: 2
+        x: 7568
+        y: 0
+        width: 688
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b88ae346626ae0800000000000000
+      internalID: -1557570079233100795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b359afc28368b4e4481d8fb4099ca966
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

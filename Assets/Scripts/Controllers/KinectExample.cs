@@ -26,24 +26,54 @@ public class KinectExample : MonoBehaviour
         {
             IntroManager.Instance.Hide();
         }
-        
-        // SWITCH EXAMPLE
-        // BIRDS SCENE
+
+        // TOGGLE ANIM V
         if (Input.GetKeyDown(KeyCode.Z))
+        {
+            PictosPositionsManager.Instance.Position("V");
+        }  
+        
+        // TOGGLE ANIM BAITBALL
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            PictosPositionsManager.Instance.Position("Baitball");
+        }  
+        
+        // TOGGLE PICTO DISPERSION
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PictosPositionsManager.Instance.Position("Dispersion");
+        }  
+        
+        // TOGGLE PICTO PIQUER
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            PictosPositionsManager.Instance.Position("Piquer");
+        }
+        
+        // TOGGLE PICTO FLY
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            PictosPositionsManager.Instance.Position("Voler");
+        }   
+        
+        // SWITCH SCENE EXAMPLE
+        // INTRO SCENE
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            SceneController.Instance.Intro();
+        } 
+        
+        // BIRDS SCENE
+        if (Input.GetKeyDown(KeyCode.X))
         {
             SceneController.Instance.BirdsScene();
         }    
         // BOID SCENE
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             SceneController.Instance.BoidScene();
-        }    
-        
-        // DISPLAY LOADER
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            PictoLoadingManager.Instance.LoaderInit();
-        }   
+        }
         
         // NEW INTERACTION
         if (Input.GetKeyDown(KeyCode.Space))

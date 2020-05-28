@@ -25,25 +25,31 @@ public class PictoLoadingManager : MonoBehaviour
         }
     }
 
-    public void LoaderInit()
+    private void Update()
     {
-        Animator.SetBool("isLoaded", false);
-        Animator.SetBool("isShowing", true);
-        SpriteRenderer.DOFade(1, 2f);
-        Invoke("LoaderLoading", 5.4f);
+        if (Animator.GetCurrentAnimatorStateInfo(0).IsName("LoaderEnd"))
+        {
+            if (Animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= Animator.GetCurrentAnimatorStateInfo(0).length / 2)
+            {
+                Animator.ResetTrigger("LoaderEnd");
+                SpriteRenderer.DOFade(0, 0.5f);
+                Animator.SetTrigger("LoaderReset");
+            }
+        }
     }
 
-    public void LoaderLoading()
+    public void Loader()
     {
-        Animator.SetBool("isShowing", false);
-        Animator.SetBool("isLoading", true);
-        Invoke("LoaderLoaded", 2.3f);
-    }
-
-    public void LoaderLoaded()
-    {
-        SpriteRenderer.DOFade(0, 0.2f);
-        Animator.SetBool("isLoading", false);
-        Animator.SetBool("isLoaded", true);
+        if (Animator.GetCurrentAnimatorStateInfo(0).IsName("LoaderStart"))
+        {
+            Animator.ResetTrigger("LoaderStart");
+            Animator.SetTrigger("LoaderEnd");
+        }
+        else
+        {
+            SpriteRenderer.DOFade(1, 1.5f);
+            Animator.ResetTrigger("LoaderReset");
+            Animator.SetTrigger("LoaderStart");
+        }
     }
 }

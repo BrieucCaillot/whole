@@ -1,0 +1,4517 @@
+fileFormatVersion: 2
+guid: 61da77f46a6a349a3ab220be5273a18d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5701627133012707977
+    second: baitball_0
+  - first:
+      213: -8233114271447401532
+    second: baitball_1
+  - first:
+      213: -206002940610899675
+    second: baitball_2
+  - first:
+      213: -4964363732762813250
+    second: baitball_3
+  - first:
+      213: -3643796373733776955
+    second: baitball_4
+  - first:
+      213: -1252212561274834107
+    second: baitball_5
+  - first:
+      213: -7128331108077385052
+    second: baitball_6
+  - first:
+      213: -3185833007656636097
+    second: baitball_7
+  - first:
+      213: 6458292556439519674
+    second: baitball_8
+  - first:
+      213: -2104533143601105926
+    second: baitball_9
+  - first:
+      213: -6751512519627337515
+    second: baitball_10
+  - first:
+      213: 3073189760020828190
+    second: baitball_11
+  - first:
+      213: 7945148516693135291
+    second: baitball_12
+  - first:
+      213: 5843966647163666456
+    second: baitball_13
+  - first:
+      213: 8622773645698797734
+    second: baitball_14
+  - first:
+      213: 361587128749005932
+    second: baitball_15
+  - first:
+      213: -222035409859246566
+    second: baitball_16
+  - first:
+      213: 4417507111298393183
+    second: baitball_17
+  - first:
+      213: 4375635393927107887
+    second: baitball_18
+  - first:
+      213: 7724941891924030020
+    second: baitball_19
+  - first:
+      213: 1089190097506725791
+    second: baitball_20
+  - first:
+      213: 2069617578908029876
+    second: baitball_21
+  - first:
+      213: -4869386318684991780
+    second: baitball_22
+  - first:
+      213: -3511866480931971869
+    second: baitball_23
+  - first:
+      213: -4842773850867398526
+    second: baitball_24
+  - first:
+      213: -9069828758836512968
+    second: baitball_25
+  - first:
+      213: 4056105253269433836
+    second: baitball_26
+  - first:
+      213: 1457582592070265036
+    second: baitball_27
+  - first:
+      213: -6991296888203954303
+    second: baitball_28
+  - first:
+      213: 593463586041588749
+    second: baitball_29
+  - first:
+      213: 1023064002813954436
+    second: baitball_30
+  - first:
+      213: 8767700296814077011
+    second: baitball_31
+  - first:
+      213: 3428908727552505297
+    second: baitball_32
+  - first:
+      213: 8848399127930392120
+    second: baitball_33
+  - first:
+      213: 9133798895529393586
+    second: baitball_34
+  - first:
+      213: -8960708760702881116
+    second: baitball_35
+  - first:
+      213: -1410719167303876959
+    second: baitball_36
+  - first:
+      213: 8534280527390233822
+    second: baitball_37
+  - first:
+      213: -5172442329926227590
+    second: baitball_38
+  - first:
+      213: 982609752056895500
+    second: baitball_39
+  - first:
+      213: 4394532951597422990
+    second: baitball_40
+  - first:
+      213: -3395748967312634437
+    second: baitball_41
+  - first:
+      213: 3725434307964791960
+    second: baitball_42
+  - first:
+      213: -2510269561949326916
+    second: baitball_43
+  - first:
+      213: 2963364395855312612
+    second: baitball_44
+  - first:
+      213: 5235410191546488886
+    second: baitball_45
+  - first:
+      213: 812444404213294145
+    second: baitball_46
+  - first:
+      213: 9210627427381693332
+    second: baitball_47
+  - first:
+      213: 8850310924685328878
+    second: baitball_48
+  - first:
+      213: -123663656056738192
+    second: baitball_49
+  - first:
+      213: 2326220821665268263
+    second: baitball_50
+  - first:
+      213: 1193800301453965807
+    second: baitball_51
+  - first:
+      213: 6371938033073062514
+    second: baitball_52
+  - first:
+      213: -1326572907644095345
+    second: baitball_53
+  - first:
+      213: -6293219151391057766
+    second: baitball_54
+  - first:
+      213: 7102487273762205952
+    second: baitball_55
+  - first:
+      213: -1842231349361038583
+    second: baitball_56
+  - first:
+      213: -809447945979759361
+    second: baitball_57
+  - first:
+      213: -6997100220684220394
+    second: baitball_58
+  - first:
+      213: -1782803246577842782
+    second: baitball_59
+  - first:
+      213: 2022350662008294181
+    second: baitball_60
+  - first:
+      213: -2851931195924946363
+    second: baitball_61
+  - first:
+      213: 8013724522272229905
+    second: baitball_62
+  - first:
+      213: -796553557695783871
+    second: baitball_63
+  - first:
+      213: 4042207986636759581
+    second: baitball_64
+  - first:
+      213: 115639886147319159
+    second: baitball_65
+  - first:
+      213: 3627735890934874826
+    second: baitball_66
+  - first:
+      213: 7372948539879627307
+    second: baitball_67
+  - first:
+      213: 195836862387662846
+    second: baitball_68
+  - first:
+      213: 3470135999753737957
+    second: baitball_69
+  - first:
+      213: -8144178783540927712
+    second: baitball_70
+  - first:
+      213: 5584268237190364967
+    second: baitball_71
+  - first:
+      213: -6600811638538336223
+    second: baitball_72
+  - first:
+      213: -8483832088007359287
+    second: baitball_73
+  - first:
+      213: -3746476988827099161
+    second: baitball_74
+  - first:
+      213: 9023549720477897362
+    second: baitball_75
+  - first:
+      213: -4453848232741375577
+    second: baitball_76
+  - first:
+      213: 1334824196628226270
+    second: baitball_77
+  - first:
+      213: 503883096916210162
+    second: baitball_78
+  - first:
+      213: -3631089801377072754
+    second: baitball_79
+  - first:
+      213: -7000858504120885516
+    second: baitball_80
+  - first:
+      213: 3280442617924634853
+    second: baitball_81
+  - first:
+      213: -6495125892090914580
+    second: baitball_82
+  - first:
+      213: -981310948394558192
+    second: baitball_83
+  - first:
+      213: -4791603588308647996
+    second: baitball_84
+  - first:
+      213: 8327695678178170376
+    second: baitball_85
+  - first:
+      213: 7292073200917002718
+    second: baitball_86
+  - first:
+      213: -219894071926667991
+    second: baitball_87
+  - first:
+      213: 3636651837190165408
+    second: baitball_88
+  - first:
+      213: -5070612898225258011
+    second: baitball_89
+  - first:
+      213: -8546547874447136487
+    second: baitball_90
+  - first:
+      213: 5601451209247028944
+    second: baitball_91
+  - first:
+      213: 5196171397355685359
+    second: baitball_92
+  - first:
+      213: 5044452849092088248
+    second: baitball_93
+  - first:
+      213: -2656523682332836721
+    second: baitball_94
+  - first:
+      213: -3578166999303743897
+    second: baitball_95
+  - first:
+      213: 972636915788248814
+    second: baitball_96
+  - first:
+      213: 6112640893944886350
+    second: baitball_97
+  - first:
+      213: -7020492438662673251
+    second: baitball_98
+  - first:
+      213: 7397889521398933086
+    second: baitball_99
+  - first:
+      213: 7819683202803482024
+    second: baitball_100
+  - first:
+      213: -5699652738225706081
+    second: baitball_101
+  - first:
+      213: -150796305327435469
+    second: baitball_102
+  - first:
+      213: 5548236444292615112
+    second: baitball_103
+  - first:
+      213: -7393779031823699148
+    second: baitball_104
+  - first:
+      213: 3329205207134985452
+    second: baitball_105
+  - first:
+      213: -6242573339180100925
+    second: baitball_106
+  - first:
+      213: -4199292330198016188
+    second: baitball_107
+  - first:
+      213: 2433098314175260749
+    second: baitball_108
+  - first:
+      213: 4896303824673740903
+    second: baitball_109
+  - first:
+      213: -2335728284284826154
+    second: baitball_110
+  - first:
+      213: -5282214000895687301
+    second: baitball_111
+  - first:
+      213: 1264559015791407147
+    second: baitball_112
+  - first:
+      213: 6198336973001280478
+    second: baitball_113
+  - first:
+      213: 1303881321092400077
+    second: baitball_114
+  - first:
+      213: -2755952657298400258
+    second: baitball_115
+  - first:
+      213: 2012784950682657822
+    second: baitball_116
+  - first:
+      213: -3667693305137554690
+    second: baitball_117
+  - first:
+      213: -4067187275392407433
+    second: baitball_118
+  - first:
+      213: 8229067215108174166
+    second: baitball_119
+  - first:
+      213: 4431610544922809756
+    second: baitball_120
+  - first:
+      213: 7588041308843143124
+    second: baitball_121
+  - first:
+      213: 7364902421274482647
+    second: baitball_122
+  - first:
+      213: -1572265638068658953
+    second: baitball_123
+  - first:
+      213: 1763978619868531416
+    second: baitball_124
+  - first:
+      213: 6080951445102719099
+    second: baitball_125
+  - first:
+      213: -8486020190245428731
+    second: baitball_126
+  - first:
+      213: -8482993614051045419
+    second: baitball_0
+  - first:
+      213: 1821269382818904925
+    second: baitball_1
+  - first:
+      213: -5581615011011693534
+    second: baitball_2
+  - first:
+      213: -3443091748825146029
+    second: baitball_3
+  - first:
+      213: -3671306220129818793
+    second: baitball_4
+  - first:
+      213: -2250998735532399979
+    second: baitball_5
+  - first:
+      213: 5734357106629908367
+    second: baitball_6
+  - first:
+      213: 8240641290331776289
+    second: baitball_7
+  - first:
+      213: 4777592687228046421
+    second: baitball_8
+  - first:
+      213: -156569350518955452
+    second: baitball_9
+  - first:
+      213: -335900979392062091
+    second: baitball_10
+  - first:
+      213: 1954622111293585458
+    second: baitball_11
+  - first:
+      213: 7929905530964329931
+    second: baitball_12
+  - first:
+      213: 3212951794669895377
+    second: baitball_13
+  - first:
+      213: -4439844294136545532
+    second: baitball_14
+  - first:
+      213: 4498572222974000253
+    second: baitball_15
+  - first:
+      213: -1262001268614656283
+    second: baitball_16
+  - first:
+      213: -1933882512480107587
+    second: baitball_17
+  - first:
+      213: 1618726364735939761
+    second: baitball_18
+  - first:
+      213: 7924839280908220438
+    second: baitball_19
+  - first:
+      213: 6538953333945102767
+    second: baitball_20
+  - first:
+      213: 144115898263248505
+    second: baitball_21
+  - first:
+      213: -7750029041465227880
+    second: baitball_22
+  - first:
+      213: -3169357651915389435
+    second: baitball_23
+  - first:
+      213: 3265733348842827244
+    second: baitball_24
+  - first:
+      213: -2561629554717668267
+    second: baitball_25
+  - first:
+      213: -2944581259952609796
+    second: baitball_26
+  - first:
+      213: 6694263302448763300
+    second: baitball_27
+  - first:
+      213: -3460994948869584891
+    second: baitball_28
+  - first:
+      213: -887528887362053983
+    second: baitball_29
+  - first:
+      213: 6523320735273718976
+    second: baitball_30
+  - first:
+      213: 3415598391287397909
+    second: baitball_31
+  - first:
+      213: -9115997185104246896
+    second: baitball_32
+  - first:
+      213: 8775687923388163509
+    second: baitball_33
+  - first:
+      213: -7551097784999173002
+    second: baitball_34
+  - first:
+      213: -6228124749171839247
+    second: baitball_35
+  - first:
+      213: -4114733572220446731
+    second: baitball_36
+  - first:
+      213: 8795021427603372936
+    second: baitball_37
+  - first:
+      213: 5116021999232471911
+    second: baitball_38
+  - first:
+      213: 8106075313086859108
+    second: baitball_39
+  - first:
+      213: 7403482289119585021
+    second: baitball_40
+  - first:
+      213: 6699834929939518788
+    second: baitball_41
+  - first:
+      213: 8131137782945086816
+    second: baitball_42
+  - first:
+      213: 8052502929320368646
+    second: baitball_43
+  - first:
+      213: 3006323825041301337
+    second: baitball_44
+  - first:
+      213: 9054440949518251981
+    second: baitball_45
+  - first:
+      213: -5440260073323852127
+    second: baitball_46
+  - first:
+      213: -4167940661880683320
+    second: baitball_47
+  - first:
+      213: 7039262788688609905
+    second: baitball_48
+  - first:
+      213: 3155054028941878548
+    second: baitball_49
+  - first:
+      213: 2630014978392958239
+    second: baitball_50
+  - first:
+      213: 2925939172352417524
+    second: baitball_51
+  - first:
+      213: -5882670829186038944
+    second: baitball_52
+  - first:
+      213: -3889857762234034946
+    second: baitball_53
+  - first:
+      213: 2763138742139502658
+    second: baitball_54
+  - first:
+      213: -6987154108028573424
+    second: baitball_55
+  - first:
+      213: 3177484120023253378
+    second: baitball_56
+  - first:
+      213: 368904082212033266
+    second: baitball_57
+  - first:
+      213: -526955870080401284
+    second: baitball_58
+  - first:
+      213: -935643048341824883
+    second: baitball_59
+  - first:
+      213: 6476200632560866177
+    second: baitball_60
+  - first:
+      213: 6783984607969969162
+    second: baitball_61
+  - first:
+      213: -6777300969986665104
+    second: baitball_62
+  - first:
+      213: -3311089178197461100
+    second: baitball_63
+  - first:
+      213: 1064940091877258622
+    second: baitball_64
+  - first:
+      213: -6827097045375609087
+    second: baitball_65
+  - first:
+      213: 9174366367169217236
+    second: baitball_66
+  - first:
+      213: 8780529937486230219
+    second: baitball_67
+  - first:
+      213: 6123195972996766366
+    second: baitball_68
+  - first:
+      213: 607483819589161470
+    second: baitball_69
+  - first:
+      213: -1988210314368881951
+    second: baitball_70
+  - first:
+      213: -6228212517564664332
+    second: baitball_71
+  - first:
+      213: -5068185808657765056
+    second: baitball_72
+  - first:
+      213: -2637870304359783067
+    second: baitball_73
+  - first:
+      213: 1918507326153050411
+    second: baitball_74
+  - first:
+      213: 5391167241640824220
+    second: baitball_75
+  - first:
+      213: 7485067602816443289
+    second: baitball_76
+  - first:
+      213: -1148701315012420847
+    second: baitball_77
+  - first:
+      213: 3927069408642799326
+    second: baitball_78
+  - first:
+      213: -3760849610508714138
+    second: baitball_79
+  - first:
+      213: 1957238178695627746
+    second: baitball_80
+  - first:
+      213: -1989811674593811914
+    second: baitball_81
+  - first:
+      213: -4111381777838038176
+    second: baitball_82
+  - first:
+      213: 7453358999668233492
+    second: baitball_83
+  - first:
+      213: -3508717489939039168
+    second: baitball_84
+  - first:
+      213: 1517782537325031034
+    second: baitball_85
+  - first:
+      213: -1463025348576807110
+    second: baitball_86
+  - first:
+      213: -5553541472491511315
+    second: baitball_87
+  - first:
+      213: -4955570096336534289
+    second: baitball_88
+  - first:
+      213: -152162423472326904
+    second: baitball_89
+  - first:
+      213: -2440552095932163997
+    second: baitball_90
+  - first:
+      213: -1683597182040511347
+    second: baitball_91
+  - first:
+      213: 5222446319886746734
+    second: baitball_92
+  - first:
+      213: 7022009150568946291
+    second: baitball_93
+  - first:
+      213: 8186760439102604342
+    second: baitball_94
+  - first:
+      213: 537678647204497537
+    second: baitball_95
+  - first:
+      213: 2779005067955670276
+    second: baitball_96
+  - first:
+      213: 3018773513942275320
+    second: baitball_97
+  - first:
+      213: 7862159345048250020
+    second: baitball_98
+  - first:
+      213: -8699484334166090485
+    second: baitball_99
+  - first:
+      213: 7007253549344790364
+    second: baitball_100
+  - first:
+      213: 6102371862549286094
+    second: baitball_101
+  - first:
+      213: -9218383173152874780
+    second: baitball_102
+  - first:
+      213: 2544536979372206822
+    second: baitball_103
+  - first:
+      213: -4677024172021861087
+    second: baitball_104
+  - first:
+      213: -6443048642226216231
+    second: baitball_105
+  - first:
+      213: -4967541558823351335
+    second: baitball_106
+  - first:
+      213: -245416605569602817
+    second: baitball_107
+  - first:
+      213: 4129454536883616851
+    second: baitball_108
+  - first:
+      213: -3492876978273706932
+    second: baitball_109
+  - first:
+      213: 7183559556423050634
+    second: baitball_110
+  - first:
+      213: -4685040682267483615
+    second: baitball_111
+  - first:
+      213: -3041251291942693947
+    second: baitball_112
+  - first:
+      213: -8805415989660353558
+    second: baitball_113
+  - first:
+      213: -9158917491267652095
+    second: baitball_114
+  - first:
+      213: 5806385394443665991
+    second: baitball_115
+  - first:
+      213: 8035292001365566985
+    second: baitball_116
+  - first:
+      213: 3426535999280190280
+    second: baitball_117
+  - first:
+      213: 322735453032019904
+    second: baitball_118
+  - first:
+      213: 8525899702246645048
+    second: baitball_119
+  - first:
+      213: 2264258617648381412
+    second: baitball_120
+  - first:
+      213: 1616170355884288221
+    second: baitball_121
+  - first:
+      213: -6710189603078470784
+    second: baitball_122
+  - first:
+      213: -2075345196811991755
+    second: baitball_123
+  - first:
+      213: 6093246183395663700
+    second: baitball_124
+  - first:
+      213: -3051376944181680851
+    second: baitball_125
+  - first:
+      213: 3838306872019346211
+    second: baitball_126
+  - first:
+      213: 3209801066984885769
+    second: baitball_127
+  - first:
+      213: -7727611163288847174
+    second: baitball_128
+  - first:
+      213: -8523671797566409655
+    second: baitball_129
+  - first:
+      213: 2862910726421027437
+    second: baitball_130
+  - first:
+      213: -1832230096432879554
+    second: baitball_131
+  - first:
+      213: -4315781331634062597
+    second: baitball_132
+  - first:
+      213: 2145064823947562234
+    second: baitball_133
+  - first:
+      213: 3559493071257917013
+    second: baitball_134
+  - first:
+      213: -1553843770987593619
+    second: baitball_135
+  - first:
+      213: -2551047437508197231
+    second: baitball_136
+  - first:
+      213: 7290953393751498796
+    second: baitball_137
+  - first:
+      213: 4955903170733229328
+    second: baitball_138
+  - first:
+      213: -6531539567179932075
+    second: baitball_139
+  - first:
+      213: -1728660764312534936
+    second: baitball_140
+  - first:
+      213: -722556121154316683
+    second: baitball_141
+  - first:
+      213: -3683318791305264324
+    second: baitball_142
+  - first:
+      213: -6169641004761807484
+    second: baitball_143
+  - first:
+      213: 1530804600268058203
+    second: baitball_144
+  - first:
+      213: -7782760040782904137
+    second: baitball_145
+  - first:
+      213: 5544815681576098769
+    second: baitball_146
+  - first:
+      213: -32802128958248611
+    second: baitball_147
+  - first:
+      213: 5531918802301281874
+    second: baitball_148
+  - first:
+      213: -4627388489425643530
+    second: baitball_149
+  - first:
+      213: -5495992495018655328
+    second: baitball_150
+  - first:
+      213: -1207230853344479883
+    second: baitball_151
+  - first:
+      213: 5923974239409547191
+    second: baitball_152
+  - first:
+      213: 5674400771205716759
+    second: baitball_153
+  - first:
+      213: 274993009111811964
+    second: baitball_154
+  - first:
+      213: 7354614862799148241
+    second: baitball_155
+  - first:
+      213: 303683554701475695
+    second: baitball_156
+  - first:
+      213: 22163507898121982
+    second: baitball_157
+  - first:
+      213: 4907268415561448603
+    second: baitball_158
+  - first:
+      213: -2538675004180081634
+    second: baitball_159
+  - first:
+      213: -2642035674815549250
+    second: baitball_160
+  - first:
+      213: -7626464802540995429
+    second: baitball_161
+  - first:
+      213: -4458606708431315078
+    second: baitball_162
+  - first:
+      213: -2591264362815516673
+    second: baitball_163
+  - first:
+      213: 7249945698257567176
+    second: baitball_164
+  - first:
+      213: 2452077088070983994
+    second: baitball_165
+  - first:
+      213: 7865333912672336663
+    second: baitball_166
+  - first:
+      213: 7512431030673917720
+    second: baitball_167
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baitball_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df849ab04a564a80800000000000000
+      internalID: -8482993614051045419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_1
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b373baad2764910800000000000000
+      internalID: 1821269382818904925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_2
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f8ab58be1a82b0800000000000000
+      internalID: -5581615011011693534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_3
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd236fb4ea730d0800000000000000
+      internalID: -3443091748825146029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_4
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757ea77b176ec0dc0800000000000000
+      internalID: -3671306220129818793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_5
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592ecba8398d2c0e0800000000000000
+      internalID: -2250998735532399979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_6
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8799e31867849f40800000000000000
+      internalID: 5734357106629908367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_7
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12564afb793ac5270800000000000000
+      internalID: 8240641290331776289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_8
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4bbb7c3b6d4240800000000000000
+      internalID: 4777592687228046421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_9
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442aa975101c3ddf0800000000000000
+      internalID: -156569350518955452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_10
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d51a3c6d3a65bf0800000000000000
+      internalID: -335900979392062091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_11
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 7670
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23837c54476302b10800000000000000
+      internalID: 1954622111293585458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c883e01fac0e60800000000000000
+      internalID: 7929905530964329931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deb0c162a2b69c20800000000000000
+      internalID: 3212951794669895377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_14
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f32f543218262c0800000000000000
+      internalID: -4439844294136545532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_15
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cfdc23a932e6e30800000000000000
+      internalID: 4498572222974000253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_16
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee812658887c7ee0800000000000000
+      internalID: -1262001268614656283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_17
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3884ed9187925e0800000000000000
+      internalID: -1933882512480107587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_18
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b425a66d0fd67610800000000000000
+      internalID: 1618726364735939761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_19
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b890a65faafd60800000000000000
+      internalID: 7924839280908220438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_20
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa177a099670fba50800000000000000
+      internalID: 6538953333945102767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_21
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e977a55a0000200800000000000000
+      internalID: 144115898263248505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_22
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8950180f5ad527490800000000000000
+      internalID: -7750029041465227880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_23
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 7080
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506ca6fe10e2404d0800000000000000
+      internalID: -3169357651915389435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced6cec9d27325d20800000000000000
+      internalID: 3265733348842827244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_25
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c49e8fd73437cd0800000000000000
+      internalID: -2561629554717668267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_26
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5a044f1feb227d0800000000000000
+      internalID: -2944581259952609796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_27
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1546f710dc6ec50800000000000000
+      internalID: 6694263302448763300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_28
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508053f5e6318ffc0800000000000000
+      internalID: -3460994948869584891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_29
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a813e4ed2ddea3f0800000000000000
+      internalID: -887528887362053983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_30
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c41eed85ad778a50800000000000000
+      internalID: 6523320735273718976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_31
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eb418e3a4a66f20800000000000000
+      internalID: 3415598391287397909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_32
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0978668dbd87d7180800000000000000
+      internalID: -9115997185104246896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_33
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5ac35bba189c970800000000000000
+      internalID: 8775687923388163509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_34
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674a2ec629c153790800000000000000
+      internalID: -7551097784999173002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_35
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 6490
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe2bc4e9814199a0800000000000000
+      internalID: -6228124749171839247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f71d6aed9785e6c0800000000000000
+      internalID: -4114733572220446731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_37
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b7f30f3613e0a70800000000000000
+      internalID: 8795021427603372936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_38
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763d55707e2cff640800000000000000
+      internalID: 5116021999232471911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_39
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4670b17ac809e7070800000000000000
+      internalID: 8106075313086859108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_40
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df26ed7aae37eb660800000000000000
+      internalID: 7403482289119585021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_41
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459ccc1f589afc50800000000000000
+      internalID: 6699834929939518788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_42
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df234abba97d070800000000000000
+      internalID: 8131137782945086816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_43
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60adeee00cc30cf60800000000000000
+      internalID: 8052502929320368646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_44
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f5167379b98b920800000000000000
+      internalID: 3006323825041301337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_45
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc739c33216d7ad70800000000000000
+      internalID: 9054440949518251981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_46
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae8acb79405084b0800000000000000
+      internalID: -5440260073323852127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_47
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 5900
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c402bbfc008826c0800000000000000
+      internalID: -4167940661880683320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1720960f53c70b160800000000000000
+      internalID: 7039262788688609905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_49
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415ee325ce009cb20800000000000000
+      internalID: 3155054028941878548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_50
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15a11d30b0bf7420800000000000000
+      internalID: 2630014978392958239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_51
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe577acc260b9820800000000000000
+      internalID: 2925939172352417524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_52
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06340df6c0e8c5ea0800000000000000
+      internalID: -5882670829186038944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_53
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef49e3f79f2740ac0800000000000000
+      internalID: -3889857762234034946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_54
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2404856db04a85620800000000000000
+      internalID: 2763138742139502658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_55
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ab08bb54a80f90800000000000000
+      internalID: -6987154108028573424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_56
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814e6dd8f0b81c20800000000000000
+      internalID: 3177484120023253378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_57
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f29078ee4c9e1500800000000000000
+      internalID: 368904082212033266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_58
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c700d879d60efa8f0800000000000000
+      internalID: -526955870080401284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_59
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 5310
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a9503da9de303f0800000000000000
+      internalID: -935643048341824883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18353f5b92610e950800000000000000
+      internalID: 6476200632560866177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_61
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0484cfce0e852e50800000000000000
+      internalID: 6783984607969969162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_62
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d80ceca032f1a0800000000000000
+      internalID: -6777300969986665104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_63
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49776e17fe5ac02d0800000000000000
+      internalID: -3311089178197461100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_64
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e757a6b0f5d67ce00800000000000000
+      internalID: 1064940091877258622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_65
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1079443a8674141a0800000000000000
+      internalID: -6827097045375609087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_66
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d289626a95e15f70800000000000000
+      internalID: 9174366367169217236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_67
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2bc87f475bad970800000000000000
+      internalID: 8780529937486230219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_68
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a139c9b46f9f450800000000000000
+      internalID: 6123195972996766366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_69
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d869b0573e6800800000000000000
+      internalID: 607483819589161470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_70
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea6649c0457864e0800000000000000
+      internalID: -1988210314368881951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_71
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 4720
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5bae8b6b1f099a0800000000000000
+      internalID: -6228212517564664332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d27430cdf2aa9b0800000000000000
+      internalID: -5068185808657765056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_73
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56565192fe6646bd0800000000000000
+      internalID: -2637870304359783067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_74
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29465a9f38ef9a10800000000000000
+      internalID: 1918507326153050411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_75
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d49baea0641da40800000000000000
+      internalID: 5391167241640824220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_76
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993a8a1c35d40e760800000000000000
+      internalID: 7485067602816443289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_77
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b19a57d3efe00f0800000000000000
+      internalID: -1148701315012420847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_78
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6157612d0cf7630800000000000000
+      internalID: 3927069408642799326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_79
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f36ff7437cecbc0800000000000000
+      internalID: -3760849610508714138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_80
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34cfde0c1892b10800000000000000
+      internalID: 1957238178695627746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_81
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63229ed03d4c264e0800000000000000
+      internalID: -1989811674593811914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_82
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06323fb5e0071f6c0800000000000000
+      internalID: -4111381777838038176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_83
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 4130
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4159fa64586af6760800000000000000
+      internalID: 7453358999668233492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cbbfa68088e4fc0800000000000000
+      internalID: -3508717489939039168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_85
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eac871d2f301510800000000000000
+      internalID: 1517782537325031034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_86
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37ffa8623a42bbe0800000000000000
+      internalID: -1463025348576807110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_87
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de16eb6647bdde2b0800000000000000
+      internalID: -5553541472491511315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_88
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4005cc0474a3bb0800000000000000
+      internalID: -4955570096336534289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_89
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f4c0051963edf0800000000000000
+      internalID: -152162423472326904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_90
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d022acca612ed0800000000000000
+      internalID: -2440552095932163997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_91
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c60a37849a2a8e0800000000000000
+      internalID: -1683597182040511347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_92
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64456b124bd97840800000000000000
+      internalID: 5222446319886746734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_93
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a54354e10337160800000000000000
+      internalID: 7022009150568946291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_94
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348ee97e373d9170800000000000000
+      internalID: 8186760439102604342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_95
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 3540
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188cfe181e7367700800000000000000
+      internalID: 537678647204497537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d0280b262019620800000000000000
+      internalID: 2779005067955670276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_97
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f413eb4486d4e920800000000000000
+      internalID: 3018773513942275320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_98
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a66e11d4400c1d60800000000000000
+      internalID: 7862159345048250020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_99
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d54f40719354780800000000000000
+      internalID: -8699484334166090485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_100
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c579ac32af3ce3160800000000000000
+      internalID: 7007253549344790364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_101
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc69290eaffa450800000000000000
+      internalID: 6102371862549286094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_102
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eed8c85859b11080800000000000000
+      internalID: -9218383173152874780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_103
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6355b6e2005320800000000000000
+      internalID: 2544536979372206822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_104
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125b8b4ab4fd71fb0800000000000000
+      internalID: -4677024172021861087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_105
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d22b898561b596a0800000000000000
+      internalID: -6443048642226216231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_106
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db085b754fbf0bb0800000000000000
+      internalID: -4967541558823351335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_107
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 2950
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaaa03c5ea189cf0800000000000000
+      internalID: -245416605569602817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cb213c505ce4930800000000000000
+      internalID: 4129454536883616851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_109
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c1bd1f4eec68fc0800000000000000
+      internalID: -3492876978273706932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_110
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85657f3b5121b360800000000000000
+      internalID: 7183559556423050634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_111
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122613762546bfeb0800000000000000
+      internalID: -4685040682267483615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_112
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3de0f201e4bc5d0800000000000000
+      internalID: -3041251291942693947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_113
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebffbc7fc0ecc580800000000000000
+      internalID: -8805415989660353558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_114
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10631e5511df4e080800000000000000
+      internalID: -9158917491267652095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_115
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742c4d0b0cc649050800000000000000
+      internalID: 5806385394443665991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_116
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906aeef9087138f60800000000000000
+      internalID: 8035292001365566985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_117
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8431f2736508d8f20800000000000000
+      internalID: 3426535999280190280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_118
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7f5624f269a7400800000000000000
+      internalID: 322735453032019904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_119
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 2360
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d15076b94125670800000000000000
+      internalID: 8525899702246645048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed7c8857334c6f10800000000000000
+      internalID: 2264258617648381412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_121
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8eff6306acd6610800000000000000
+      internalID: 1616170355884288221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_122
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0830dfcab1e90e2a0800000000000000
+      internalID: -6710189603078470784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_123
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53545b50a84e233e0800000000000000
+      internalID: -2075345196811991755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_124
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f9d42de1f8f8450800000000000000
+      internalID: 6093246183395663700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_125
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25eb3e06d457a5d0800000000000000
+      internalID: -3051376944181680851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_126
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32367ad83c7644530800000000000000
+      internalID: 3838306872019346211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_127
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ecd4d60118b8c20800000000000000
+      internalID: 3209801066984885769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_128
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc33d1f69202c490800000000000000
+      internalID: -7727611163288847174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_129
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944f90419a5d5b980800000000000000
+      internalID: -8523671797566409655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_130
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1bf7232a1bb720800000000000000
+      internalID: 2862910726421027437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_131
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 1770
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38a6535f6c9296e0800000000000000
+      internalID: -1832230096432879554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa70bfaeb34b14c0800000000000000
+      internalID: -4315781331634062597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_133
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8493a71dc4cd10800000000000000
+      internalID: 2145064823947562234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_134
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556daccd61cd56130800000000000000
+      internalID: 3559493071257917013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_135
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60c4d9a253af6ae0800000000000000
+      internalID: -1553843770987593619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_136
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19447222fdbd89cd0800000000000000
+      internalID: -2551047437508197231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_137
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20ac748b7bae2560800000000000000
+      internalID: 7290953393751498796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_138
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01549c02da7e6c440800000000000000
+      internalID: 4955903170733229328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_139
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ed4d58e5f4b55a0800000000000000
+      internalID: -6531539567179932075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_140
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8600ff591309208e0800000000000000
+      internalID: -1728660764312534936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_141
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576105c3907f8f5f0800000000000000
+      internalID: -722556121154316683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_142
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c338ab9031932ecc0800000000000000
+      internalID: -3683318791305264324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_143
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 1180
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4850d7fb138016aa0800000000000000
+      internalID: -6169641004761807484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee2836ca28e3510800000000000000
+      internalID: 1530804600268058203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_145
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c70d4af41ef390800000000000000
+      internalID: -7782760040782904137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_146
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbdb551c7423fc40800000000000000
+      internalID: 5544815681576098769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_147
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59219333a67b8ff0800000000000000
+      internalID: -32802128958248611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_148
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256e87167d255cc40800000000000000
+      internalID: 5531918802301281874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_149
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79d029fa638cfb0800000000000000
+      internalID: -4627388489425643530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_150
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1433ed1ff4ab3b0800000000000000
+      internalID: -5495992495018655328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_151
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575b2806fed0f3fe0800000000000000
+      internalID: -1207230853344479883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_152
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b722962f2f263250800000000000000
+      internalID: 5923974239409547191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_153
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5be8ef658fbe40800000000000000
+      internalID: 5674400771205716759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_154
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7743df4fa8f0d300800000000000000
+      internalID: 274993009111811964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_155
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 590
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d493f45047d01660800000000000000
+      internalID: 7354614862799148241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ffb128596e63400800000000000000
+      internalID: 303683554701475695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_157
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe7e3fc79dbe4000800000000000000
+      internalID: 22163507898121982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_158
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb807cf9e1a1440800000000000000
+      internalID: 4907268415561448603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_159
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14deafb880d4ccd0800000000000000
+      internalID: -2538675004180081634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_160
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b5b64d8a955bd0800000000000000
+      internalID: -2642035674815549250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_161
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c36883baa592690800000000000000
+      internalID: -7626464802540995429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_162
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f17c642d8df12c0800000000000000
+      internalID: -4458606708431315078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_163
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff80478acaf90cd0800000000000000
+      internalID: -2591264362815516673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_164
+      rect:
+        serializedVersion: 2
+        x: 5984
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd7381633bfc9460800000000000000
+      internalID: 7249945698257567176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_165
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316854be17870220800000000000000
+      internalID: 2452077088070983994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_166
+      rect:
+        serializedVersion: 2
+        x: 7480
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bfaa07587472d60800000000000000
+      internalID: 7865333912672336663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baitball_167
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 0
+        width: 748
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c0f64834814860800000000000000
+      internalID: 7512431030673917720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c63f8fba227ee4532905870152f86367
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
