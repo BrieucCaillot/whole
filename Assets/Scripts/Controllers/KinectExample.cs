@@ -25,6 +25,7 @@ public class KinectExample : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             IntroManager.Instance.Hide();
+            SceneController.Instance.BirdsScene();
         }
 
         // TOGGLE ANIM V
@@ -58,19 +59,13 @@ public class KinectExample : MonoBehaviour
         }   
         
         // SWITCH SCENE EXAMPLE
-        // INTRO SCENE
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            SceneController.Instance.Intro();
-        } 
-        
         // BIRDS SCENE
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             SceneController.Instance.BirdsScene();
         }    
         // BOID SCENE
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             SceneController.Instance.BoidScene();
         }

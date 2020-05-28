@@ -7,7 +7,7 @@ public class IntroManager : MonoBehaviour
     public static IntroManager Instance;
     private Image Background;
     private SpriteRenderer Logo;
-    private float duration = 1f;
+    private float duration = 2f;
 
     void Awake()
     {
@@ -26,7 +26,7 @@ public class IntroManager : MonoBehaviour
     public void Hide()
     {
         BackgroundFadeOut();
-        Invoke("LogoFadeOut", duration * 2);
+        LogoFadeOut();
     }
 
     public void BackgroundFadeIn()
