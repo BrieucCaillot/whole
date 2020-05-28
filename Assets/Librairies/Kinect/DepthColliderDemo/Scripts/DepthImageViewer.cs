@@ -17,6 +17,7 @@ public class DepthImageViewer : MonoBehaviour
 	private GameObject[] jointColliders = null;
 	
 
+
 	void Start () 
 	{
 		// calculate the foreground rectangle
@@ -31,22 +32,24 @@ public class DepthImageViewer : MonoBehaviour
 
 		foregroundOfs = new Vector2((cameraRect.width - rectWidth) / 2, (cameraRect.height - rectHeight) / 2);
 		foregroundRect = new Rect(foregroundOfs.x, cameraRect.height - foregroundOfs.y, rectWidth, -rectHeight);
-	
+		
 		// create joint colliders
 		int numColliders = (int)KinectWrapper.NuiSkeletonPositionIndex.Count;
 		jointColliders = new GameObject[numColliders];
 		
 		for(int i = 0; i < numColliders; i++)
 		{
-			string sColObjectName = ((KinectWrapper.NuiSkeletonPositionIndex)i).ToString() + "Collider";
+			string sColObjectName = ((KinectWrapper.NuiSkeletonPositionIndex)i).ToString();
 			jointColliders[i] = new GameObject(sColObjectName);
 			jointColliders[i].transform.parent = transform;
-			
-			SphereCollider collider = jointColliders[i].AddComponent<SphereCollider>();
-			collider.radius = 1f;
+
+			// SphereCollider collider = jointColliders[i].AddComponent<SphereCollider>();
+			// collider.radius = 1f;
 		}
 	}
-	
+	void GetHeadWithKinect() {
+
+	}
 	void Update () 
 	{
 		if(manager == null)
@@ -67,12 +70,12 @@ public class DepthImageViewer : MonoBehaviour
 			// update colliders
 			int numColliders = (int)KinectWrapper.NuiSkeletonPositionIndex.Count;
 			
-			for(int i = 0; i < numColliders; i++)
-			{
-				if(manager.IsJointTracked(userId, i))
+			// Debug.Log(manager.GetRawSkeletonJointPos(userId, 1));
+			// for(int i = 0; i < numColliders; i++)
+			// {
+				if(manager.IsJointTracked(userId, 1))
 				{
-					Vector3 posJoint = manager.GetRawSkeletonJointPos(userId, i);
-
+					Vector3 posJoint = manager.GetRawSkeletonJointPos(userId, 1);
 					if(posJoint != Vector3.zero)
 					{
 						// convert the joint 3d position to depth 2d coordinates
@@ -87,11 +90,14 @@ public class DepthImageViewer : MonoBehaviour
 						
 						Vector3 posScreen = new Vector3(screenX, screenY, zDistance);
 						Vector3 posCollider = Camera.main.ScreenToWorldPoint(posScreen);
+							// Debug.Log(GameObject.Find("Head"));
+						// InteractionManager.Instance.UpdateUserKinectPosition(posCollider);
+						// Debug.Log(head);
 
-						jointColliders[i].transform.position = posCollider;
+						// jointColliders[i].transform.position = posCollider;
 					}
 				}
-			}
+			// }
 		}
 
 	}

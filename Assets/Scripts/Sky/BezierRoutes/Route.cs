@@ -10,7 +10,7 @@ public class Route : MonoBehaviour
 
     private void OnDrawGizmos() 
     {
-        for (float i = 0; i <= 1; i += 0.05f)
+        for (float i = 0; i <= 1; i += 0.005f)
         {
             gizmosPositions = Mathf.Pow(1-i, 3) * 
                             controlPoints[0].position +
@@ -20,7 +20,8 @@ public class Route : MonoBehaviour
                             controlPoints[2].position + 
                                 Mathf.Pow(i, 3) * 
                             controlPoints[3].position;
-            Gizmos.DrawSphere(gizmosPositions, 0.15f);
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(gizmosPositions, 0.50f);
         }
         Gizmos.DrawLine(
         new Vector3(controlPoints[0].position.x, controlPoints[0].position.y, controlPoints[0].position.z),
