@@ -1,26 +1,17 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class VoiceoverManager : MonoBehaviour
+public class VoiceoverManager : Singleton<VoiceoverManager>
 {
-    public static VoiceoverManager Instance;
     private AudioSource audioSource;
     private AudioClip audioClip;
     private string path;
     private string audioName;
 
-    private void Awake()
+    private void Start()
     {
-        if (Instance == null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-            path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        audioSource = gameObject.AddComponent<AudioSource>();
+        path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
     }
 
     public void PlayVoiceover()
@@ -37,7 +28,7 @@ public class VoiceoverManager : MonoBehaviour
 
     private IEnumerator LoadAudio()
     {
-        audioName = "Voiceover" + GameManager.Instance.InteractionNumber + ".wav";
+        audioName = "Voiceover" + GameManager.InteractionNumber + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;
@@ -49,7 +40,7 @@ public class VoiceoverManager : MonoBehaviour
         audioSource.Play();
     }
 
-    public bool GetActive()
+    public bool IsPlaying()
     {
         return audioSource.isPlaying;
     }

@@ -1,10 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
-
-public class GameManager : Singleton<GameManager>
+﻿public class GameManager : Singleton<GameManager>
 {
+    public static int SceneNumber = 0;
+    public static int InteractionNumber = 0;
+
+    public static void NewInteraction()
+    {
+        if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
+        {
+            InteractionNumber++;
+            VoiceoverManager.Instance.PlayVoiceover();
+            SubtitleManager.Instance.GetSubtitles();
+        }
+    }
 
     // public Dictionary<string, Action> actions = new Dictionary<string, Action>()
     // {
@@ -13,28 +20,17 @@ public class GameManager : Singleton<GameManager>
     // };
 
 
-    public InteractionManager interactionManager;
-    public BirdsBehavior birdsBehavior;
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void InteractionHandler(Interaction interaction)
-    {
-        // actions[interaction.action]();
-    }
-
-    void InteractionCompleteHandler()
-    {
-        // int currentIndex = InteractionManager.GetIndex();
-        // InteractionManager.SetIndex(currentIndex + 1);
-    }
+    // public InteractionManager interactionManager;
+    // public BirdsBehavior birdsBehavior;
+    //
+    // public void InteractionHandler(Interaction interaction)
+    // {
+    //     // actions[interaction.action]();
+    // }
+    //
+    // void InteractionCompleteHandler()
+    // {
+    //     // int currentIndex = InteractionManager.GetIndex();
+    //     // InteractionManager.SetIndex(currentIndex + 1);
+    // }
 }

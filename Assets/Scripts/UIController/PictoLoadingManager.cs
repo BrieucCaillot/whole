@@ -2,25 +2,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PictoLoadingManager : MonoBehaviour
+public class PictoLoadingManager : Singleton<PictoLoadingManager>
 {
-    public static PictoLoadingManager Instance;
-    private Image Image;
-    private Animator Animator;
+    private static Image Image;
+    private static Animator Animator;
 
-    private void Awake()
+    private void Start()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            Image = GetComponent<Image>();
-            Animator = GetComponent<Animator>();
-            Image.DOFade(0, 0);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Image = GetComponent<Image>();
+        Animator = GetComponent<Animator>();
+        Image.DOFade(0, 0);
     }
 
     private void Update()
@@ -36,7 +27,7 @@ public class PictoLoadingManager : MonoBehaviour
         }
     }
 
-    public void Loader()
+    public static void Loader()
     {
         if (Animator.GetCurrentAnimatorStateInfo(0).IsName("LoaderStart"))
         {

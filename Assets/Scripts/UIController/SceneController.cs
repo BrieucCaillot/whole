@@ -1,39 +1,26 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 
-public class SceneController : MonoBehaviour
+public class SceneController : Singleton<SceneController>
 {
-
-    public static SceneController Instance;
-
-    void Awake(){
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
     
-    public void Intro()
+    public static void Intro()
     {
-        GameManager.Instance.SceneNumber = 0;
-        SceneManager.LoadScene("BrieucScene");
-        AudioManager.Instance.PauseSound();
+        GameManager.SceneNumber = 0;
+        SceneManager.LoadScene("IntroScene");
+        AudioManager.PauseSound();
     }
 
-    public void BirdsScene()
+    public static void BirdsScene()
     {
-        GameManager.Instance.SceneNumber = 1;
-        SceneManager.LoadScene("SergeScene-Birds 1");
+        GameManager.SceneNumber = 1;
+        SceneManager.LoadScene("LeoSergeSceneBirds");
         AudioManager.Instance.PlaySound("Weather/Wind");
     }
-    public void BoidScene()
+    
+    public static void BoidScene()
     {
-        GameManager.Instance.SceneNumber = 2;
-        SceneManager.LoadScene("LeoSceneFishes 1");
+        GameManager.SceneNumber = 2;
+        SceneManager.LoadScene("Ocean");
         AudioManager.Instance.PlaySound("Water/Underwater");
     }
 }

@@ -1,50 +1,43 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class IntroManager : MonoBehaviour
+public class IntroManager : Singleton<IntroManager>
 {
     public static IntroManager Instance;
-    private Image Background;
-    private SpriteRenderer Logo;
-    private float duration = 2f;
+    private static Image Background;
+    private static SpriteRenderer Logo;
+    private static float duration = 2f;
 
-    void Awake()
+    private void Start()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            Background = GetComponentInChildren<Image>();
-            Logo = GetComponentInChildren<SpriteRenderer>();
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Background = GetComponentInChildren<Image>();
+        Logo = GetComponentInChildren<SpriteRenderer>();
     }
 
-    public void Hide()
+    public static void Hide()
     {
         BackgroundFadeOut();
         LogoFadeOut();
     }
 
-    public void BackgroundFadeIn()
+    public static void BackgroundFadeIn()
     {
         Background.DOFade(1, duration);
     }
 
-    public void BackgroundFadeOut()
+    public static void BackgroundFadeOut()
     {
         Background.DOFade(0, duration);
     }
 
-    public void LogoFadeIn()
+    public static void LogoFadeIn()
     {
         Logo.DOFade(1, duration);
     }
 
-    public void LogoFadeOut()
+    public static void LogoFadeOut()
     {
         Logo.DOFade(0, duration);
     }

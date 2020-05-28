@@ -2,22 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
  
-public class AnimationManager : MonoBehaviour
+public class AnimationManager : Singleton<AnimationManager>
 {
     
-    public static AnimationManager Instance;
-    void Awake(){
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-    
-    public IEnumerator FadeTextToFullAlpha(float t, Text i)
+    public static IEnumerator FadeTextToFullAlpha(float t, Text i)
     {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
         while (i.color.a < 1.0f)
@@ -27,7 +15,7 @@ public class AnimationManager : MonoBehaviour
         }
     }
  
-    public IEnumerator FadeTextToZeroAlpha(float t, Text i)
+    public static IEnumerator FadeTextToZeroAlpha(float t, Text i)
     {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
         while (i.color.a > 0.0f)

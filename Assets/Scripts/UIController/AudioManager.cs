@@ -4,8 +4,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    private AudioSource audioSource;
-    private AudioClip audioClip;
+    private static AudioSource audioSource;
+    private static AudioClip audioClip;
     private string path;
     private string audioName;
 
@@ -26,18 +26,18 @@ public class AudioManager : MonoBehaviour
     public void PlaySound(string name)
     {
         PauseSound();
-        if (!GetActive())
+        if (!IsPlaying())
         {
             StartCoroutine(LoadAudio(name));
         }
     }
 
-    public void PauseSound()
+    public static void PauseSound()
     {
         audioSource.Pause();
     }
     
-    public void UnPauseSound()
+    public static void UnPauseSound()
     {
         audioSource.UnPause();
     }
@@ -64,7 +64,7 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
-    public bool GetActive()
+    public bool IsPlaying()
     {
         return audioSource.isPlaying;
     }
