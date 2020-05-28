@@ -1,14 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
+﻿using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PictosPositionsManager : MonoBehaviour
 {
     public static PictosPositionsManager Instance;
-    private SpriteRenderer SpriteRenderer;
+    private Image Image;
     private Animator Animator;
-    private float durationAppear = 2f;
+    private float durationAppear = 3f;
     private float durationDisappear = 2f;
 
     private void Awake()
@@ -16,9 +15,9 @@ public class PictosPositionsManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            SpriteRenderer = GetComponent<SpriteRenderer>();
+            Image = GetComponent<Image>();
             Animator = GetComponent<Animator>();
-            SpriteRenderer.DOFade(0, 0);
+            Image.DOFade(0, 0);
         }
         else
         {
@@ -32,7 +31,7 @@ public class PictosPositionsManager : MonoBehaviour
         {
             Debug.Log(name + " END");
             PictoLoadingManager.Instance.Loader();
-            SpriteRenderer.DOFade(0, durationDisappear);
+            Image.DOFade(0, durationDisappear);
             Animator.ResetTrigger(name);
             Animator.SetTrigger("Default");
         }
@@ -40,9 +39,14 @@ public class PictosPositionsManager : MonoBehaviour
         {
             Debug.Log(name + " START");
             PictoLoadingManager.Instance.Loader();
-            SpriteRenderer.DOFade(1, durationAppear);
+            Image.DOFade(1, durationAppear);
             Animator.SetTrigger(name);
             Animator.speed = 1;
         }
+    }
+
+    private void LateUpdate()
+    {
+        Image.SetNativeSize();
     }
 }
