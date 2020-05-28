@@ -25,6 +25,7 @@ public class BirdsBehavior : MonoBehaviour
         Vector3 parentPosition = parent.transform.position;
         InstantiateBirds(parent, parentPosition);
     }
+
     void InstantiateBirds(Transform parent, Vector3 parentPosition) 
     {
         for (int i = 0; i < numOfBirds; i++)
@@ -33,45 +34,67 @@ public class BirdsBehavior : MonoBehaviour
             allBirds.Add((GameObject) Instantiate(birdPreFab, parentPosition + randomBirdPosition, Quaternion.identity, parent));
         }
     }
+
     void Update()
     {
-        DetectInteractions();
-        UpdateSinWaveMovement();
+        // DetectInteractions();
+        // UpdateSinWaveMovement();
     }
 
-    void DetectInteractions() {
+    public void setVPosition() {
 
-        if(needToFly) {
-            InteractionManager.Instance.normalFly(allBirds, parent);
-        }
-
-        if(Input.GetKeyDown("space") && !needVPosition) {
-            needVPosition = true;
-            InteractionManager.Instance.setVPosition(allBirds, parent);
-        }
-
-        if(Input.GetKeyDown("a") && !needDive) {
-            needDive = true;
-            InteractionManager.Instance.DiveBird(parent);
-            Destroy(GetComponent<BezierFollow>());
-        }
-    }
-
-    void UpdateSinWaveMovement() 
-    {
-            foreach (GameObject bird in allBirds)
-            {
-                float speedBird = Random.Range(-0.4f, 0.4f);
-                float velocity = ReturnSinSpeed.sinSpeed(Time.time - bias, speedBird * amplitude, frequency, 0);
-                
-                // bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
-                
-                if (!needDive) {
-                    // bird.transform.LookAt(CenterMountain.transform.position);
-                    // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
-                }
-
+        Debug.Log("v pos");
+        Vector3 VBirdPosition = new Vector3(0, 1, 0);
+        int leftV = 0;
+        int rightV = 0;
+        
+        for (int i = 0; i < allBirds.Count; i++) {
+            if(i%2==0 && i != 0) {
+                leftV++;
+                VBirdPosition = new Vector3(leftV, 1, -leftV);
             }
+            if(i%2==1) {
+                rightV++;
+                VBirdPosition = new Vector3(rightV, 1, rightV);
+            }
+
+            allBirds[i].transform.position = Vector3.Slerp(allBirds[i].transform.position, parent.transform.position + VBirdPosition, 0.02f);
+        }
     }
+
+    // void DetectInteractions()
+    // {
+    //     if(needToFly) {
+    //         InteractionManager.Instance.normalFly(allBirds, parent);
+    //     }
+
+    //     if(Input.GetKeyDown("space") && !needVPosition) {
+    //         needVPosition = true;
+    //         InteractionManager.Instance.setVPosition(allBirds, parent);
+    //     }
+
+    //     if(Input.GetKeyDown("a") && !needDive) {
+    //         needDive = true;
+    //         InteractionManager.Instance.DiveBird(parent);
+    //         Destroy(GetComponent<BezierFollow>());
+    //     }
+    // }
+
+    // void UpdateSinWaveMovement() 
+    // {
+    //         foreach (GameObject bird in allBirds)
+    //         {
+    //             float speedBird = Random.Range(-0.4f, 0.4f);
+    //             float velocity = ReturnSinSpeed.sinSpeed(Time.time - bias, speedBird * amplitude, frequency, 0);
+                
+    //             // bird.transform.position = new Vector3(bird.transform.position.x + velocity, bird.transform.position.y + velocity * 6, bird.transform.position.z + velocity);
+                
+    //             if (!needDive) {
+    //                 // bird.transform.LookAt(CenterMountain.transform.position);
+    //                 // bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + (velocity * 500), bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
+    //             }
+
+    //         }
+    // }
     
 }

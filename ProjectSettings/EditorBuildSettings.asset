@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Ocean.unity
     guid: 1ba5c11d6c4023d4ea462dad3aa94bfe
   - enabled: 1
-    path: Assets/Scenes/SergeScene-Birds.unity
+    path: Assets/Scenes/LeoSergeScene.unity
     guid: c4aafb85cae32471d87e7c179b4337eb
   m_configObjects: {}
