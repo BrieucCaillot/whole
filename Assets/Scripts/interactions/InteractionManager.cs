@@ -18,6 +18,7 @@ public class InteractionManager : MonoBehaviour
     public void SetIndex(int newIndex)
     {
         index = newIndex;
+        interactions[index].Enable();
     }
 
     void Start() {

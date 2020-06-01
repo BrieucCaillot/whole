@@ -16,7 +16,6 @@ public class BoidManager : MonoBehaviour
     void Start () {
         boids = FindObjectsOfType<Boid> ();
         foreach (Boid b in boids) {
-            // b.Initialize (settings, null);
             b.Initialize (settings, target);
             agentsPositions.Add(Vector3.zero);
             

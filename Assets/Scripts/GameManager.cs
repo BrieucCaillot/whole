@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using System;
 
@@ -13,19 +14,46 @@ public class GameManager : Singleton<GameManager>
     public SubtitleManager subtitleManager;
 
     //behaviors
-    public BirdsBehavior birdsBehavior;
+    private BirdManager birdManager;
+    private GameObject birdGO;
+    private BoidManager boidManager;
+    
     public KinectManager kinectManager;
+    public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
     void Start()
     {
-            actions.Add("flyBirds", birdsBehavior.flyBirds);
-            actions.Add("vPositionBirds", birdsBehavior.vPositionBirds);
-            actions.Add("diveBirds", birdsBehavior.diveBirds);
+        actions.Add("StartScene", UserDetectedHandler);
+        
     }
     void Update()
     {
-        // Debug.Log(kinectManager.GetUserPosition(1));
+        if(!birdGO){
+            GetBirdsComponent();
+        }
+        if(birdManager) {
+            birdManager.flyBirdsNormal(userKinectPosition.getUserVector());
+        }
+    }
+
+    void UserDetectedHandler()
+    {
+        SceneManager.LoadScene("Birds");
+    }
+
+    private void GetBirdsComponent() {
+        birdGO = GameObject.Find("Birds");
+        if(birdGO) {
+            birdManager = birdGO.GetComponent<BirdManager>();
+            SetupBirdsScene();
+        }
+    }
+
+    private void SetupBirdsScene() {
+        actions.Add("flyBirdsFaster", birdManager.flyBirdsFaster);
+        actions.Add("vPositionBirds", birdManager.vPositionBirds);
+        actions.Add("diveBirds", birdManager.diveBirds);
     }
 
     public void InteractionHandler(Interaction interaction)

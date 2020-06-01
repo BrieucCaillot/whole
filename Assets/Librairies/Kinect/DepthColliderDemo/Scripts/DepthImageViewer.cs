@@ -94,7 +94,7 @@ public class DepthImageViewer : MonoBehaviour
 						Vector3 posCollider = Camera.main.ScreenToWorldPoint(posScreen);
 							// Debug.Log(GameObject.Find("Head"));
 						// InteractionManager.Instance.UpdateUserKinectPosition(posCollider);
-						// Debug.Log(head);
+						Debug.Log(posCollider);
 
 						// jointColliders[i].transform.position = posCollider;
 					}

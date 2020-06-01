@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/IntroScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/StartupScene.unity
+    guid: 504c7d35130002b4c8ef078fb61694b7
   - enabled: 1
-    path: Assets/Scenes/Ocean.unity
-    guid: 1ba5c11d6c4023d4ea462dad3aa94bfe
+    path: Assets/Scenes/Birds.unity
+    guid: 1b21f526ce4a24b43bc47dbb43fed85f
   - enabled: 1
-    path: Assets/Scenes/LeoSergeSceneBirds.unity
-    guid: 8442d784390c548a692d8a3c2092c951
+    path: Assets/Scenes/Boids.unity
+    guid: f2975b5217cc5df40a31e2f7125403e5
   m_configObjects: {}

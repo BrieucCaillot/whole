@@ -1140,8 +1140,11 @@ public class KinectManager : MonoBehaviour
 				}
 					
 				// Check for complete gestures
-				foreach(KinectGestures.GestureData gestureData in player1Gestures)
+				// foreach(KinectGestures.GestureData gestureData in player1Gestures)
+				for(int g = player1Gestures.Count - 1; g >= 0; g--)
 				{
+					KinectGestures.GestureData gestureData = player1Gestures[g];
+
 					if(gestureData.complete)
 					{	
 						foreach(KinectGestures.GestureListenerInterface listener in gestureListeners)
@@ -1209,8 +1212,10 @@ public class KinectManager : MonoBehaviour
 				}
 
 				// Check for complete gestures
-				foreach(KinectGestures.GestureData gestureData in player2Gestures)
+				for(int g2 = player2Gestures.Count - 1; g2 >= 0; g2--)
 				{
+					KinectGestures.GestureData gestureData = player1Gestures[g2];
+
 					if(gestureData.complete)
 					{						
 						foreach(KinectGestures.GestureListenerInterface listener in gestureListeners)
