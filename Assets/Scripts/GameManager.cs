@@ -19,9 +19,9 @@ public class GameManager : Singleton<GameManager>
 
     void Start()
     {
-            actions.Add("flyBirds", birdsBehavior.flyBirds);
-            actions.Add("vPositionBirds", birdsBehavior.vPositionBirds);
-            actions.Add("diveBirds", birdsBehavior.diveBirds);
+        actions.Add("flyBirds", birdsBehavior.flyBirds);
+        actions.Add("vPositionBirds", birdsBehavior.vPositionBirds);
+        actions.Add("diveBirds", birdsBehavior.diveBirds);
     }
     void Update()
     {
