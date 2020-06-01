@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class VoiceoverManager : Singleton<VoiceoverManager>
+public class VoiceoverManager : MonoBehaviour
 {
     private AudioSource audioSource;
     private AudioClip audioClip;
@@ -28,7 +28,7 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
 
     private IEnumerator LoadAudio()
     {
-        audioName = "Voiceover" + GameManager.InteractionNumber + ".wav";
+        audioName = "Voiceover" + GameManager.Instance.index + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;

@@ -1,36 +1,50 @@
-﻿public class GameManager : Singleton<GameManager>
-{
-    public static int SceneNumber = 0;
-    public static int InteractionNumber = 0;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
 
-    public static void NewInteraction()
+public class GameManager : Singleton<GameManager>
+{
+    public int index = 0;
+
+    //managers
+    public InteractionManager interactionManager;
+    public VoiceoverManager voiceoverManager;
+    public SubtitleManager subtitleManager;
+
+    //behaviors
+    public BirdsBehavior birdsBehavior;
+
+    public Dictionary<string, Action> actions = new Dictionary<string, Action>()
     {
-        if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
-        {
-            InteractionNumber++;
-            VoiceoverManager.Instance.PlayVoiceover();
-            SubtitleManager.Instance.GetSubtitles();
-        }
+        // {"vPosition", () => BirdsBehavior.vPosition() },
+        // {"dive", () => BirdsBehavior.dive() }
+    };
+
+    void Start()
+    {
+        index = interactionManager.GetIndex();    
     }
 
-    // public Dictionary<string, Action> actions = new Dictionary<string, Action>()
-    // {
-    //     {"vPosition", () => BirdsBehavior.vPosition() },
-    //     {"dive", () => BirdsBehavior.dive() }
-    // };
+    public void InteractionHandler(Interaction interaction)
+    {
+        // actions[interaction.action]();
+    }
+    
+    void InteractionCompleteHandler()
+    {
+        int currentIndex = interactionManager.GetIndex();
+        interactionManager.SetIndex(currentIndex + 1);
+    }
 
 
-    // public InteractionManager interactionManager;
-    // public BirdsBehavior birdsBehavior;
-    //
-    // public void InteractionHandler(Interaction interaction)
+    // public static void NewInteraction()
     // {
-    //     // actions[interaction.action]();
-    // }
-    //
-    // void InteractionCompleteHandler()
-    // {
-    //     // int currentIndex = InteractionManager.GetIndex();
-    //     // InteractionManager.SetIndex(currentIndex + 1);
+    //     if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
+    //     {
+    //         InteractionNumber++;
+    //         VoiceoverManager.Instance.PlayVoiceover();
+    //         SubtitleManager.Instance.GetSubtitles();
+    //     }
     // }
 }

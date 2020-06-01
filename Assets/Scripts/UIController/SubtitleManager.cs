@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable] 
-public class SubtitleManager : Singleton<SubtitleManager>
+public class SubtitleManager : MonoBehaviour
 {
     private static Text textComponent;
     private static Array allSubtitles;
@@ -29,7 +29,7 @@ public class SubtitleManager : Singleton<SubtitleManager>
         isActive = true;
         try
         {
-            path = Application.streamingAssetsPath + "/Subtitles/SubtitlesInteraction" + GameManager.InteractionNumber + ".json";
+            path = Application.streamingAssetsPath + "/Subtitles/SubtitlesInteraction" + GameManager.Instance.index + ".json";
             jsonString = File.ReadAllText(path);
         }
         catch (FileNotFoundException e)
