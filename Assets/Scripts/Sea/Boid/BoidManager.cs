@@ -8,7 +8,7 @@ public class BoidManager : MonoBehaviour
 
     public BoidSettings settings;
     public ComputeShader compute;
-    public Transform target;
+    public Transform[] targets;
     Boid[] boids;
 
     public static List<Vector3> agentsPositions = new List<Vector3>();
@@ -16,7 +16,8 @@ public class BoidManager : MonoBehaviour
     void Start () {
         boids = FindObjectsOfType<Boid> ();
         foreach (Boid b in boids) {
-            b.Initialize (settings, target);
+            // b.Initialize (settings, null);
+            b.Initialize (settings, targets);
             agentsPositions.Add(Vector3.zero);
             
         }

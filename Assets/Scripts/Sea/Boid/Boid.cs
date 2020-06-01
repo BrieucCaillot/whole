@@ -27,15 +27,15 @@ public class Boid : MonoBehaviour
     // Cached
     Material material;
     Transform cachedTransform;
-    Transform target;
+    Transform[] targets;
 
     void Awake () {
         material = transform.GetComponentInChildren<MeshRenderer> ().material;
         cachedTransform = transform;
     }
 
-    public void Initialize (BoidSettings settings, Transform target) {
-        this.target = target;
+    public void Initialize (BoidSettings settings, Transform[] targets) {
+        this.targets = targets;
         this.settings = settings;
 
         position = cachedTransform.position;
@@ -57,10 +57,26 @@ public class Boid : MonoBehaviour
     public void UpdateBoid () {
         Vector3 acceleration = Vector3.zero;
 
-        if (target != null) {
-            Vector3 offsetToTarget = (target.position - position);
+        if(targets.Length != 0)
+        {
+            float minDistance = -0.1f;
+            Transform closestTarget = targets[0];
+
+            for (int i = 0; i < targets.Length; i++)
+            {
+                float distance = Mathf.Abs(Vector3.Distance(targets[i].position, position));
+
+                if (minDistance < 0f || distance < minDistance)
+                {
+                    minDistance = distance;
+                    closestTarget = targets[i];
+                }
+            }
+
+            Vector3 offsetToTarget = (closestTarget.position - position);
             acceleration = SteerTowards (offsetToTarget) * settings.targetWeight;
         }
+
 
         if (numPerceivedFlockmates != 0) {
             centreOfFlockmates /= numPerceivedFlockmates;

@@ -17,7 +17,7 @@ public class GameManager : Singleton<GameManager>
     private BirdManager birdManager;
     private GameObject birdGO;
     private BoidManager boidManager;
-    
+
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
