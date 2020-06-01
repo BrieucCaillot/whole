@@ -25,7 +25,7 @@ public class PresentationScript : MonoBehaviour
 	private float slideWaitUntil;
 	private Quaternion targetRotation;
 	
-	private GestureListener gestureListener;
+	public GestureListener gestureListener;
 	
 
 	
@@ -53,7 +53,7 @@ public class PresentationScript : MonoBehaviour
 		}
 		
 		// get the gestures listener
-		gestureListener = Camera.main.GetComponent<GestureListener>();
+		// gestureListener = Camera.main.GetComponent<GestureListener>();
 	}
 	
 	void Update() 

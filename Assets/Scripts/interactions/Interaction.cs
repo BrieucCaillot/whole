@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
-public class Interaction : ScriptableObject
+
+public class Interaction : MonoBehaviour
 {
     public bool enable;
-
-    public void OnEnable() {
-        enable = true;
-    }
-
+    public string action;
+	
     public void Enable() 
     {
         enable = true;
@@ -28,5 +28,13 @@ public class Interaction : ScriptableObject
     public virtual bool Listen()
     {
         return false;
+    }
+
+    public virtual string GetAction(){
+        return action;
+    }
+
+    public virtual string GetInfo() {
+        return "";
     }
 }

@@ -13,6 +13,8 @@ public class DepthImageViewer : MonoBehaviour
 	private Rect foregroundRect;
 	private Vector2 foregroundOfs;
 
+	// public Vector3 posCollider;
+
 	// game objects to contain the joint colliders
 	private GameObject[] jointColliders = null;
 	

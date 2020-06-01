@@ -504,6 +504,7 @@ MonoBehaviour:
   - {fileID: 2005183974}
   - {fileID: 1115004520}
   isBehindUser: 0
+  gestureListener: {fileID: 1552653176}
 --- !u!1 &1518493331
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +534,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1552653175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1552653177}
+  - component: {fileID: 1552653176}
+  m_Layer: 0
+  m_Name: GestureListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1552653176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552653175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1b10ec54ed18a4a9fd436da22030b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GestureInfo: {fileID: 0}
+--- !u!4 &1552653177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552653175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.63213, y: 1.0554528, z: 1.5255699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612776090
 GameObject:
@@ -641,7 +686,6 @@ GameObject:
   - component: {fileID: 1833723677}
   - component: {fileID: 1833723676}
   - component: {fileID: 1833723681}
-  - component: {fileID: 1833723682}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -739,12 +783,12 @@ MonoBehaviour:
   ComputeColorMap: 0
   DisplayUserMap: 1
   DisplayColorMap: 0
-  DisplaySkeletonLines: 0
+  DisplaySkeletonLines: 1
   DisplayMapsWidthPercent: 20
   SensorHeight: 1
   SensorAngle: 0
   MinUserDistance: 1
-  MaxUserDistance: 0
+  MaxUserDistance: 100
   DetectClosestUser: 1
   IgnoreInferredJoints: 1
   smoothing: 1
@@ -760,24 +804,11 @@ MonoBehaviour:
   Player2Gestures: 
   MinTimeBetweenGestures: 0.7
   GestureListeners:
-  - {fileID: 1833723682}
+  - {fileID: 1552653176}
   CalibrationText: {fileID: 0}
   HandCursor1: {fileID: 0}
   HandCursor2: {fileID: 0}
   GesturesDebugText: {fileID: 0}
---- !u!114 &1833723682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833723675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b1b10ec54ed18a4a9fd436da22030b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GestureInfo: {fileID: 0}
 --- !u!1 &1910737567
 GameObject:
   m_ObjectHideFlags: 0

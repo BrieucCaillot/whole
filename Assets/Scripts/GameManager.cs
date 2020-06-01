@@ -5,36 +5,30 @@ using System;
 
 public class GameManager : Singleton<GameManager>
 {
-
-    // public Dictionary<string, Action> actions = new Dictionary<string, Action>()
-    // {
-    //     {"vPosition", () => BirdsBehavior.vPosition() },
-    //     {"dive", () => BirdsBehavior.dive() }
-    // };
-
-
     public InteractionManager interactionManager;
     public BirdsBehavior birdsBehavior;
+    public KinectManager kinectManager;
+    public Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
     void Start()
     {
-        
+            actions.Add("flyBirds", birdsBehavior.flyBirds);
+            actions.Add("vPositionBirds", birdsBehavior.vPositionBirds);
+            actions.Add("diveBirds", birdsBehavior.diveBirds);
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        // Debug.Log(kinectManager.GetUserPosition(1));
     }
 
     public void InteractionHandler(Interaction interaction)
     {
-        // actions[interaction.action]();
+        actions[interaction.GetAction()]();
     }
 
-    void InteractionCompleteHandler()
+    public void InteractionCompleteHandler()
     {
-        // int currentIndex = InteractionManager.GetIndex();
-        // InteractionManager.SetIndex(currentIndex + 1);
+        int currentIndex = interactionManager.GetIndex();
+        interactionManager.SetIndex(currentIndex + 1);
     }
 }
