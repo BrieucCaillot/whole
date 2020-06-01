@@ -1,0 +1,4379 @@
+fileFormatVersion: 2
+guid: 372b856379fd046cf9e5361f522bb052
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -510617847218249304
+    second: dispersion_0
+  - first:
+      213: -4231258982878621114
+    second: dispersion_1
+  - first:
+      213: 3274492121591118092
+    second: dispersion_2
+  - first:
+      213: 7155016230964370869
+    second: dispersion_3
+  - first:
+      213: 2465106927019042092
+    second: dispersion_4
+  - first:
+      213: 8963959715690060742
+    second: dispersion_5
+  - first:
+      213: 4775676739526549655
+    second: dispersion_6
+  - first:
+      213: -2914050141470908623
+    second: dispersion_7
+  - first:
+      213: 5473089137433069833
+    second: dispersion_8
+  - first:
+      213: -2763010052537976290
+    second: dispersion_9
+  - first:
+      213: 4033505372798814729
+    second: dispersion_10
+  - first:
+      213: -6006881249342498638
+    second: dispersion_11
+  - first:
+      213: -2351006979770881233
+    second: dispersion_12
+  - first:
+      213: -7108730343159028448
+    second: dispersion_13
+  - first:
+      213: -4663670510467393486
+    second: dispersion_14
+  - first:
+      213: 4307625201450527350
+    second: dispersion_15
+  - first:
+      213: 5360502009331482258
+    second: dispersion_16
+  - first:
+      213: -5604886696920121395
+    second: dispersion_17
+  - first:
+      213: -6009724377029321892
+    second: dispersion_18
+  - first:
+      213: 8216891709356339319
+    second: dispersion_19
+  - first:
+      213: -3832759284424428401
+    second: dispersion_20
+  - first:
+      213: 4695067195500759097
+    second: dispersion_21
+  - first:
+      213: -3277564765524757383
+    second: dispersion_22
+  - first:
+      213: 5110240364311133850
+    second: dispersion_23
+  - first:
+      213: -5777490785100256842
+    second: dispersion_24
+  - first:
+      213: -4283069628123768300
+    second: dispersion_25
+  - first:
+      213: 2701295465969930912
+    second: dispersion_26
+  - first:
+      213: 3461141948971695163
+    second: dispersion_27
+  - first:
+      213: -3911493570913943561
+    second: dispersion_28
+  - first:
+      213: -5052906032959886308
+    second: dispersion_29
+  - first:
+      213: 1815508062421734772
+    second: dispersion_30
+  - first:
+      213: 1948569476260408629
+    second: dispersion_31
+  - first:
+      213: 50590973894707281
+    second: dispersion_32
+  - first:
+      213: 4816713868521909103
+    second: dispersion_33
+  - first:
+      213: -2551686533207810921
+    second: dispersion_34
+  - first:
+      213: -2591919224388038918
+    second: dispersion_35
+  - first:
+      213: -3159989925014555376
+    second: dispersion_36
+  - first:
+      213: 7060282869588642728
+    second: dispersion_37
+  - first:
+      213: 4935477343250012787
+    second: dispersion_38
+  - first:
+      213: -5391539119076253913
+    second: dispersion_39
+  - first:
+      213: 5067177568301214528
+    second: dispersion_40
+  - first:
+      213: -3770260268174842986
+    second: dispersion_41
+  - first:
+      213: 8489291068612856373
+    second: dispersion_42
+  - first:
+      213: -6344102424458764986
+    second: dispersion_43
+  - first:
+      213: -4167439052432176590
+    second: dispersion_44
+  - first:
+      213: 6856489133803078384
+    second: dispersion_45
+  - first:
+      213: 7367514113047356598
+    second: dispersion_46
+  - first:
+      213: -511157418682255170
+    second: dispersion_47
+  - first:
+      213: -8929196157300566443
+    second: dispersion_48
+  - first:
+      213: 4942836146649958310
+    second: dispersion_49
+  - first:
+      213: 814444196209976694
+    second: dispersion_50
+  - first:
+      213: -5043636933857988456
+    second: dispersion_51
+  - first:
+      213: 6890832915597596134
+    second: dispersion_52
+  - first:
+      213: -4891713733263719524
+    second: dispersion_53
+  - first:
+      213: -1366815429103346756
+    second: dispersion_54
+  - first:
+      213: 4442217162118274334
+    second: dispersion_55
+  - first:
+      213: -1476682428896105129
+    second: dispersion_56
+  - first:
+      213: 8295275955610302861
+    second: dispersion_57
+  - first:
+      213: 682212422996235532
+    second: dispersion_58
+  - first:
+      213: 5698355611510453607
+    second: dispersion_59
+  - first:
+      213: -8518318822422987898
+    second: dispersion_60
+  - first:
+      213: -1418613827641305280
+    second: dispersion_61
+  - first:
+      213: 157025513658343444
+    second: dispersion_62
+  - first:
+      213: 6495972734114570300
+    second: dispersion_63
+  - first:
+      213: 1798150034283651226
+    second: dispersion_64
+  - first:
+      213: -5973400734174711178
+    second: dispersion_65
+  - first:
+      213: -7995986390568888669
+    second: dispersion_66
+  - first:
+      213: -3260807420379470303
+    second: dispersion_67
+  - first:
+      213: 8078420654296352437
+    second: dispersion_68
+  - first:
+      213: -4479387962246257718
+    second: dispersion_69
+  - first:
+      213: 7601853791934097506
+    second: dispersion_70
+  - first:
+      213: 3524490589628268841
+    second: dispersion_71
+  - first:
+      213: 3988501611302725448
+    second: dispersion_72
+  - first:
+      213: -5805462095992351546
+    second: dispersion_73
+  - first:
+      213: 3864725661545699121
+    second: dispersion_74
+  - first:
+      213: -8432470216865654541
+    second: dispersion_75
+  - first:
+      213: -666453933500672808
+    second: dispersion_76
+  - first:
+      213: 510777940782606329
+    second: dispersion_77
+  - first:
+      213: -3190791495995636864
+    second: dispersion_78
+  - first:
+      213: 3887060855334824265
+    second: dispersion_79
+  - first:
+      213: -1210552411360393916
+    second: dispersion_80
+  - first:
+      213: -31189706354317529
+    second: dispersion_81
+  - first:
+      213: -5213580734076823402
+    second: dispersion_82
+  - first:
+      213: 3637803577746539213
+    second: dispersion_83
+  - first:
+      213: 5284974144984424770
+    second: dispersion_84
+  - first:
+      213: 8969277896041219561
+    second: dispersion_85
+  - first:
+      213: -7460058369952869697
+    second: dispersion_86
+  - first:
+      213: -6553844515067746510
+    second: dispersion_87
+  - first:
+      213: -8053894280810727684
+    second: dispersion_88
+  - first:
+      213: 7266467188633756147
+    second: dispersion_89
+  - first:
+      213: 5484645901740124094
+    second: dispersion_90
+  - first:
+      213: -5889110494643868228
+    second: dispersion_91
+  - first:
+      213: -6869753779633976482
+    second: dispersion_92
+  - first:
+      213: -3917195111941211237
+    second: dispersion_93
+  - first:
+      213: 466627986293161523
+    second: dispersion_94
+  - first:
+      213: 8801257006930673703
+    second: dispersion_95
+  - first:
+      213: -1084383836055535127
+    second: dispersion_96
+  - first:
+      213: -1594561208371490945
+    second: dispersion_97
+  - first:
+      213: -7623975813109084125
+    second: dispersion_98
+  - first:
+      213: -6702758445345251909
+    second: dispersion_99
+  - first:
+      213: 8148104418578895702
+    second: dispersion_100
+  - first:
+      213: 3126463897532580867
+    second: dispersion_101
+  - first:
+      213: -8439610280414421266
+    second: dispersion_102
+  - first:
+      213: 5817020346053213641
+    second: dispersion_103
+  - first:
+      213: -6557195971769453474
+    second: dispersion_104
+  - first:
+      213: -6169604897926060693
+    second: dispersion_105
+  - first:
+      213: 1576257513672195725
+    second: dispersion_106
+  - first:
+      213: 3749297653623843326
+    second: dispersion_107
+  - first:
+      213: 7681308716920030337
+    second: dispersion_108
+  - first:
+      213: -8300904514143232011
+    second: dispersion_109
+  - first:
+      213: 147120120323227370
+    second: dispersion_110
+  - first:
+      213: -6523234935181505157
+    second: dispersion_111
+  - first:
+      213: -729710962475010407
+    second: dispersion_112
+  - first:
+      213: -5325452414071481051
+    second: dispersion_113
+  - first:
+      213: 4697895299966543513
+    second: dispersion_114
+  - first:
+      213: 3242016754094095184
+    second: dispersion_115
+  - first:
+      213: 8383852618945425320
+    second: dispersion_116
+  - first:
+      213: 6808285890340694712
+    second: dispersion_117
+  - first:
+      213: 7947497264266372679
+    second: dispersion_118
+  - first:
+      213: -8130672444666988845
+    second: dispersion_119
+  - first:
+      213: -1420461019551752280
+    second: dispersion_120
+  - first:
+      213: 7712469392071497117
+    second: dispersion_121
+  - first:
+      213: -8169329981534468278
+    second: dispersion_122
+  - first:
+      213: 985225197709023549
+    second: dispersion_123
+  - first:
+      213: -5359151598639346371
+    second: dispersion_124
+  - first:
+      213: -8320835135925385710
+    second: dispersion_125
+  - first:
+      213: -3560150899557829965
+    second: dispersion_126
+  - first:
+      213: -8575196753687661306
+    second: dispersion_0
+  - first:
+      213: -8711132849593518481
+    second: dispersion_1
+  - first:
+      213: -3640688277157948607
+    second: dispersion_2
+  - first:
+      213: 1138326173965612080
+    second: dispersion_3
+  - first:
+      213: 459353052122969800
+    second: dispersion_4
+  - first:
+      213: -407408214959864683
+    second: dispersion_5
+  - first:
+      213: -2217237147401804507
+    second: dispersion_6
+  - first:
+      213: -539074131079350529
+    second: dispersion_7
+  - first:
+      213: -1647080354661688652
+    second: dispersion_8
+  - first:
+      213: 3583418646703976778
+    second: dispersion_9
+  - first:
+      213: -3980503323751190852
+    second: dispersion_10
+  - first:
+      213: 5581862864534306934
+    second: dispersion_11
+  - first:
+      213: -985287730342000398
+    second: dispersion_12
+  - first:
+      213: -3074589691512481094
+    second: dispersion_13
+  - first:
+      213: 3607614204539441021
+    second: dispersion_14
+  - first:
+      213: 1962159143505275423
+    second: dispersion_15
+  - first:
+      213: 3321806859515306305
+    second: dispersion_16
+  - first:
+      213: -8483089837405716143
+    second: dispersion_17
+  - first:
+      213: -601631979661737833
+    second: dispersion_18
+  - first:
+      213: -1747783436877289622
+    second: dispersion_19
+  - first:
+      213: 5187964516774510893
+    second: dispersion_20
+  - first:
+      213: -2346919501917187017
+    second: dispersion_21
+  - first:
+      213: -653267018393549225
+    second: dispersion_22
+  - first:
+      213: 6008564644776122020
+    second: dispersion_23
+  - first:
+      213: -6160005384641016994
+    second: dispersion_24
+  - first:
+      213: -7047494707647737842
+    second: dispersion_25
+  - first:
+      213: 3768294579886047748
+    second: dispersion_26
+  - first:
+      213: -8461658703160370607
+    second: dispersion_27
+  - first:
+      213: -2813206635778281269
+    second: dispersion_28
+  - first:
+      213: -5045153097666093435
+    second: dispersion_29
+  - first:
+      213: -6362412640945680274
+    second: dispersion_30
+  - first:
+      213: 3287105782897802111
+    second: dispersion_31
+  - first:
+      213: 6772414353492796094
+    second: dispersion_32
+  - first:
+      213: 8302008970601006282
+    second: dispersion_33
+  - first:
+      213: -4069361681827493263
+    second: dispersion_34
+  - first:
+      213: -17376372690648540
+    second: dispersion_35
+  - first:
+      213: -379376414927357077
+    second: dispersion_36
+  - first:
+      213: 1362574143488203939
+    second: dispersion_37
+  - first:
+      213: 7785626539565553046
+    second: dispersion_38
+  - first:
+      213: -1244086322851481982
+    second: dispersion_39
+  - first:
+      213: -300635509072440092
+    second: dispersion_40
+  - first:
+      213: 6416848691001340382
+    second: dispersion_41
+  - first:
+      213: -6126586579980636133
+    second: dispersion_42
+  - first:
+      213: -1309357178843365238
+    second: dispersion_43
+  - first:
+      213: 1182834605806452983
+    second: dispersion_44
+  - first:
+      213: 4674732461511281664
+    second: dispersion_45
+  - first:
+      213: 6553638925572608770
+    second: dispersion_46
+  - first:
+      213: 4164962076490670839
+    second: dispersion_47
+  - first:
+      213: 8869491756054323315
+    second: dispersion_48
+  - first:
+      213: -8009083532219500196
+    second: dispersion_49
+  - first:
+      213: 1674185420746278147
+    second: dispersion_50
+  - first:
+      213: -5428956875659037078
+    second: dispersion_51
+  - first:
+      213: 8917387270810802626
+    second: dispersion_52
+  - first:
+      213: -3667525773421735802
+    second: dispersion_53
+  - first:
+      213: 8101450053141481233
+    second: dispersion_54
+  - first:
+      213: 5643355121650581296
+    second: dispersion_55
+  - first:
+      213: 1210434257643164091
+    second: dispersion_56
+  - first:
+      213: -7650555319190944884
+    second: dispersion_57
+  - first:
+      213: -3774927749059836410
+    second: dispersion_58
+  - first:
+      213: -5554516263408254467
+    second: dispersion_59
+  - first:
+      213: -4790073518861611571
+    second: dispersion_60
+  - first:
+      213: 4688196675663614153
+    second: dispersion_61
+  - first:
+      213: -8522710212298254039
+    second: dispersion_62
+  - first:
+      213: -3262856775922782785
+    second: dispersion_63
+  - first:
+      213: -3955791897560617625
+    second: dispersion_64
+  - first:
+      213: 7786906040852994440
+    second: dispersion_65
+  - first:
+      213: 7902740066029594141
+    second: dispersion_66
+  - first:
+      213: 2784529386853123827
+    second: dispersion_67
+  - first:
+      213: 5836755862945108985
+    second: dispersion_68
+  - first:
+      213: -6891565874973328201
+    second: dispersion_69
+  - first:
+      213: -7808221142187129744
+    second: dispersion_70
+  - first:
+      213: -8876285478419524382
+    second: dispersion_71
+  - first:
+      213: 7955002072523211424
+    second: dispersion_72
+  - first:
+      213: -7332925380477814610
+    second: dispersion_73
+  - first:
+      213: 8891251435906273092
+    second: dispersion_74
+  - first:
+      213: -8683453019628626887
+    second: dispersion_75
+  - first:
+      213: 3290541831134848454
+    second: dispersion_76
+  - first:
+      213: 8786631940899947686
+    second: dispersion_77
+  - first:
+      213: -8034154171866147471
+    second: dispersion_78
+  - first:
+      213: -2677855534296245423
+    second: dispersion_79
+  - first:
+      213: -3403748844182109306
+    second: dispersion_80
+  - first:
+      213: 9027267116685497429
+    second: dispersion_81
+  - first:
+      213: -1810860575043755551
+    second: dispersion_82
+  - first:
+      213: -6828900466020763786
+    second: dispersion_83
+  - first:
+      213: -2356062990008699743
+    second: dispersion_84
+  - first:
+      213: 7704599697105826038
+    second: dispersion_85
+  - first:
+      213: -2159398502192868980
+    second: dispersion_86
+  - first:
+      213: -7576827181124180942
+    second: dispersion_87
+  - first:
+      213: -8754562302174186261
+    second: dispersion_88
+  - first:
+      213: 6443882813082670653
+    second: dispersion_89
+  - first:
+      213: -6520811763880171656
+    second: dispersion_90
+  - first:
+      213: 1906441455157989531
+    second: dispersion_91
+  - first:
+      213: 4422003984186250740
+    second: dispersion_92
+  - first:
+      213: -9042613167965256621
+    second: dispersion_93
+  - first:
+      213: 3752082994077794979
+    second: dispersion_94
+  - first:
+      213: -7248986427531919695
+    second: dispersion_95
+  - first:
+      213: -8991178105870557586
+    second: dispersion_96
+  - first:
+      213: 220200002978377323
+    second: dispersion_97
+  - first:
+      213: 5210408296462668714
+    second: dispersion_98
+  - first:
+      213: 5498117911457118471
+    second: dispersion_99
+  - first:
+      213: 3722488735629349506
+    second: dispersion_100
+  - first:
+      213: -227898157080609277
+    second: dispersion_101
+  - first:
+      213: 6439001404973317387
+    second: dispersion_102
+  - first:
+      213: -402893900508887019
+    second: dispersion_103
+  - first:
+      213: 4218424800698286421
+    second: dispersion_104
+  - first:
+      213: -8550694515918405866
+    second: dispersion_105
+  - first:
+      213: 4051257419858481456
+    second: dispersion_106
+  - first:
+      213: -2045893634561591852
+    second: dispersion_107
+  - first:
+      213: -2328054478939795810
+    second: dispersion_108
+  - first:
+      213: -29952412520858709
+    second: dispersion_109
+  - first:
+      213: -6549150060419326357
+    second: dispersion_110
+  - first:
+      213: 2386720940101454752
+    second: dispersion_111
+  - first:
+      213: -4592510235136697737
+    second: dispersion_112
+  - first:
+      213: -4345643816782040500
+    second: dispersion_113
+  - first:
+      213: -5145575461259918680
+    second: dispersion_114
+  - first:
+      213: 7987908334928348683
+    second: dispersion_115
+  - first:
+      213: 952523935456267203
+    second: dispersion_116
+  - first:
+      213: -5183648048916913817
+    second: dispersion_117
+  - first:
+      213: 3093021031152692422
+    second: dispersion_118
+  - first:
+      213: -5344747953378555868
+    second: dispersion_119
+  - first:
+      213: -3163817163417864958
+    second: dispersion_120
+  - first:
+      213: -1596907516666781404
+    second: dispersion_121
+  - first:
+      213: 1968297831570372163
+    second: dispersion_122
+  - first:
+      213: -3983067871180957507
+    second: dispersion_123
+  - first:
+      213: 5394115144650613006
+    second: dispersion_124
+  - first:
+      213: 5260171949469860305
+    second: dispersion_125
+  - first:
+      213: -4886519547561378704
+    second: dispersion_126
+  - first:
+      213: 726741487893794955
+    second: dispersion_127
+  - first:
+      213: -9176484588078371273
+    second: dispersion_128
+  - first:
+      213: 5940089678384148225
+    second: dispersion_129
+  - first:
+      213: 1071773314283095308
+    second: dispersion_130
+  - first:
+      213: 541191632976285858
+    second: dispersion_131
+  - first:
+      213: 3810018680113673178
+    second: dispersion_132
+  - first:
+      213: 5196540575248145192
+    second: dispersion_133
+  - first:
+      213: 1323926531523910835
+    second: dispersion_134
+  - first:
+      213: 8561746723491356256
+    second: dispersion_135
+  - first:
+      213: -1214926964601000640
+    second: dispersion_136
+  - first:
+      213: 7619576329852078679
+    second: dispersion_137
+  - first:
+      213: -4567350677074314556
+    second: dispersion_138
+  - first:
+      213: -182561676091582623
+    second: dispersion_139
+  - first:
+      213: 1342118607815118585
+    second: dispersion_140
+  - first:
+      213: -7314287191440597049
+    second: dispersion_141
+  - first:
+      213: -6088540684658967175
+    second: dispersion_142
+  - first:
+      213: 1451921384536226862
+    second: dispersion_143
+  - first:
+      213: 4716830639306681612
+    second: dispersion_144
+  - first:
+      213: 7359673087033224035
+    second: dispersion_145
+  - first:
+      213: 5872121350644138529
+    second: dispersion_146
+  - first:
+      213: 2124766119490294998
+    second: dispersion_147
+  - first:
+      213: 6637528340579872950
+    second: dispersion_148
+  - first:
+      213: 4594800458654830670
+    second: dispersion_149
+  - first:
+      213: 7277883387260978512
+    second: dispersion_150
+  - first:
+      213: 9106361180528258959
+    second: dispersion_151
+  - first:
+      213: -1689896472571479397
+    second: dispersion_152
+  - first:
+      213: -3816522750120776715
+    second: dispersion_153
+  - first:
+      213: 7861907250910946191
+    second: dispersion_154
+  - first:
+      213: 7949333372759187300
+    second: dispersion_155
+  - first:
+      213: -8770694005632813781
+    second: dispersion_156
+  - first:
+      213: -3172071134254517123
+    second: dispersion_157
+  - first:
+      213: 7280044772506148911
+    second: dispersion_158
+  - first:
+      213: 178647920683700192
+    second: dispersion_159
+  - first:
+      213: -5894650583494631339
+    second: dispersion_160
+  - first:
+      213: -3086626759752033759
+    second: dispersion_161
+  - first:
+      213: 3016506758361987016
+    second: dispersion_162
+  - first:
+      213: -2487308975471221102
+    second: dispersion_163
+  - first:
+      213: 6694630454461420587
+    second: dispersion_164
+  - first:
+      213: -6613589891585596500
+    second: dispersion_165
+  - first:
+      213: 7805540224408079007
+    second: dispersion_166
+  - first:
+      213: -8460925622074026811
+    second: dispersion_167
+  - first:
+      213: -381304253506071833
+    second: dispersion_168
+  - first:
+      213: -6412859743110308438
+    second: dispersion_127
+  - first:
+      213: 200583259382529065
+    second: dispersion_128
+  - first:
+      213: 3769884020469883029
+    second: dispersion_129
+  - first:
+      213: -6322229881610388511
+    second: dispersion_130
+  - first:
+      213: 7043787815923173758
+    second: dispersion_131
+  - first:
+      213: 1800827990292816505
+    second: dispersion_132
+  - first:
+      213: -3574047000665871409
+    second: dispersion_133
+  - first:
+      213: 7998211172424346418
+    second: dispersion_134
+  - first:
+      213: -4712540462833110320
+    second: dispersion_135
+  - first:
+      213: 7507412885221120618
+    second: dispersion_136
+  - first:
+      213: -8766018177241926699
+    second: dispersion_137
+  - first:
+      213: 2584936887066204210
+    second: dispersion_138
+  - first:
+      213: -2632327277447483329
+    second: dispersion_139
+  - first:
+      213: -8929856296478581469
+    second: dispersion_140
+  - first:
+      213: 7106357910928887238
+    second: dispersion_141
+  - first:
+      213: 7014965766890526664
+    second: dispersion_142
+  - first:
+      213: 4643479978125374312
+    second: dispersion_143
+  - first:
+      213: -9046816808376484092
+    second: dispersion_144
+  - first:
+      213: -3934323391273761049
+    second: dispersion_145
+  - first:
+      213: 7409722420482495699
+    second: dispersion_146
+  - first:
+      213: -2597797244781669930
+    second: dispersion_147
+  - first:
+      213: -8557864375097486019
+    second: dispersion_148
+  - first:
+      213: -3148384526029554712
+    second: dispersion_149
+  - first:
+      213: 6028590523320186053
+    second: dispersion_150
+  - first:
+      213: 4620888773026600355
+    second: dispersion_151
+  - first:
+      213: 8149657024614253296
+    second: dispersion_152
+  - first:
+      213: -200322591826071450
+    second: dispersion_153
+  - first:
+      213: -5399250172688219259
+    second: dispersion_154
+  - first:
+      213: 773046584792598428
+    second: dispersion_155
+  - first:
+      213: -966866945874523373
+    second: dispersion_156
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dispersion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053d516cf7cef880800000000000000
+      internalID: -8575196753687661306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_1
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66fdbca3d6db1780800000000000000
+      internalID: -8711132849593518481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_2
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14352161d4da97dc0800000000000000
+      internalID: -3640688277157948607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_3
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034ffb5cf952ccf00800000000000000
+      internalID: 1138326173965612080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_4
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6f74aca23ff5600800000000000000
+      internalID: 459353052122969800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_5
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594cdb41368985af0800000000000000
+      internalID: -407408214959864683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_6
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525a056df8aca31e0800000000000000
+      internalID: -2217237147401804507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_7
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b9651fe2d488f0800000000000000
+      internalID: -539074131079350529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_8
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba9ddfd4256429e0800000000000000
+      internalID: -1647080354661688652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_9
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413d4ef54cdab130800000000000000
+      internalID: 3583418646703976778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_10
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6c80115962c8c0800000000000000
+      internalID: -3980503323751190852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_11
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 10478
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670038983b2c67d40800000000000000
+      internalID: 5581862864534306934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80a6f870e8352f0800000000000000
+      internalID: -985287730342000398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_13
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba125727fcd455d0800000000000000
+      internalID: -3074589691512481094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_14
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f0a3c4102d01230800000000000000
+      internalID: 3607614204539441021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_15
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aaa65585dfa3b10800000000000000
+      internalID: 1962159143505275423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_16
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141add13dbd691e20800000000000000
+      internalID: 3321806859515306305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_17
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151c4bbfcb2064a80800000000000000
+      internalID: -8483089837405716143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_18
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7904fbee6e296a7f0800000000000000
+      internalID: -601631979661737833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_19
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672e9c6930aeb7e0800000000000000
+      internalID: -1747783436877289622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_20
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d210da1bd3a5ff740800000000000000
+      internalID: 5187964516774510893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_21
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341ac3c5211e6fd0800000000000000
+      internalID: -2346919501917187017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_22
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7568c21ab112fe6f0800000000000000
+      internalID: -653267018393549225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_23
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 9672
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a61adda5b5b26350800000000000000
+      internalID: 6008564644776122020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b8af16db3438aa0800000000000000
+      internalID: -6160005384641016994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_25
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00163217e4423e90800000000000000
+      internalID: -7047494707647737842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_26
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402432384fbab4430800000000000000
+      internalID: 3768294579886047748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_27
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a9883cd36229a80800000000000000
+      internalID: -8461658703160370607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_28
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f9a2487b75f8d0800000000000000
+      internalID: -2813206635778281269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_29
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e9620fcf30cf9b0800000000000000
+      internalID: -5045153097666093435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_30
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605afd996b24b7a0800000000000000
+      internalID: -6362412640945680274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_31
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b71c03b452e9d20800000000000000
+      internalID: 3287105782897802111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_32
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2e1b309f27cfd50800000000000000
+      internalID: 6772414353492796094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_33
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac487ce3c29a63370800000000000000
+      internalID: 8302008970601006282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_34
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a061c5c19b687c0800000000000000
+      internalID: -4069361681827493263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_35
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 8866
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4220a46f74442cff0800000000000000
+      internalID: -17376372690648540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bf710292f2cbaf0800000000000000
+      internalID: -379376414927357077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_37
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac1fbad6f5d8e210800000000000000
+      internalID: 1362574143488203939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_38
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69598a4761a1c0c60800000000000000
+      internalID: 7785626539565553046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_39
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286f380b41e1cbee0800000000000000
+      internalID: -1244086322851481982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_40
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45edae89de3dbf0800000000000000
+      internalID: -300635509072440092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_41
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b094f2e93d0950800000000000000
+      internalID: 6416848691001340382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_42
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10349e27fdf9faa0800000000000000
+      internalID: -6126586579980636133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_43
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800fe6459a34dde0800000000000000
+      internalID: -1309357178843365238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_44
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0022b9ec54a6010800000000000000
+      internalID: 1182834605806452983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_45
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c0e5ce76cffd040800000000000000
+      internalID: 4674732461511281664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_46
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039de051e333fa50800000000000000
+      internalID: 6553638925572608770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_47
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 8060
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2233011faecc930800000000000000
+      internalID: 4164962076490670839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370afd172c3c61b70800000000000000
+      internalID: 8869491756054323315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_49
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5930ad16f40ad090800000000000000
+      internalID: -8009083532219500196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_50
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30548bb15c6eb3710800000000000000
+      internalID: 1674185420746278147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_51
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66bd654c7878a4b0800000000000000
+      internalID: -5428956875659037078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_52
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c99449f97ce0cb70800000000000000
+      internalID: 8917387270810802626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_53
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6809b9e8db45a1dc0800000000000000
+      internalID: -3667525773421735802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_54
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117411766e12e6070800000000000000
+      internalID: 8101450053141481233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_55
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f3d575599315e40800000000000000
+      internalID: 5643355121650581296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_56
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1d8ce4b835cc010800000000000000
+      internalID: 1210434257643164091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_57
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c830629b874c3d590800000000000000
+      internalID: -7650555319190944884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_58
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60606807633cc9bc0800000000000000
+      internalID: -3774927749059836410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_59
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 7254
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1cb6433e46ae2b0800000000000000
+      internalID: -5554516263408254467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd8f34738d368db0800000000000000
+      internalID: -4790073518861611571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_61
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0d8129902df0140800000000000000
+      internalID: 4688196675663614153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_62
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9295e58973049b980800000000000000
+      internalID: -8522710212298254039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_63
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd6526bc0108b2d0800000000000000
+      internalID: -3262856775922782785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_64
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76de7845a343a19c0800000000000000
+      internalID: -3955791897560617625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_65
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d26099c5a01c60800000000000000
+      internalID: 7786906040852994440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_66
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16e0f3383c2cad60800000000000000
+      internalID: 7902740066029594141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_67
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6440a69b2a4a620800000000000000
+      internalID: 2784529386853123827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_68
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3958b6882500150800000000000000
+      internalID: 5836755862945108985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_69
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb20c895d3c50a0800000000000000
+      internalID: -6891565874973328201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_70
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074cd3cad30a3a390800000000000000
+      internalID: -7808221142187129744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_71
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 6448
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e498ddc26911d480800000000000000
+      internalID: -8876285478419524382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a20e30dc38d56e60800000000000000
+      internalID: 7955002072523211424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_73
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea87c2cc7373c3a90800000000000000
+      internalID: -7332925380477814610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_74
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f00e5b212146b70800000000000000
+      internalID: 8891251435906273092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_75
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c1e3d4c7d2e7780800000000000000
+      internalID: -8683453019628626887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_76
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c52b538c5a5aad20800000000000000
+      internalID: 3290541831134848454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_77
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a44179523360f970800000000000000
+      internalID: 8786631940899947686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_78
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1751233f853f08090800000000000000
+      internalID: -8034154171866147471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_79
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5576549856dad0800000000000000
+      internalID: -2677855534296245423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_80
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68301e5c57473c0d0800000000000000
+      internalID: -3403748844182109306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_81
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5549a963d9b474d70800000000000000
+      internalID: 9027267116685497429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_82
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1e1ceb6e78ed6e0800000000000000
+      internalID: -1810860575043755551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_83
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 5642
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677355c053fda31a0800000000000000
+      internalID: -6828900466020763786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4361c81359d4fd0800000000000000
+      internalID: -2356062990008699743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_85
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f033929a9c3cea60800000000000000
+      internalID: 7704599697105826038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_86
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819844d0864802e0800000000000000
+      internalID: -2159398502192868980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_87
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234a19092d3b9d690800000000000000
+      internalID: -7576827181124180942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_88
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4b1e648fb818680800000000000000
+      internalID: -8754562302174186261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_89
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36990007454d6950800000000000000
+      internalID: 6443882813082670653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_90
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ebbedf3c6185a0800000000000000
+      internalID: -6520811763880171656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_91
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9055c7176a057a10800000000000000
+      internalID: 1906441455157989531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_92
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f598c0e13d1e5d30800000000000000
+      internalID: 4422003984186250740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_93
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354492acb3f228280800000000000000
+      internalID: -9042613167965256621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_94
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a28acd8a93121430800000000000000
+      internalID: 3752082994077794979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_95
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 4836
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bef45d304d666b90800000000000000
+      internalID: -7248986427531919695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ed057662be83380800000000000000
+      internalID: -8991178105870557586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_97
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ee01d6cbe4e0300800000000000000
+      internalID: 220200002978377323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_98
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3d76d5db61f4840800000000000000
+      internalID: 5210408296462668714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_99
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093d953c1d3d4c40800000000000000
+      internalID: 5498117911457118471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_100
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282949f48cfe8a330800000000000000
+      internalID: 3722488735629349506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_101
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e7e3665d756dcf0800000000000000
+      internalID: -227898157080609277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_102
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfcab99adeb5950800000000000000
+      internalID: 6439001404973317387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_103
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180ff1d122a86af0800000000000000
+      internalID: -402893900508887019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_104
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551c15d810bda8a30800000000000000
+      internalID: 4218424800698286421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_105
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f7dcb24a4d55980800000000000000
+      internalID: -8550694515918405866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_106
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031945ca825f83830800000000000000
+      internalID: 4051257419858481456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_107
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 4030
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d539b734968b93e0800000000000000
+      internalID: -2045893634561591852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e490539c611bfd0800000000000000
+      internalID: -2328054478939795810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_109
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab37838076959ff0800000000000000
+      internalID: -29952412520858709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_110
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5afb08bebc15a0800000000000000
+      internalID: -6549150060419326357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_111
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abcbb4bc065f1120800000000000000
+      internalID: 2386720940101454752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_112
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ad457f5402440c0800000000000000
+      internalID: -4592510235136697737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_113
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42755c09fb21b3c0800000000000000
+      internalID: -4345643816782040500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_114
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2c2a2616e3798b0800000000000000
+      internalID: -5145575461259918680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_115
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0649c11f40cade60800000000000000
+      internalID: 7987908334928348683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_116
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb8decf87b083d00800000000000000
+      internalID: 952523935456267203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_117
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76129ab409bff08b0800000000000000
+      internalID: -5183648048916913817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_118
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc2ba48d3e9cea20800000000000000
+      internalID: 3093021031152692422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_119
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 3224
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42800e8dd04a3d5b0800000000000000
+      internalID: -5344747953378555868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205b1307d0dd714d0800000000000000
+      internalID: -3163817163417864958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_121
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421ece90315a6d9e0800000000000000
+      internalID: -1596907516666781404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_122
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3467ce6037cc05b10800000000000000
+      internalID: 1968297831570372163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_123
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8dcf5dfdc49b8c0800000000000000
+      internalID: -3983067871180957507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_124
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e016472152fbbda40800000000000000
+      internalID: 5394115144650613006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_125
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d100a9b482eff840800000000000000
+      internalID: 5260171949469860305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_126
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cf9938c589f2cb0800000000000000
+      internalID: -4886519547561378704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_127
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadd1895a02f007a0800000000000000
+      internalID: -6412859743110308438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_128
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb263696d98c200800000000000000
+      internalID: 200583259382529065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_129
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590678cfa81515430800000000000000
+      internalID: 3769884020469883029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_130
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb0465b6de248a0800000000000000
+      internalID: -6322229881610388511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_131
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 2418
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e794351f2bf80c160800000000000000
+      internalID: 7043787815923173758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ebf61483ddf810800000000000000
+      internalID: 1800827990292816505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_133
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba2c2603f666ec0800000000000000
+      internalID: -3574047000665871409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_134
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23be9ea5faa5ffe60800000000000000
+      internalID: 7998211172424346418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_135
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d27d2bca61b99eb0800000000000000
+      internalID: -4712540462833110320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_136
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a9bcd3e30bf2860800000000000000
+      internalID: 7507412885221120618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_137
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b0e289e8d85680800000000000000
+      internalID: -8766018177241926699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_138
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2389268376a8fd320800000000000000
+      internalID: 2584936887066204210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_139
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30fb2fa948187bd0800000000000000
+      internalID: -2632327277447483329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_140
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ddb11c207c21480800000000000000
+      internalID: -8929856296478581469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_141
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd04bf6edade9260800000000000000
+      internalID: 7106357910928887238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_142
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c71907b23a2a5160800000000000000
+      internalID: 7014965766890526664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_143
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 1612
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8633dc91074f07040800000000000000
+      internalID: 4643479978125374312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fbfac7b00437280800000000000000
+      internalID: -9046816808376484092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_145
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e60e9778b97669c0800000000000000
+      internalID: -3934323391273761049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_146
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d45b15784f94d660800000000000000
+      internalID: 7409722420482495699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_147
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1dc4a6b25c2fbd0800000000000000
+      internalID: -2597797244781669930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_148
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35185e31bb5c3980800000000000000
+      internalID: -8557864375097486019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_149
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebfba554f0be44d0800000000000000
+      internalID: -3148384526029554712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_150
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c439ced32bd9a350800000000000000
+      internalID: 6028590523320186053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_151
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a557d64bd1b02040800000000000000
+      internalID: 4620888773026600355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_152
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2466992e5691170800000000000000
+      internalID: 8149657024614253296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_153
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b8b10aaf483df0800000000000000
+      internalID: -200322591826071450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_154
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583c37b03920215b0800000000000000
+      internalID: -5399250172688219259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_155
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 806
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c974469e5c96aba00800000000000000
+      internalID: 773046584792598428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dispersion_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 732
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b051aa2aff492f0800000000000000
+      internalID: -966866945874523373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 96d625461f3ab48aabe2e05824271cdd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

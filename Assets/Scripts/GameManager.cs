@@ -5,7 +5,14 @@ using System;
 
 public class GameManager : Singleton<GameManager>
 {
+    public int index = 0;
+
+    //managers
     public InteractionManager interactionManager;
+    public VoiceoverManager voiceoverManager;
+    public SubtitleManager subtitleManager;
+
+    //behaviors
     public BirdsBehavior birdsBehavior;
     public KinectManager kinectManager;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -25,10 +32,21 @@ public class GameManager : Singleton<GameManager>
     {
         actions[interaction.GetAction()]();
     }
-
+    
     public void InteractionCompleteHandler()
     {
         int currentIndex = interactionManager.GetIndex();
         interactionManager.SetIndex(currentIndex + 1);
     }
+
+
+    // public static void NewInteraction()
+    // {
+    //     if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
+    //     {
+    //         InteractionNumber++;
+    //         VoiceoverManager.Instance.PlayVoiceover();
+    //         SubtitleManager.Instance.GetSubtitles();
+    //     }
+    // }
 }

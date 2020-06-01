@@ -8,18 +8,15 @@ public class VoiceoverManager : MonoBehaviour
     private string path;
     private string audioName;
 
-    private void Awake()
+    private void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
     }
 
-    public void PlayVoiceover(int interactionNumber)
+    public void PlayVoiceover()
     {
-        if (!GetActive())
-        {
-            StartCoroutine(LoadAudio(interactionNumber));
-        }
+        StartCoroutine(LoadAudio());
     }
     
     private WWW GetAudioFromFile(string path, string fileName)
@@ -29,9 +26,9 @@ public class VoiceoverManager : MonoBehaviour
         return request;
     }
 
-    private IEnumerator LoadAudio(int interactionNumber)
+    private IEnumerator LoadAudio()
     {
-        audioName = "Voiceover" + interactionNumber + ".wav";
+        audioName = "Voiceover" + GameManager.Instance.index + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;
@@ -43,7 +40,7 @@ public class VoiceoverManager : MonoBehaviour
         audioSource.Play();
     }
 
-    public bool GetActive()
+    public bool IsPlaying()
     {
         return audioSource.isPlaying;
     }

@@ -3,31 +3,41 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    private AudioSource audioSource;
-    private AudioClip audioClip;
+    public static AudioManager Instance;
+    private static AudioSource audioSource;
+    private static AudioClip audioClip;
     private string path;
     private string audioName;
 
     private void Awake()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        path = "file://" + Application.streamingAssetsPath + "/Audio/Sounds/";
+        if (Instance == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            path = "file://" + Application.streamingAssetsPath + "/Audio/Sounds/";
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void PlaySound(string name)
     {
-        if (!GetActive())
+        PauseSound();
+        if (!IsPlaying())
         {
             StartCoroutine(LoadAudio(name));
         }
     }
 
-    public void PauseSound()
+    public static void PauseSound()
     {
         audioSource.Pause();
     }
     
-    public void UnPauseSound()
+    public static void UnPauseSound()
     {
         audioSource.UnPause();
     }
@@ -54,7 +64,7 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
-    public bool GetActive()
+    public bool IsPlaying()
     {
         return audioSource.isPlaying;
     }
