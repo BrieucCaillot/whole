@@ -54,6 +54,11 @@ public class Boid : MonoBehaviour
         // }
     }
 
+    public void UpdateSettings(BoidSettings newSettings)
+    {
+        settings = newSettings;
+    }
+
     public void UpdateBoid () {
         Vector3 acceleration = Vector3.zero;
 

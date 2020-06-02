@@ -18,8 +18,23 @@ public class BoidManager : MonoBehaviour
         foreach (Boid b in boids) {
             // b.Initialize (settings, null);
             b.Initialize (settings, targets);
-            agentsPositions.Add(Vector3.zero);
-            
+            agentsPositions.Add(Vector3.zero);    
+        }
+    }
+
+    //To trigger with kinect interaction
+    void Separation()
+    {
+        settings.avoidanceRadius = 5f;
+        // settings.avoidanceRadius = 10f;
+
+        UpdateBoidsSettings(settings);
+    }
+
+    void UpdateBoidsSettings(BoidSettings settings)
+    {
+        foreach (Boid b in boids) {
+            b.UpdateSettings(settings);
         }
     }
 
