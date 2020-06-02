@@ -3733,7 +3733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: a83f318d3ead241c491af44830eef242, type: 2}
   compute: {fileID: 7200000, guid: 4d0b33073c5fe4103b45029a7476c3db, type: 3}
-  targets: []
+  targets:
+  - {fileID: 346483103}
 --- !u!1001 &534967537
 PrefabInstance:
   m_ObjectHideFlags: 0
