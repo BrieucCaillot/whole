@@ -8,7 +8,7 @@ public class UpdateCameraPosition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Debug.Log(transform.agentsPositions);
     }
 
     // Update is called once per frame

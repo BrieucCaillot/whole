@@ -1,4 +1,4 @@
-﻿Shader "Custom/CurrentSeaShader"
+﻿Shader "Custom/TextureDistortion"
 {
 Properties {
     _TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
