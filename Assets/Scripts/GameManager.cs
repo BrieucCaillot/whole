@@ -12,12 +12,12 @@ public class GameManager : Singleton<GameManager>
     public InteractionManager interactionManager;
     public VoiceoverManager voiceoverManager;
     public SubtitleManager subtitleManager;
+    public IntroManager introManager;
 
     //behaviors
     private BirdManager birdManager;
     private GameObject birdGO;
     private BoidManager boidManager;
-
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -35,13 +35,20 @@ public class GameManager : Singleton<GameManager>
         if(birdManager) {
             birdManager.flyBirdsNormal(userKinectPosition.getUserVector());
         }
+
+        // Debug.Log(kinectManager.GetUserOrientation(1, false));
     }
 
     void UserDetectedHandler()
     {
-        SceneManager.LoadScene("Birds");
+        introManager.Hide();
     }
 
+    public void introSceneCompleted() {
+        SceneManager.LoadScene("Birds");
+        InteractionCompleteHandler();
+    }
+    
     private void GetBirdsComponent() {
         birdGO = GameObject.Find("Birds");
         if(birdGO) {

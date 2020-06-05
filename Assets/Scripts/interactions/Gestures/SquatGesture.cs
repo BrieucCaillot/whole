@@ -2,24 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpGesture : Gestures
+public class SquatGesture : Gestures
 {
-    private static bool jump;
+    private static bool squat;
 
-    public static bool hasJumped{
-        get { return jump; }
+    public static bool isSquatDone{
+        get { return squat; }
     }
 
     public override void UserDetected(uint userId, int userIndex) {
-		  GameManager.Instance.kinectManager.DetectGesture(userId, KinectGestures.Gestures.Jump);
+		  GameManager.Instance.kinectManager.DetectGesture(userId, KinectGestures.Gestures.Squat);
     }
 
 	public override bool GestureCompleted (uint userId, int userIndex, KinectGestures.Gestures gesture, 
 	                              KinectWrapper.NuiSkeletonPositionIndex joint, Vector3 screenPos)
 	{	
-        if(gesture == KinectGestures.Gestures.Jump)
+        if(gesture == KinectGestures.Gestures.Squat)
         {
-			    jump = true;
+			    squat = true;
         }
 
         return true;

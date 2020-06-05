@@ -26,6 +26,7 @@ public class InteractionManager : MonoBehaviour
     }
 
     void Update() {
+        Debug.Log(index);
         if (interactions[index].Listen() && interactions[index].IsEnabled()) 
         {
             InteractionHandler(interactions[index], index);

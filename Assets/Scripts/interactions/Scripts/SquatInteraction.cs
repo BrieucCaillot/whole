@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpInteraction : Interaction
+public class SquatInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "vPositionBirds";
+        return action = "diveBirds";
     }
 
     public override bool Listen()
     {
-        return JumpGesture.hasJumped;
+        return SquatGesture.isSquatDone;
     }
 }

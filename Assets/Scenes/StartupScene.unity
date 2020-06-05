@@ -584,7 +584,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 864782670}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &385392874
 MonoBehaviour:
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactions:
   - {fileID: -4127591348782203078, guid: 545b612727db4dc40a832e6f101f54e2, type: 3}
-  - {fileID: 452912484784109575, guid: d65847de487f9d247ae5daf5a4dac142, type: 3}
+  - {fileID: -4252126543820095631, guid: 2c6c9324b4b03ce4095dd01f518ffa59, type: 3}
   - {fileID: 452912484784109575, guid: d65847de487f9d247ae5daf5a4dac142, type: 3}
 --- !u!4 &454243708
 Transform:
@@ -718,7 +718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &528277747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -752,6 +752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c060499997f44ef8bc210253a77d7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Background: {fileID: 781945685}
+  Logo: {fileID: 141807215}
 --- !u!1 &781945683
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.033250563, g: 0.03172837, b: 0.21698111, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -867,6 +869,7 @@ Transform:
   m_Children:
   - {fileID: 1648927559}
   - {fileID: 1297988378}
+  - {fileID: 1366252719}
   - {fileID: 385392873}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1008,7 +1011,7 @@ GameObject:
   - component: {fileID: 1297988378}
   - component: {fileID: 1297988379}
   m_Layer: 0
-  m_Name: JumpGesture
+  m_Name: PsiGesture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,6 +1041,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 830171f537e2e824db426202c8905417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1366252718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1366252719}
+  - component: {fileID: 1366252720}
+  m_Layer: 0
+  m_Name: SquatGesture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1366252719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366252718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 864782670}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1366252720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366252718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8814caef5f042cd438df0dfcd3a8b169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1634683553
@@ -1232,6 +1278,7 @@ MonoBehaviour:
   interactionManager: {fileID: 454243707}
   voiceoverManager: {fileID: 1037829002}
   subtitleManager: {fileID: 1980696201}
+  introManager: {fileID: 528277748}
   kinectManager: {fileID: 1907425640}
   userKinectPosition: {fileID: 385392874}
 --- !u!4 &1809148749
@@ -1390,10 +1437,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TwoUsers: 0
-  ComputeUserMap: 0
-  ComputeColorMap: 0
-  DisplayUserMap: 0
-  DisplayColorMap: 0
+  mainCamera: {fileID: 1865643143}
+  ComputeUserMap: 1
+  ComputeColorMap: 1
+  DisplayUserMap: 1
+  DisplayColorMap: 1
   DisplaySkeletonLines: 0
   DisplayMapsWidthPercent: 20
   SensorHeight: 1
@@ -1409,14 +1457,15 @@ MonoBehaviour:
   UseSelfIntersectionConstraint: 0
   Player1Avatars: []
   Player2Avatars: []
-  Player1CalibrationPose: 0
+  Player1CalibrationPose: 1
   Player2CalibrationPose: 0
   Player1Gestures: 
   Player2Gestures: 
-  MinTimeBetweenGestures: 0.7
+  MinTimeBetweenGestures: 0.3
   GestureListeners:
   - {fileID: 1648927560}
   - {fileID: 1297988379}
+  - {fileID: 1366252720}
   CalibrationText: {fileID: 0}
   HandCursor1: {fileID: 0}
   HandCursor2: {fileID: 0}

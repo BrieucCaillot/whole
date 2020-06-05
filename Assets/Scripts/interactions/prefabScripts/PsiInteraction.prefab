@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4214855067740169437}
   - component: {fileID: 452912484784109575}
   m_Layer: 0
-  m_Name: JumpInteraction
+  m_Name: PsiInteraction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
