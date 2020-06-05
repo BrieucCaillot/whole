@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TPoseInteraction : Interaction
+public class PsiInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "flyBirdsFaster";
+        return action = "vPositionBirds";
     }
 
     public override bool Listen()
     {
-        // return Input.GetKeyDown("space");
-        return TPoseGesture.isTPoseDone;
+        return PsiGesture.isPsiDone;
     }
 }

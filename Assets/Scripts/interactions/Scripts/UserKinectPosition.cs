@@ -6,6 +6,9 @@ public class UserKinectPosition : MonoBehaviour
 {
 	private Rect foregroundRect;
 	private Vector2 foregroundOfs;
+
+	private Texture2D foregroundTex;
+
     
     public Camera mainCamera;
     void Start() {
@@ -46,4 +49,11 @@ public class UserKinectPosition : MonoBehaviour
         }
             return Vector3.zero;
     }
+    void OnGUI()
+	{
+		if(foregroundTex)
+		{
+			GUI.DrawTexture(foregroundRect, foregroundTex);
+		}
+	}
 }

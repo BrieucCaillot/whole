@@ -3,41 +3,35 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-public class IntroManager : Singleton<IntroManager>
+public class IntroManager : MonoBehaviour
 {
     public static IntroManager Instance;
-    private static Image Background;
-    private static SpriteRenderer Logo;
+    [SerializeField] private Image Background;
+    [SerializeField] private SpriteRenderer Logo;
     private static float duration = 2f;
 
-    private void Start()
-    {
-        Background = GetComponentInChildren<Image>();
-        Logo = GetComponentInChildren<SpriteRenderer>();
-    }
-
-    public static void Hide()
+    public void Hide()
     {
         BackgroundFadeOut();
         LogoFadeOut();
     }
 
-    public static void BackgroundFadeIn()
+    private void BackgroundFadeIn()
     {
         Background.DOFade(1, duration);
     }
 
-    public static void BackgroundFadeOut()
+    private void BackgroundFadeOut()
     {
-        Background.DOFade(0, duration);
+        Background.DOFade(0, duration).OnComplete(() => GameManager.Instance.introSceneCompleted());
     }
 
-    public static void LogoFadeIn()
+    private void LogoFadeIn()
     {
         Logo.DOFade(1, duration);
     }
 
-    public static void LogoFadeOut()
+    private void LogoFadeOut()
     {
         Logo.DOFade(0, duration);
     }

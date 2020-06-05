@@ -16,6 +16,7 @@ public class KinectManager : MonoBehaviour
 	
 	// Public Bool to determine how many players there are. Default of one user.
 	public bool TwoUsers = false;
+	public Camera mainCamera;
 	
 //	// Public Bool to determine if the sensor is used in near mode.
 //	public bool NearMode = false;
@@ -1180,10 +1181,10 @@ public class KinectManager : MonoBehaviour
 									Vector3 vCursorPos = gestureData.screenPos;
 									
 									
-										float zDist = HandCursor1.transform.position.z - Camera.main.transform.position.z;
+										float zDist = HandCursor1.transform.position.z - mainCamera.transform.position.z;
 										vCursorPos.z = zDist;
 										
-										vCursorPos = Camera.main.ViewportToWorldPoint(vCursorPos);
+										vCursorPos = mainCamera.ViewportToWorldPoint(vCursorPos);
 									
 
 									HandCursor1.transform.position = Vector3.Lerp(HandCursor1.transform.position, vCursorPos, 3 * Time.deltaTime);
@@ -1250,10 +1251,10 @@ public class KinectManager : MonoBehaviour
 								{
 									Vector3 vCursorPos = gestureData.screenPos;
 									
-										float zDist = HandCursor2.transform.position.z - Camera.main.transform.position.z;
+										float zDist = HandCursor2.transform.position.z - mainCamera.transform.position.z;
 										vCursorPos.z = zDist;
 										
-										vCursorPos = Camera.main.ViewportToWorldPoint(vCursorPos);
+										vCursorPos = mainCamera.ViewportToWorldPoint(vCursorPos);
 									
 									HandCursor2.transform.position = Vector3.Lerp(HandCursor2.transform.position, vCursorPos, 3 * Time.deltaTime);
 								}
@@ -1298,7 +1299,7 @@ public class KinectManager : MonoBehaviour
 				if(usersMapRect.width == 0 || usersMapRect.height == 0)
 				{
 					// get the main camera rectangle
-					Rect cameraRect = Camera.main.pixelRect;
+					Rect cameraRect = mainCamera.pixelRect;
 					
 					// calculate map width and height in percent, if needed
 					if(DisplayMapsWidthPercent == 0f)
@@ -1323,7 +1324,7 @@ public class KinectManager : MonoBehaviour
 				if(usersClrRect.width == 0 || usersClrTex.height == 0)
 				{
 					// get the main camera rectangle
-					Rect cameraRect = Camera.main.pixelRect;
+					Rect cameraRect = mainCamera.pixelRect;
 					
 					// calculate map width and height in percent, if needed
 					if(DisplayMapsWidthPercent == 0f)
