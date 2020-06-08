@@ -23,10 +23,12 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        actions.Add("SpacebarInteraction", VoiceoverSubtitles);
+        //to remove
+        actions.Add("test", Test);
     }
     
-    void VoiceoverSubtitles()
+    //to remove
+    void Test()
     {
         Debug.Log("Space bar pressed");
     }

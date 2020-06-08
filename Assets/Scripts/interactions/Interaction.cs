@@ -48,6 +48,5 @@ public class Interaction : MonoBehaviour
         // Play picto interaction
         // faut surement séparer l'appel du picto à cet endroit
         PictosPositionsManager.Position("V");
-
     }
 }

@@ -16,10 +16,7 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
 
     public void PlayVoiceover(string actionName)
     {
-        if (!IsPlaying())
-        {
-            StartCoroutine(LoadAudio(actionName));
-        }
+        StartCoroutine(LoadAudio(actionName));
     }
     
     private WWW GetAudioFromFile(string path, string fileName)
@@ -31,7 +28,7 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
 
     private IEnumerator LoadAudio(string actionName)
     {
-        audioName = "Voiceover" + actionName + ".wav";
+        audioName = actionName + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;

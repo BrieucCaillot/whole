@@ -32,7 +32,7 @@ public class SubtitleManager : Singleton<SubtitleManager>
         isActive = true;
         try
         {
-            path = Application.streamingAssetsPath + "/Subtitles/Subtitles" + actionName + ".json";
+            path = Application.streamingAssetsPath + "/Subtitles/" + actionName + ".json";
             jsonString = File.ReadAllText(path);
         }
         catch (FileNotFoundException e)
