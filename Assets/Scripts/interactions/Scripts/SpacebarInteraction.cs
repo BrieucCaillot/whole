@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class SpacebarInteraction : Interaction
 {
-    // void Start()
-    // {
-    //     action = "test";
-    // }
-
     public override string GetAction() {
         return action;
     }

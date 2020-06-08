@@ -23,6 +23,12 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
+        actions.Add("test", Test);
+    }
+
+    void Test()
+    {
+        Debug.Log("Interaction test");
     }
     
     void Update()
@@ -62,7 +68,6 @@ public class GameManager : Singleton<GameManager>
     public void InteractionHandler(Interaction interaction)
     {
         actions[interaction.GetAction()]();
-        // Debug.Log("Warning: No action named " + interaction.GetAction());
     }
     
     public void InteractionCompleteHandler()

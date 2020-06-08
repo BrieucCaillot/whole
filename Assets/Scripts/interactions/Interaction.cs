@@ -13,6 +13,7 @@ public class Interaction : MonoBehaviour
     public void Enable() 
     {
         enable = true;
+        Debug.Log("enable : " + enable);
 
         PlayVoiceoverAndSubtitles();
         DisplayPictogram();
@@ -21,6 +22,8 @@ public class Interaction : MonoBehaviour
     public void Disable()
     {
         enable = false;
+        Debug.Log("enable : " + enable);
+        
         RemovePictogram();
     }
 
@@ -40,8 +43,8 @@ public class Interaction : MonoBehaviour
     
     public void PlayVoiceoverAndSubtitles()
     {
-        VoiceoverManager.Instance.PlayVoiceover(action);
-        SubtitleManager.Instance.GetSubtitles(action);
+        // VoiceoverManager.Instance.PlayVoiceover(action);
+        // SubtitleManager.Instance.GetSubtitles(action);
     }
 
     public void StopVoiceoverAndSubtitles()
@@ -51,7 +54,7 @@ public class Interaction : MonoBehaviour
 
     public void DisplayPictogram()
     {
-        PictosPositionsManager.Instance.Position(action);
+        // PictosPositionsManager.Instance.Position(action);
     }
 
     public void RemovePictogram()

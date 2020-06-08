@@ -5,9 +5,6 @@ using UnityEngine;
 public class InteractionManager : MonoBehaviour
 {
     public int index = 0;
-    
-    public VoiceoverManager voiceoverManager;
-    public SubtitleManager subtitleManager;
 
     public Interaction[] interactions;
 
@@ -38,7 +35,8 @@ public class InteractionManager : MonoBehaviour
     }
 
     void InteractionHandler(Interaction interaction)
-    {   
+    {
         interaction.Disable();
+        GameManager.Instance.InteractionHandler(interaction);
     }
 }
