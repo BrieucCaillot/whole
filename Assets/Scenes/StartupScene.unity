@@ -688,6 +688,7 @@ MonoBehaviour:
   - {fileID: -4127591348782203078, guid: 545b612727db4dc40a832e6f101f54e2, type: 3}
   - {fileID: -4252126543820095631, guid: 2c6c9324b4b03ce4095dd01f518ffa59, type: 3}
   - {fileID: 452912484784109575, guid: d65847de487f9d247ae5daf5a4dac142, type: 3}
+  - {fileID: 6802040410382527291, guid: e9cc6d92f46308d44a4a0fd2456cbc36, type: 3}
 --- !u!4 &454243708
 Transform:
   m_ObjectHideFlags: 0
@@ -953,7 +954,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.6117647, g: 0.482353, b: 0.5568628, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1436,12 +1437,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00db858c1f8ff90478dad0aa1bac9a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TwoUsers: 0
+  TwoUsers: 1
   mainCamera: {fileID: 1865643143}
-  ComputeUserMap: 1
-  ComputeColorMap: 1
-  DisplayUserMap: 1
-  DisplayColorMap: 1
+  ComputeUserMap: 0
+  ComputeColorMap: 0
+  DisplayUserMap: 0
+  DisplayColorMap: 0
   DisplaySkeletonLines: 0
   DisplayMapsWidthPercent: 20
   SensorHeight: 1
@@ -1457,7 +1458,7 @@ MonoBehaviour:
   UseSelfIntersectionConstraint: 0
   Player1Avatars: []
   Player2Avatars: []
-  Player1CalibrationPose: 1
+  Player1CalibrationPose: 0
   Player2CalibrationPose: 0
   Player1Gestures: 
   Player2Gestures: 

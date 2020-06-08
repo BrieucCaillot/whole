@@ -15,9 +15,13 @@ public class GameManager : Singleton<GameManager>
     public IntroManager introManager;
 
     //behaviors
+    private BoidManager boidManager;
     private BirdManager birdManager;
     private GameObject birdGO;
-    private BoidManager boidManager;
+    private GameObject boidGO;
+
+    private bool isPlayerOneCalibrated;
+    private bool isPlayerTwoCalibrated;
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -29,11 +33,24 @@ public class GameManager : Singleton<GameManager>
     }
     void Update()
     {
+
+        isPlayerOneCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer1ID());
+        isPlayerTwoCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer2ID());
+
+        // GO = GameObject
         if(!birdGO){
-            GetBirdsComponent();
+            GetBirdsGameObject();
         }
         if(birdManager) {
-            birdManager.flyBirdsNormal(userKinectPosition.getUserVector());
+            birdManager.FlyBirdsNormal(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
+        }
+
+        if(!boidGO) {
+            GetBoidsGameObject();
+        }
+            
+        if(boidManager) {
+            boidManager.UpdateTargetPosition(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
         }
 
         // Debug.Log(kinectManager.GetUserOrientation(1, false));
@@ -48,8 +65,16 @@ public class GameManager : Singleton<GameManager>
         SceneManager.LoadScene("Birds");
         InteractionCompleteHandler();
     }
-    
-    private void GetBirdsComponent() {
+
+    public void BirdSceneCompleted() {
+        SceneManager.LoadScene("Boids");
+    }
+
+    public void BoidSceneCompleted() {
+        // SceneManager.LoadScene("Boids");
+    }
+
+    private void GetBirdsGameObject() {
         birdGO = GameObject.Find("Birds");
         if(birdGO) {
             birdManager = birdGO.GetComponent<BirdManager>();
@@ -57,12 +82,28 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    private void SetupBirdsScene() {
-        actions.Add("flyBirdsFaster", birdManager.flyBirdsFaster);
-        actions.Add("vPositionBirds", birdManager.vPositionBirds);
-        actions.Add("diveBirds", birdManager.diveBirds);
+    private void GetBoidsGameObject() {
+        boidGO = GameObject.Find("Boid Manager");
+        if(boidGO) {
+            boidManager = boidGO.GetComponent<BoidManager>();
+            SetupBoidsScene();
+        }
     }
 
+    
+
+    private void SetupBirdsScene() {
+        actions.Add("flyBirdsFaster", birdManager.FlyBirdsFaster);
+        actions.Add("vPositionBirds", birdManager.VPositionBirds);
+        actions.Add("diveBirds", birdManager.DiveBirds);
+    }
+
+    
+    private void SetupBoidsScene() {
+        // actions.Add("boidSeparation", boidManager.Separation);
+    }
+
+    //Generic
     public void InteractionHandler(Interaction interaction)
     {
         actions[interaction.GetAction()]();
@@ -73,15 +114,4 @@ public class GameManager : Singleton<GameManager>
         int currentIndex = interactionManager.GetIndex();
         interactionManager.SetIndex(currentIndex + 1);
     }
-
-
-    // public static void NewInteraction()
-    // {
-    //     if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
-    //     {
-    //         InteractionNumber++;
-    //         VoiceoverManager.Instance.PlayVoiceover();
-    //         SubtitleManager.Instance.GetSubtitles();
-    //     }
-    // }
 }
