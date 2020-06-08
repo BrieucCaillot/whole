@@ -9,10 +9,13 @@ public class Interaction : MonoBehaviour
 {
     public bool enable;
     public string action;
+    //option1
+    public string audioName;
 	
     public void Enable() 
     {
         enable = true;
+        //play voice/sbtitles and pictos
     }
 
     public void Disable()

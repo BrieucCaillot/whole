@@ -21,12 +21,13 @@ public class InteractionManager : MonoBehaviour
         interactions[index].Enable();
     }
 
-    void Start() {
+    void Start()
+    {
         interactions[index].Enable();
     }
 
-    void Update() {
-        Debug.Log(index);
+    void Update()
+    {
         if (interactions[index].Listen() && interactions[index].IsEnabled()) 
         {
             InteractionHandler(interactions[index], index);

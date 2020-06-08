@@ -25,8 +25,14 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        
+        actions.Add("test", Test);
     }
+    
+    void Test()
+    {
+        Debug.Log("Space bar pressed");
+    }
+    
     void Update()
     {
         if(!birdGO){
