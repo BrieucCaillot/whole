@@ -12,7 +12,7 @@ public class SpacebarInteraction : Interaction
     {
         if (Input.GetKeyDown("space"))
         {
-            PlayVoiceoverAndSubtitles(GetAction());
+            PlayVoiceoverAndSubtitles();
         }
 
         return Input.GetKeyDown("space");

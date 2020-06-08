@@ -41,11 +41,13 @@ public class Interaction : MonoBehaviour
         return "";
     }
     
-    public virtual string PlayVoiceoverAndSubtitles() {
+    public virtual void PlayVoiceoverAndSubtitles() {
         // Play voiceover & subtitle
         VoiceoverManager.Instance.PlayVoiceover(action);
         SubtitleManager.Instance.GetSubtitles(action);
         // Play picto interaction
+        // faut surement séparer l'appel du picto à cet endroit
         PictosPositionsManager.Position("V");
+
     }
 }
