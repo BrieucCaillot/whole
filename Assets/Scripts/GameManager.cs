@@ -10,8 +10,6 @@ public class GameManager : Singleton<GameManager>
 
     //managers
     public InteractionManager interactionManager;
-    public VoiceoverManager voiceoverManager;
-    public SubtitleManager subtitleManager;
     public IntroManager introManager;
 
     //behaviors
@@ -25,10 +23,10 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        actions.Add("test", Test);
+        actions.Add("SpacebarInteraction", VoiceoverSubtitles);
     }
     
-    void Test()
+    void VoiceoverSubtitles()
     {
         Debug.Log("Space bar pressed");
     }
@@ -79,15 +77,4 @@ public class GameManager : Singleton<GameManager>
         int currentIndex = interactionManager.GetIndex();
         interactionManager.SetIndex(currentIndex + 1);
     }
-
-
-    // public static void NewInteraction()
-    // {
-    //     if (!VoiceoverManager.Instance.IsPlaying() && !SubtitleManager.Instance.IsActive())
-    //     {
-    //         InteractionNumber++;
-    //         VoiceoverManager.Instance.PlayVoiceover();
-    //         SubtitleManager.Instance.GetSubtitles();
-    //     }
-    // }
 }

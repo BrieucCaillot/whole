@@ -659,7 +659,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &454243706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,8 +752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c060499997f44ef8bc210253a77d7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Background: {fileID: 781945685}
-  Logo: {fileID: 141807215}
+  Background: {fileID: 0}
+  Logo: {fileID: 0}
 --- !u!1 &781945683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1255,7 @@ GameObject:
   - component: {fileID: 1809148749}
   - component: {fileID: 1809148750}
   - component: {fileID: 1809148748}
+  - component: {fileID: 1809148751}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1275,12 +1276,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  interactionManager: {fileID: 454243707}
-  voiceoverManager: {fileID: 1037829002}
-  subtitleManager: {fileID: 1980696201}
-  introManager: {fileID: 528277748}
-  kinectManager: {fileID: 1907425640}
-  userKinectPosition: {fileID: 385392874}
+  interactionManager: {fileID: 0}
+  voiceoverManager: {fileID: 0}
+  subtitleManager: {fileID: 0}
+  introManager: {fileID: 0}
+  kinectManager: {fileID: 0}
+  userKinectPosition: {fileID: 0}
 --- !u!4 &1809148749
 Transform:
   m_ObjectHideFlags: 0
@@ -1305,6 +1306,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baa921622ac2bcd4090f611087276a68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1809148751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809148747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbf8472287b54afe836fc8c7ab364f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1865643142
@@ -1399,7 +1412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1907425638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1437,7 +1450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TwoUsers: 0
-  mainCamera: {fileID: 1865643143}
+  mainCamera: {fileID: 0}
   ComputeUserMap: 1
   ComputeColorMap: 1
   DisplayUserMap: 1

@@ -40,4 +40,12 @@ public class Interaction : MonoBehaviour
     public virtual string GetInfo() {
         return "";
     }
+    
+    public virtual string PlayVoiceoverAndSubtitles() {
+        // Play voiceover & subtitle
+        VoiceoverManager.Instance.PlayVoiceover(action);
+        SubtitleManager.Instance.GetSubtitles(action);
+        // Play picto interaction
+        PictosPositionsManager.Position("V");
+    }
 }
