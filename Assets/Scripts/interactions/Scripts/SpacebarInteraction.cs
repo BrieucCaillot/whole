@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SpacebarInteraction : Interaction
 {
-    void Start()
-    {
-        action = "test";
-    }
+    // void Start()
+    // {
+    //     action = "test";
+    // }
 
     public override string GetAction() {
         return action;
@@ -15,11 +15,6 @@ public class SpacebarInteraction : Interaction
 
     public override bool Listen()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            PlayVoiceoverAndSubtitles();
-        }
-
         return Input.GetKeyDown("space");
     }
 }

@@ -14,7 +14,7 @@ public class GameManager : Singleton<GameManager>
 
     //behaviors
     private BirdManager birdManager;
-    private GameObject birdGO;
+    private GameObject birdGameObject;
     private BoidManager boidManager;
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
@@ -23,26 +23,16 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        //to remove
-        actions.Add("test", Test);
-    }
-    
-    //to remove
-    void Test()
-    {
-        Debug.Log("Space bar pressed");
     }
     
     void Update()
     {
-        if(!birdGO){
+        if(!birdGameObject){
             GetBirdsComponent();
         }
         if(birdManager) {
             birdManager.flyBirdsNormal(userKinectPosition.getUserVector());
         }
-
-        // Debug.Log(kinectManager.GetUserOrientation(1, false));
     }
 
     void UserDetectedHandler()
@@ -56,9 +46,9 @@ public class GameManager : Singleton<GameManager>
     }
     
     private void GetBirdsComponent() {
-        birdGO = GameObject.Find("Birds");
-        if(birdGO) {
-            birdManager = birdGO.GetComponent<BirdManager>();
+        birdGameObject = GameObject.Find("Birds");
+        if (birdGameObject) {
+            birdManager = birdGameObject.GetComponent<BirdManager>();
             SetupBirdsScene();
         }
     }
@@ -72,6 +62,7 @@ public class GameManager : Singleton<GameManager>
     public void InteractionHandler(Interaction interaction)
     {
         actions[interaction.GetAction()]();
+        // Debug.Log("Warning: No action named " + interaction.GetAction());
     }
     
     public void InteractionCompleteHandler()

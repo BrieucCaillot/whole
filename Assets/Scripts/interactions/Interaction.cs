@@ -9,18 +9,19 @@ public class Interaction : MonoBehaviour
 {
     public bool enable;
     public string action;
-    //option1
-    public string audioName;
 	
     public void Enable() 
     {
         enable = true;
-        //play voice/sbtitles and pictos
+
+        PlayVoiceoverAndSubtitles();
+        DisplayPictogram();
     }
 
     public void Disable()
     {
         enable = false;
+        RemovePictogram();
     }
 
     public bool IsEnabled()
@@ -36,17 +37,25 @@ public class Interaction : MonoBehaviour
     public virtual string GetAction(){
         return action;
     }
-
-    public virtual string GetInfo() {
-        return "";
-    }
     
-    public virtual void PlayVoiceoverAndSubtitles() {
-        // Play voiceover & subtitle
+    public void PlayVoiceoverAndSubtitles()
+    {
         VoiceoverManager.Instance.PlayVoiceover(action);
         SubtitleManager.Instance.GetSubtitles(action);
-        // Play picto interaction
-        // faut surement séparer l'appel du picto à cet endroit
-        PictosPositionsManager.Position("V");
+    }
+
+    public void StopVoiceoverAndSubtitles()
+    {
+
+    }
+
+    public void DisplayPictogram()
+    {
+        PictosPositionsManager.Instance.Position(action);
+    }
+
+    public void RemovePictogram()
+    {
+        // PictosPositionsManager.Instance.Position(action);
     }
 }

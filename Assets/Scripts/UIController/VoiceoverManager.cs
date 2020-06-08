@@ -32,8 +32,8 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;
-
-        audioClip = request.GetAudioClip();
+        
+        audioClip = request.GetAudioClip(false, true, AudioType.WAV);
         audioClip.name = audioName;
         
         audioSource.clip = audioClip;

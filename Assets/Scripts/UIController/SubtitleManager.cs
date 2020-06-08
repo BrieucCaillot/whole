@@ -23,7 +23,7 @@ public class SubtitleManager : Singleton<SubtitleManager>
         if (!IsActive())
         {
             GetSubtitlesFromJson(actionName);
-            StartCoroutine(DisplaySubtitles());    
+            // StartCoroutine(DisplaySubtitles());    
         }
     }
 
@@ -37,7 +37,6 @@ public class SubtitleManager : Singleton<SubtitleManager>
         }
         catch (FileNotFoundException e)
         {
-            Debug.Log(e);
             textComponent.text = "No more subtitles for this interaction";
             return;
         }
