@@ -40,8 +40,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3300703921907026653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274454a4d44274a25934bbea680868f5, type: 3}
+  m_Script: {fileID: 11500000, guid: aaf3a53e6b11c4e40aa0cd9fe4991611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enable: 0
-  action: 
+  action: flyBirdsFaster

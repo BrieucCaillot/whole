@@ -13,9 +13,14 @@ public class GameManager : Singleton<GameManager>
     public IntroManager introManager;
 
     //behaviors
+    private BoidManager boidManager;
     private BirdManager birdManager;
     private GameObject birdGameObject;
-    private BoidManager boidManager;
+    private GameObject boidGameObject;
+
+    private bool isPlayerOneCalibrated;
+    private bool isPlayerTwoCalibrated;
+
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -33,14 +38,14 @@ public class GameManager : Singleton<GameManager>
 
     void SetupBirdsActions()
     {
-        actions.Add("flyBirdsFaster", birdManager.flyBirdsFaster);
-        actions.Add("vPositionBirds", birdManager.vPositionBirds);
-        actions.Add("diveBirds", birdManager.diveBirds);
+        actions.Add("flyBirdsFaster", birdManager.FlyBirdsFaster);
+        actions.Add("vPositionBirds", birdManager.VPositionBirds);
+        actions.Add("diveBirds", birdManager.DiveBirds);
     }
 
     void SetupBoidsActions()
     {
-        // actions.Add("boidActionTest", boidManager.boidActionTest);
+        
     }
 
     void Test()
@@ -48,22 +53,46 @@ public class GameManager : Singleton<GameManager>
         Debug.Log("Interaction test");
     }
 
-    private void GetBirdsComponent() {
+    private void GetBirdsGameObject() {
         birdGameObject = GameObject.Find("Birds");
-        
+
         if (birdGameObject) {
             birdManager = birdGameObject.GetComponent<BirdManager>();
             SetupBirdsActions();
         }
     }
 
+    private void GetBoidsGameObject() {
+        boidGameObject = GameObject.Find("Boid Manager");
+
+        if(boidGameObject) {
+            boidManager = boidGameObject.GetComponent<BoidManager>();
+            SetupBoidsActions();
+        }
+    }
+
     void Update()
     {
+
+        // isPlayerOneCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer1ID());
+        // isPlayerTwoCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer2ID());
+        isPlayerOneCalibrated = false;
+        isPlayerTwoCalibrated = false;
+
+        // GO = GameObject
         if(!birdGameObject){
-            GetBirdsComponent();
+            GetBirdsGameObject();
         }
         if(birdManager) {
-            birdManager.flyBirdsNormal(userKinectPosition.getUserVector());
+            birdManager.FlyBirdsNormal(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
+        }
+
+        if(!boidGameObject) {
+            GetBoidsGameObject();
+        }
+            
+        if(boidManager) {
+            // boidManager.UpdateTargetPosition(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
         }
     }
 
@@ -76,6 +105,14 @@ public class GameManager : Singleton<GameManager>
     public void introSceneCompleted() {
         SceneManager.LoadScene("Birds");
         InteractionCompleteHandler();
+    }
+
+    public void BirdSceneCompleted() {
+        SceneManager.LoadScene("Boids");
+    }
+
+    public void BoidSceneCompleted() {
+        
     }
 
     public void InteractionHandler(Interaction interaction)

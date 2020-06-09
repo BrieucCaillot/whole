@@ -23,14 +23,47 @@ public class BoidManager : MonoBehaviour
     }
 
     //To trigger with kinect interaction
-    void Separation()
+    public void Separation()
     {
         settings.avoidanceRadius = 5f;
-        // settings.avoidanceRadius = 10f;
 
         UpdateBoidsSettings(settings);
     }
 
+    public void Grouping()
+    {
+        settings.avoidanceRadius = 1f;
+
+        UpdateBoidsSettings(settings);
+    }
+
+    public void UpdateTargetPosition(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {
+        if(targets[0].gameObject) {
+            GameObject firstTarget = targets[0].gameObject;
+            if(isPlayerOneCalibrated){
+                Vector3 firstTargetPos = firstTarget.transform.position;
+                firstTarget.SetActive(true);
+                firstTarget.transform.position = new Vector3(firstUserKinectPosition.x * 10, firstUserKinectPosition.y* 10, firstTargetPos.z);
+            }else{
+                firstTarget.SetActive(false);
+            }
+        }
+
+        if(targets[1].gameObject) {
+            GameObject secondTarget = targets[1].gameObject;
+
+            if(isPlayerTwoCalibrated){
+                Vector3 secondTargetPos = secondTarget.transform.position;
+                secondTarget.SetActive(true);
+                secondTarget.transform.position = new Vector3(secondUserKinectPosition.x* 10, secondUserKinectPosition.y* 10, secondTargetPos.z);
+            }
+            else {
+                secondTarget.SetActive(false);
+            }
+        }
+
+    } 
+    
     void UpdateBoidsSettings(BoidSettings settings)
     {
         foreach (Boid b in boids) {
@@ -74,6 +107,7 @@ public class BoidManager : MonoBehaviour
 
             boidBuffer.Release ();
         }
+        // UpdateTargetPosition(Vector3.zero);
     }
 
     public struct BoidData {
