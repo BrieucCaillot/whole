@@ -8,28 +8,36 @@ using System;
 public class Interaction : MonoBehaviour
 {
     public bool enable;
+    public bool handleOnComplete = true;
     public string action;
+    public float delay = 0f;
 	
     public void Enable() 
     {
         enable = true;
-        Debug.Log("enable : " + enable);
 
-        PlayVoiceoverAndSubtitles();
-        DisplayPictogram();
+        Invoke("PlayVoiceoverAndSubtitles", 1f);
+        Invoke("DisplayPictogram", 1f);
     }
 
     public void Disable()
     {
         enable = false;
-        Debug.Log("enable : " + enable);
         
         RemovePictogram();
+        StopVoiceoverAndSubtitles();
     }
 
     public bool IsEnabled()
     {
         return enable;
+    }
+
+    public void Trigger()
+    {
+        if (handleOnComplete) {
+            Invoke ("InteractionComplete", delay);
+        }
     }
 
     public virtual bool Listen()
@@ -43,22 +51,27 @@ public class Interaction : MonoBehaviour
     
     public void PlayVoiceoverAndSubtitles()
     {
-        // VoiceoverManager.Instance.PlayVoiceover(action);
-        // SubtitleManager.Instance.GetSubtitles(action);
+        VoiceoverManager.Instance.PlayVoiceover(action);
+        SubtitleManager.Instance.GetSubtitles(action);
     }
 
     public void StopVoiceoverAndSubtitles()
     {
-
+        
     }
 
     public void DisplayPictogram()
     {
-        // PictosPositionsManager.Instance.Position(action);
+        PictosPositionsManager.Instance.Position(action);
     }
 
     public void RemovePictogram()
     {
-        // PictosPositionsManager.Instance.Position(action);
+        PictosPositionsManager.Instance.Position(action);
+    }
+
+    public void InteractionComplete()
+    {
+        GameManager.Instance.InteractionCompleteHandler();
     }
 }
