@@ -5,7 +5,7 @@ using UnityEngine;
 public class SquatInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "diveBirds";
+        return action;
     }
 
     public override bool Listen()

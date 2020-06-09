@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class VoiceoverManager : MonoBehaviour
+public class VoiceoverManager : Singleton<VoiceoverManager>
 {
     private AudioSource audioSource;
     private AudioClip audioClip;
@@ -14,9 +14,9 @@ public class VoiceoverManager : MonoBehaviour
         path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
     }
 
-    public void PlayVoiceover()
+    public void PlayVoiceover(string actionName)
     {
-        StartCoroutine(LoadAudio());
+        StartCoroutine(LoadAudio(actionName));
     }
     
     private WWW GetAudioFromFile(string path, string fileName)
@@ -26,14 +26,14 @@ public class VoiceoverManager : MonoBehaviour
         return request;
     }
 
-    private IEnumerator LoadAudio()
+    private IEnumerator LoadAudio(string actionName)
     {
-        audioName = "Voiceover" + GameManager.Instance.index + ".wav";
+        audioName = actionName + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;
-
-        audioClip = request.GetAudioClip();
+        
+        audioClip = request.GetAudioClip(false, true, AudioType.WAV);
         audioClip.name = audioName;
         
         audioSource.clip = audioClip;

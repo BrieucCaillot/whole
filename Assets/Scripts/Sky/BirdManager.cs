@@ -72,10 +72,20 @@ public class BirdManager : MonoBehaviour
         
     }
 
-    public void GoToCircleRoute() {
-        parent.DOMove(new Vector3(58.89471f, 296, -150.5997f), 10f).SetEase(Ease.InOutCubic).OnComplete(() => {
-            parent.gameObject.GetComponent<BezierFollow>().enabled = true;
+    private void GoToCircleRoute() {
+        parent.DOMove(new Vector3(58.89471f, 296, -150.5997f), 20f).SetEase(Ease.InOutCubic).OnComplete(() => {
+            SetCircleRouteActive();
         });
+    }
+    private void SetCircleRouteActive() {
+            parent.gameObject.GetComponent<BezierFollow>().enabled = true;
+            foreach (GameObject bird in allBirds)
+            {
+                int randomPositionNumber = numOfBirds / 4;
+                Vector3 randomBirdPosition = new Vector3(Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber));
+                bird.transform.DOMove(randomBirdPosition, 1f).SetEase(Ease.InOutCubic);
+            }
+
     }
     public void DiveBirds() { 
         Debug.Log("Dive");

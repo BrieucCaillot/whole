@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InteractionManager : MonoBehaviour
 {
-    private int index = 0;
+    public int index = 0;
 
     public Interaction[] interactions;
 
@@ -23,19 +23,20 @@ public class InteractionManager : MonoBehaviour
         }
     }
 
-    void Start() {
+    void Start()
+    {
         interactions[index].Enable();
     }
 
     void Update() {
         if (interactions[index].Listen() && interactions[index].IsEnabled()) 
         {
-            InteractionHandler(interactions[index], index);
+            InteractionHandler(interactions[index]);
         }
     }
 
-    void InteractionHandler(Interaction interaction, int index)
-    {   
+    void InteractionHandler(Interaction interaction)
+    {
         interaction.Disable();
         GameManager.Instance.InteractionHandler(interaction);
     }

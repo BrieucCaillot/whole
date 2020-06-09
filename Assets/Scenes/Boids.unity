@@ -22242,7 +22242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2e7c1d6eeec8b4da58615fb6261dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 11400000, guid: a83f318d3ead241c491af44830eef242, type: 2}
+  settings: {fileID: 0}
   compute: {fileID: 7200000, guid: 4d0b33073c5fe4103b45029a7476c3db, type: 3}
   targets: []
 --- !u!1001 &1981888709

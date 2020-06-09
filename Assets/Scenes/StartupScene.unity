@@ -684,6 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a063604d95e184317aef4ee1bbd77bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   interactions:
   - {fileID: -4127591348782203078, guid: 545b612727db4dc40a832e6f101f54e2, type: 3}
   - {fileID: -4252126543820095631, guid: 2c6c9324b4b03ce4095dd01f518ffa59, type: 3}
@@ -1277,8 +1278,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   interactionManager: {fileID: 454243707}
-  voiceoverManager: {fileID: 1037829002}
-  subtitleManager: {fileID: 1980696201}
   introManager: {fileID: 528277748}
   kinectManager: {fileID: 1907425640}
   userKinectPosition: {fileID: 385392874}
@@ -1439,10 +1438,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TwoUsers: 1
   mainCamera: {fileID: 1865643143}
-  ComputeUserMap: 0
-  ComputeColorMap: 0
-  DisplayUserMap: 0
-  DisplayColorMap: 0
+  ComputeUserMap: 1
+  ComputeColorMap: 1
+  DisplayUserMap: 1
+  DisplayColorMap: 1
   DisplaySkeletonLines: 0
   DisplayMapsWidthPercent: 20
   SensorHeight: 1

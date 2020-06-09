@@ -13,11 +13,18 @@ public class Interaction : MonoBehaviour
     public void Enable() 
     {
         enable = true;
+        Debug.Log("enable : " + enable);
+
+        PlayVoiceoverAndSubtitles();
+        DisplayPictogram();
     }
 
     public void Disable()
     {
         enable = false;
+        Debug.Log("enable : " + enable);
+        
+        RemovePictogram();
     }
 
     public bool IsEnabled()
@@ -33,8 +40,25 @@ public class Interaction : MonoBehaviour
     public virtual string GetAction(){
         return action;
     }
+    
+    public void PlayVoiceoverAndSubtitles()
+    {
+        // VoiceoverManager.Instance.PlayVoiceover(action);
+        // SubtitleManager.Instance.GetSubtitles(action);
+    }
 
-    public virtual string GetInfo() {
-        return "";
+    public void StopVoiceoverAndSubtitles()
+    {
+
+    }
+
+    public void DisplayPictogram()
+    {
+        // PictosPositionsManager.Instance.Position(action);
+    }
+
+    public void RemovePictogram()
+    {
+        // PictosPositionsManager.Instance.Position(action);
     }
 }

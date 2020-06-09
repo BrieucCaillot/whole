@@ -5,7 +5,7 @@ using UnityEngine;
 public class TPoseInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "flyBirdsFaster";
+        return action;
     }
 
     public override bool Listen()

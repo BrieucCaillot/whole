@@ -16,11 +16,10 @@ public class PictosPositionsManager : Singleton<PictosPositionsManager>
         Image.DOFade(0, 0);
     }
 
-    public static void Position(string name)
+    public void Position(string name)
     {
         if (Animator.GetCurrentAnimatorStateInfo(0).IsName(name))
         {
-            // Debug.Log(name + " END");
             PictoLoadingManager.Loader();
             Image.DOFade(0, durationDisappear);
             Animator.ResetTrigger(name);
@@ -28,7 +27,6 @@ public class PictosPositionsManager : Singleton<PictosPositionsManager>
         }
         else
         {
-            // Debug.Log(name + " START");
             PictoLoadingManager.Loader();
             Image.DOFade(1, durationAppear);
             Animator.SetTrigger(name);

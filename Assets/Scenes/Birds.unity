@@ -285,7 +285,7 @@ MonoBehaviour:
   routes:
   - {fileID: 133394783}
   - {fileID: 1665146794}
-  speed: 0.5
+  speed: 0.05
 --- !u!4 &147842022
 Transform:
   m_ObjectHideFlags: 0

@@ -10,18 +10,17 @@ public class GameManager : Singleton<GameManager>
 
     //managers
     public InteractionManager interactionManager;
-    public VoiceoverManager voiceoverManager;
-    public SubtitleManager subtitleManager;
     public IntroManager introManager;
 
     //behaviors
     private BoidManager boidManager;
     private BirdManager birdManager;
-    private GameObject birdGO;
-    private GameObject boidGO;
+    private GameObject birdGameObject;
+    private GameObject boidGameObject;
 
     private bool isPlayerOneCalibrated;
     private bool isPlayerTwoCalibrated;
+
     public KinectManager kinectManager;
     public UserKinectPosition userKinectPosition;
     public Dictionary<string, Action> actions = new Dictionary<string, Action>();
@@ -29,8 +28,14 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        
+        actions.Add("test", Test);
     }
+
+    void Test()
+    {
+        Debug.Log("Interaction test");
+    }
+    
     void Update()
     {
 
@@ -38,22 +43,20 @@ public class GameManager : Singleton<GameManager>
         isPlayerTwoCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer2ID());
 
         // GO = GameObject
-        if(!birdGO){
+        if(!birdGameObject){
             GetBirdsGameObject();
         }
         if(birdManager) {
             birdManager.FlyBirdsNormal(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
         }
 
-        if(!boidGO) {
+        if(!boidGameObject) {
             GetBoidsGameObject();
         }
             
         if(boidManager) {
             boidManager.UpdateTargetPosition(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
         }
-
-        // Debug.Log(kinectManager.GetUserOrientation(1, false));
     }
 
     void UserDetectedHandler()
@@ -75,17 +78,17 @@ public class GameManager : Singleton<GameManager>
     }
 
     private void GetBirdsGameObject() {
-        birdGO = GameObject.Find("Birds");
-        if(birdGO) {
-            birdManager = birdGO.GetComponent<BirdManager>();
+        birdGameObject = GameObject.Find("Birds");
+        if(birdGameObject) {
+            birdManager = birdGameObject.GetComponent<BirdManager>();
             SetupBirdsScene();
         }
     }
 
     private void GetBoidsGameObject() {
-        boidGO = GameObject.Find("Boid Manager");
-        if(boidGO) {
-            boidManager = boidGO.GetComponent<BoidManager>();
+        boidGameObject = GameObject.Find("Boid Manager");
+        if(boidGameObject) {
+            boidManager = boidGameObject.GetComponent<BoidManager>();
             SetupBoidsScene();
         }
     }
