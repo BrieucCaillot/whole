@@ -9,11 +9,11 @@ public class Interaction : MonoBehaviour
 {
     public bool enable;
     public string action;
+    public float delay = 5f;
 	
     public void Enable() 
     {
         enable = true;
-        Debug.Log("enable : " + enable);
 
         PlayVoiceoverAndSubtitles();
         DisplayPictogram();
@@ -22,9 +22,9 @@ public class Interaction : MonoBehaviour
     public void Disable()
     {
         enable = false;
-        Debug.Log("enable : " + enable);
         
         RemovePictogram();
+        StopVoiceoverAndSubtitles();
     }
 
     public bool IsEnabled()
@@ -39,6 +39,15 @@ public class Interaction : MonoBehaviour
 
     public virtual string GetAction(){
         return action;
+    }
+
+    IEnumerator Timeout()
+    {
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        yield return new WaitForSeconds(delay);
+
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
     
     public void PlayVoiceoverAndSubtitles()

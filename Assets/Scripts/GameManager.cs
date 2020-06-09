@@ -22,15 +22,41 @@ public class GameManager : Singleton<GameManager>
 
     void Start()
     {
+        SetupActions();
+    }
+    
+    void SetupActions()
+    {
         actions.Add("StartScene", UserDetectedHandler);
         actions.Add("test", Test);
+    }
+
+    void SetupBirdsActions()
+    {
+        actions.Add("flyBirdsFaster", birdManager.flyBirdsFaster);
+        actions.Add("vPositionBirds", birdManager.vPositionBirds);
+        actions.Add("diveBirds", birdManager.diveBirds);
+    }
+
+    void SetupBoidsActions()
+    {
+        // actions.Add("boidActionTest", boidManager.boidActionTest);
     }
 
     void Test()
     {
         Debug.Log("Interaction test");
     }
-    
+
+    private void GetBirdsComponent() {
+        birdGameObject = GameObject.Find("Birds");
+        
+        if (birdGameObject) {
+            birdManager = birdGameObject.GetComponent<BirdManager>();
+            SetupBirdsActions();
+        }
+    }
+
     void Update()
     {
         if(!birdGameObject){
@@ -41,6 +67,7 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+    //handlers
     void UserDetectedHandler()
     {
         introManager.Hide();
@@ -49,20 +76,6 @@ public class GameManager : Singleton<GameManager>
     public void introSceneCompleted() {
         SceneManager.LoadScene("Birds");
         InteractionCompleteHandler();
-    }
-    
-    private void GetBirdsComponent() {
-        birdGameObject = GameObject.Find("Birds");
-        if (birdGameObject) {
-            birdManager = birdGameObject.GetComponent<BirdManager>();
-            SetupBirdsScene();
-        }
-    }
-
-    private void SetupBirdsScene() {
-        actions.Add("flyBirdsFaster", birdManager.flyBirdsFaster);
-        actions.Add("vPositionBirds", birdManager.vPositionBirds);
-        actions.Add("diveBirds", birdManager.diveBirds);
     }
 
     public void InteractionHandler(Interaction interaction)

@@ -9114,8 +9114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  voiceoverManager: {fileID: 0}
-  subtitleManager: {fileID: 0}
   interactions:
   - {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538, type: 3}
 --- !u!4 &1826309686
