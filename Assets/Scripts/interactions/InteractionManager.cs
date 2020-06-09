@@ -31,6 +31,7 @@ public class InteractionManager : MonoBehaviour
     void Update() {
         if (interactions[index].Listen() && interactions[index].IsEnabled()) 
         {
+            interactions[index].Trigger();
             InteractionHandler(interactions[index]);
         }
     }

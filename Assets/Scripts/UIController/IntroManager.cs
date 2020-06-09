@@ -23,7 +23,7 @@ public class IntroManager : MonoBehaviour
 
     private void BackgroundFadeOut()
     {
-        Background.DOFade(0, duration).OnComplete(() => GameManager.Instance.introSceneCompleted());
+        Background.DOFade(0, duration).OnComplete(() => GameManager.Instance.IntroSceneCompleted());
     }
 
     private void LogoFadeIn()
