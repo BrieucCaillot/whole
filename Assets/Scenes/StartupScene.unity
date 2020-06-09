@@ -1438,10 +1438,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TwoUsers: 1
   mainCamera: {fileID: 1865643143}
-  ComputeUserMap: 1
-  ComputeColorMap: 1
-  DisplayUserMap: 1
-  DisplayColorMap: 1
+  ComputeUserMap: 0
+  ComputeColorMap: 0
+  DisplayUserMap: 0
+  DisplayColorMap: 0
   DisplaySkeletonLines: 0
   DisplayMapsWidthPercent: 20
   SensorHeight: 1

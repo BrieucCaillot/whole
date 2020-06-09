@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 124f42fd48d59ed4688ce7adff2216b4
+guid: d3257534d580cdc4ca6f0e52baf8d17d
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
       74: -1498010087492872569
-    second: CINEMA_4D_Main
+    second: SpeedUpBirdAnimation
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: CINEMA_4D_Main
+      name: SpeedUpBirdAnimation
       takeName: CINEMA_4D_Main
       internalID: 0
       firstFrame: 30
@@ -46,7 +46,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -62,7 +62,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 29
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []

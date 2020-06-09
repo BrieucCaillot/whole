@@ -10,7 +10,7 @@ public class TPoseInteraction : Interaction
 
     public override bool Listen()
     {
-        // return Input.GetKeyDown("space");
-        return TPoseGesture.isTPoseDone;
+        return Input.GetKeyDown("space");
+        // return TPoseGesture.isTPoseDone;
     }
 }
