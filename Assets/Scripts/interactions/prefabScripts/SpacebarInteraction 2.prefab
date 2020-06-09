@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6604255598786091766}
   - component: {fileID: 5160862660993360851}
   m_Layer: 0
-  m_Name: SpacebarInteraction
+  m_Name: SpacebarInteraction 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enable: 0
-  action: test
+  action: test2
   delay: 2

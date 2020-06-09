@@ -8,8 +8,9 @@ using System;
 public class Interaction : MonoBehaviour
 {
     public bool enable;
+    public bool handleOnComplete = true;
     public string action;
-    public float delay = 5f;
+    public float delay = 0f;
 	
     public void Enable() 
     {
@@ -32,6 +33,13 @@ public class Interaction : MonoBehaviour
         return enable;
     }
 
+    public void Trigger()
+    {
+        if (handleOnComplete) {
+            Invoke ("InteractionComplete", delay);
+        }
+    }
+
     public virtual bool Listen()
     {
         return false;
@@ -39,15 +47,6 @@ public class Interaction : MonoBehaviour
 
     public virtual string GetAction(){
         return action;
-    }
-
-    IEnumerator Timeout()
-    {
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
-
-        yield return new WaitForSeconds(delay);
-
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
     
     public void PlayVoiceoverAndSubtitles()
@@ -69,5 +68,10 @@ public class Interaction : MonoBehaviour
     public void RemovePictogram()
     {
         // PictosPositionsManager.Instance.Position(action);
+    }
+
+    public void InteractionComplete()
+    {
+        GameManager.Instance.InteractionCompleteHandler();
     }
 }

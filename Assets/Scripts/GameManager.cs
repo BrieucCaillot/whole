@@ -45,7 +45,7 @@ public class GameManager : Singleton<GameManager>
 
     void SetupBoidsActions()
     {
-        
+
     }
 
     void Test()
@@ -102,7 +102,7 @@ public class GameManager : Singleton<GameManager>
         introManager.Hide();
     }
 
-    public void introSceneCompleted() {
+    public void IntroSceneCompleted() {
         SceneManager.LoadScene("Birds");
         InteractionCompleteHandler();
     }
