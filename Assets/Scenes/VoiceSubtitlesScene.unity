@@ -854,7 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   interactions:
-  - {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538, type: 3}
+  - {fileID: 1294238535}
 --- !u!114 &890922908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,6 +1087,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baa921622ac2bcd4090f611087276a68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1294238535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538,
+    type: 3}
+  m_PrefabInstance: {fileID: 6604255597630265776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294238533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1320589639
@@ -1626,7 +1638,17 @@ PrefabInstance:
     - target: {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538,
         type: 3}
       propertyPath: action
-      value: Test
+      value: flyBirdsFaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538,
+        type: 3}
+      propertyPath: handleOnComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538,
+        type: 3}
+      propertyPath: enable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: 65a76f4323b82463bb35981cff951538,
         type: 3}

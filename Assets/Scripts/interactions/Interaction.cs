@@ -57,7 +57,7 @@ public class Interaction : MonoBehaviour
 
     public void StopVoiceoverAndSubtitles()
     {
-
+        
     }
 
     public void DisplayPictogram()
@@ -67,7 +67,7 @@ public class Interaction : MonoBehaviour
 
     public void RemovePictogram()
     {
-        // PictosPositionsManager.Instance.Position(action);
+        PictosPositionsManager.Instance.Position(action);
     }
 
     public void InteractionComplete()

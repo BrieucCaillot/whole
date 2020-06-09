@@ -33,7 +33,7 @@ public class GameManager : Singleton<GameManager>
     void SetupActions()
     {
         actions.Add("StartScene", UserDetectedHandler);
-        actions.Add("test", Test);
+        actions.Add("flyBirdsFaster", Test);
     }
 
     void SetupBirdsActions()

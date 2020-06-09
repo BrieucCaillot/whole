@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enable: 0
-  action: test
+  enable: 1
+  handleOnComplete: 1
+  action: flyBirdsFaster
   delay: 2
