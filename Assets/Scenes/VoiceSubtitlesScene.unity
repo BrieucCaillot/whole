@@ -291,7 +291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &251706993
 RectTransform:
   m_ObjectHideFlags: 0
@@ -853,8 +853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  voiceoverManager: {fileID: 1320589641}
-  subtitleManager: {fileID: 1726419692}
   interactions:
   - {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538, type: 3}
 --- !u!114 &890922908
@@ -1625,6 +1623,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538,
+        type: 3}
+      propertyPath: action
+      value: Test
+      objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: 65a76f4323b82463bb35981cff951538,
         type: 3}
       propertyPath: m_Name
