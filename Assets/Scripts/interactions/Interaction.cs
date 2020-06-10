@@ -4,28 +4,25 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-
 public class Interaction : MonoBehaviour
 {
-    public bool enable;
+    public bool enable = false;
     public bool handleOnComplete = true;
+    public InteractionsList InteractionKey;
+    public bool hasPicto = false;
     public string action;
     public float delay = 0f;
-	
-    public void Enable() 
+
+    public void Enable()
     {
         enable = true;
-
-        Invoke("PlayVoiceoverAndSubtitles", 1f);
-        Invoke("DisplayPictogram", 1f);
     }
 
     public void Disable()
     {
         enable = false;
-        
-        RemovePictogram();
-        StopVoiceoverAndSubtitles();
+
+        if (hasPicto) TogglePictogram();
     }
 
     public bool IsEnabled()
@@ -35,8 +32,12 @@ public class Interaction : MonoBehaviour
 
     public void Trigger()
     {
-        if (handleOnComplete) {
-            Invoke ("InteractionComplete", delay);
+        Invoke("PlayVoiceoverAndSubtitles", 1f);
+        if (hasPicto) TogglePictogram();
+
+        if (handleOnComplete)
+        {
+            Invoke("InteractionComplete", delay);
         }
     }
 
@@ -45,29 +46,25 @@ public class Interaction : MonoBehaviour
         return false;
     }
 
-    public virtual string GetAction(){
+    public virtual string GetAction()
+    {
         return action;
     }
-    
+
+    public string GetInteractionName()
+    {
+        return GetEnumMemberAttrValue.Instance.Value(typeof(InteractionsList), InteractionKey);
+    }
+
     public void PlayVoiceoverAndSubtitles()
     {
-        VoiceoverManager.Instance.PlayVoiceover(action);
-        SubtitleManager.Instance.GetSubtitles(action);
+        VoiceoverManager.Instance.PlayVoiceover(GetInteractionName());
+        SubtitleManager.Instance.GetSubtitles(GetInteractionName());
     }
 
-    public void StopVoiceoverAndSubtitles()
+    public void TogglePictogram()
     {
-        
-    }
-
-    public void DisplayPictogram()
-    {
-        PictosPositionsManager.Instance.Position(action);
-    }
-
-    public void RemovePictogram()
-    {
-        PictosPositionsManager.Instance.Position(action);
+        PictosPositionsManager.Instance.Position(InteractionKey.ToString());
     }
 
     public void InteractionComplete()

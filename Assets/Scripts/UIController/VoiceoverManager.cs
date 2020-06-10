@@ -14,9 +14,9 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
         path = "file://" + Application.streamingAssetsPath + "/Audio/Voiceover/";
     }
 
-    public void PlayVoiceover(string actionName)
+    public void PlayVoiceover(string name)
     {
-        StartCoroutine(LoadAudio(actionName));
+        StartCoroutine(LoadAudio(name));
     }
     
     private WWW GetAudioFromFile(string path, string fileName)
@@ -26,9 +26,9 @@ public class VoiceoverManager : Singleton<VoiceoverManager>
         return request;
     }
 
-    private IEnumerator LoadAudio(string actionName)
+    private IEnumerator LoadAudio(string name)
     {
-        audioName = actionName + ".wav";
+        audioName = name + ".wav";
         
         WWW request = GetAudioFromFile(path, audioName);
         yield return request;

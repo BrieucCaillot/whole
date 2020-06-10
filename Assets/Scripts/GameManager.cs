@@ -50,7 +50,7 @@ public class GameManager : Singleton<GameManager>
 
     void Test()
     {
-        Debug.Log("Interaction test");
+        Debug.Log("Interaction");
     }
 
     private void GetBirdsGameObject() {

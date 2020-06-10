@@ -1,0 +1,36 @@
+﻿{
+  "subtitles": [
+    {
+      "content": "Comme les nuées d’oiseaux, il n’existe aucune hiérarchie dans un banc.",
+      "duration": 5
+    },
+    {
+      "content": "Ils semblent répartis au hasard, avec une commande centrale.",
+      "duration": 5
+    },
+    {
+      "content": "Or ce n’est pas le cas.",
+      "duration": 3
+    },
+    {
+      "content": "Les actions sont individuelles, chaque poisson possède un organe qui les rend sensible aux déplacements de l’eau, ce qui lui permet d’adapter sa vitesse et sa direction à celle du poisson d‘a coté.",
+      "duration": 13
+    },
+    {
+      "content": "Lorsqu’un poisson se rapproche un peu trop de son congénère, il s’éloigne.",
+      "duration": 6
+    },
+    {
+      "content": "Au contraire, s’ils s’éloignent trop, ils se rapprochent à nouveau.",
+      "duration": 5
+    },
+    {
+      "content": "Tous les mouvements pratiqués dans l’eau obéissent à des règles physiques, cela permet aux poissons d’aller plus vite.",
+      "duration": 8
+    },
+    {
+      "content": "On appelle cela, l’hydrodynamisme.",
+      "duration": 4
+    }
+  ]
+}
