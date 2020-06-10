@@ -6,7 +6,12 @@ public class BoidManager : MonoBehaviour
 {
     const int threadGroupSize = 1024;
 
-    public BoidSettings settings;
+    private BoidSettings settings;
+
+    public BoidSettings initalSettings;
+    public BoidSettings separationSettings;
+    public BoidSettings groupingSettings;
+
     public ComputeShader compute;
     public Transform[] targets;
     Boid[] boids;
@@ -14,25 +19,33 @@ public class BoidManager : MonoBehaviour
     public static List<Vector3> agentsPositions = new List<Vector3>();
 
     void Start () {
+        settings = initalSettings;
+
         boids = FindObjectsOfType<Boid> ();
         foreach (Boid b in boids) {
-            // b.Initialize (settings, null);
             b.Initialize (settings, targets);
             agentsPositions.Add(Vector3.zero);    
         }
+
     }
 
-    //To trigger with kinect interaction
+    public void ResetSettings()
+    {
+        settings = initalSettings;
+
+        UpdateBoidsSettings(settings);
+    }
+
     public void Separation()
     {
-        settings.avoidanceRadius = 5f;
+        settings = separationSettings;
 
         UpdateBoidsSettings(settings);
     }
 
     public void Grouping()
     {
-        settings.avoidanceRadius = 1f;
+        settings = groupingSettings;
 
         UpdateBoidsSettings(settings);
     }
