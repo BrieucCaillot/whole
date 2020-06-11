@@ -6,9 +6,9 @@ using System;
 
 public class Interaction : MonoBehaviour
 {
-    public bool enable = false;
-    public bool isAudioComplete = false;
-    public bool isTimeoutCompleted = false;
+    private bool enable = false;
+    private bool isAudioComplete = false;
+    private bool isTimeoutCompleted = false;
 
     public string action;
     public bool hasPicto = false;
@@ -27,6 +27,7 @@ public class Interaction : MonoBehaviour
 
     public void Disable()
     {
+        Debug.Log("Listening " + action);
         enable = false;
 
         if (hasPicto) PictosPositionsManager.Instance.HidePicto();
@@ -79,16 +80,12 @@ public class Interaction : MonoBehaviour
 
     public void AudioCompleteHandler()
     {
-        Debug.Log("Audio Completed " + action);
-
         isAudioComplete = true;
         InteractionComplete();
     }
 
     public void TimeoutCompletedHandler()
     {
-        Debug.Log("Timeout Completed " + action);
-
         isTimeoutCompleted = true;
         InteractionComplete();
     }
