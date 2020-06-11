@@ -45,5 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enable: 1
   handleOnComplete: 1
-  action: flyBirdsFaster
+  action: FlyBirdsFaster
   delay: 2

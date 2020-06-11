@@ -5,7 +5,7 @@ using UnityEngine;
 public class UserDetectedInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "StartScene";
+        return action;
     }
 
     public override bool Listen()

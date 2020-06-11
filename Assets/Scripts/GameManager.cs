@@ -32,8 +32,7 @@ public class GameManager : Singleton<GameManager>
     
     void SetupActions()
     {
-        actions.Add("StartScene", UserDetectedHandler);
-        actions.Add("flyBirdsFaster", Test);
+        actions.Add("startScene", UserDetectedHandler);
     }
 
     void SetupBirdsActions()
@@ -46,11 +45,6 @@ public class GameManager : Singleton<GameManager>
     void SetupBoidsActions()
     {
 
-    }
-
-    void Test()
-    {
-        Debug.Log("Interaction test");
     }
 
     private void GetBirdsGameObject() {

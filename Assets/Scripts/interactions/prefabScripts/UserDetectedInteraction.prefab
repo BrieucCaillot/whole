@@ -44,4 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enable: 0
-  action: StartScene
+  handleOnComplete: 0
+  action: startScene
+  delay: 0

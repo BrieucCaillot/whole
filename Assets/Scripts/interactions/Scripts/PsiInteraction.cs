@@ -5,7 +5,7 @@ using UnityEngine;
 public class PsiInteraction : Interaction
 {
     public override string GetAction() {
-        return action = "vPositionBirds";
+        return action;
     }
 
     public override bool Listen()

@@ -44,4 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enable: 0
-  action: 
+  handleOnComplete: 1
+  action: diveBirds
+  delay: 0

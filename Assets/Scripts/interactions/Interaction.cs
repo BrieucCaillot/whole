@@ -16,16 +16,16 @@ public class Interaction : MonoBehaviour
     {
         enable = true;
 
-        Invoke("PlayVoiceoverAndSubtitles", 1f);
-        Invoke("DisplayPictogram", 1f);
+        // Invoke("PlayVoiceoverAndSubtitles", 1f);
+        // Invoke("DisplayPictogram", 1f);
     }
 
     public void Disable()
     {
         enable = false;
         
-        RemovePictogram();
-        StopVoiceoverAndSubtitles();
+        // RemovePictogram();
+        // StopVoiceoverAndSubtitles();
     }
 
     public bool IsEnabled()

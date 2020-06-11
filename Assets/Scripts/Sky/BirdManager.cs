@@ -11,7 +11,8 @@ public class BirdManager : MonoBehaviour
     [SerializeField] private GameObject CenterMountain;
     private List<GameObject> allBirds = new List<GameObject>();
 
-    private bool needBirdsLookAt = false;
+    private bool needBirdsLookAtPhare = false;
+    private bool needBirdsLookAtBoids = false;
 
     private bool isComplete = false;
 
@@ -38,16 +39,17 @@ public class BirdManager : MonoBehaviour
 
     void Update()
     {
-        if(needBirdsLookAt) {
+        UpdateLookAtBirds();
+    }
+    private void UpdateLookAtBirds() {
+        if(needBirdsLookAtPhare) {
             foreach (GameObject bird in allBirds)
             {
-                bird.transform.LookAt(new Vector3(45.4f, 310.1f, -2.3f));
-                bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x + 10, bird.transform.eulerAngles.y, bird.transform.eulerAngles.z);
+                bird.transform.LookAt(new Vector3(45.4f, 330.1f, -2.3f));
+                bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x, bird.transform.eulerAngles.y - 70, bird.transform.eulerAngles.z - 20);
             }
         }
-
     }
-
     public void VPositionBirds() 
     { 
         Debug.Log("VPos");
@@ -56,6 +58,9 @@ public class BirdManager : MonoBehaviour
         int rightV = 0;
 
         for (int i = 0; i < allBirds.Count; i++) {
+
+            allBirds[i].GetComponent<Animator>().Play("Fly", 0, 0f);
+
             if(i%2==0 && i != 0) {
                 leftV++;
                 VBirdPosition = new Vector3(leftV * 5, 1, -leftV* 5);
@@ -79,8 +84,6 @@ public class BirdManager : MonoBehaviour
         parent.DOMove(new Vector3(parent.transform.position.x, parent.transform.position.y, -500f), 5f).SetEase(Ease.InOutCubic).OnComplete(() => {
             foreach (GameObject bird in allBirds)
             {
-                bird.GetComponent<Animator>().Play("Fly", 0, 0f);
-
                 int randomPositionNumber = numOfBirds / 4;
                 Vector3 randomBirdPosition = new Vector3(Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber));
                 bird.transform.DOLocalMove(randomBirdPosition, 6f).SetEase(Ease.InOutCubic);
@@ -93,20 +96,21 @@ public class BirdManager : MonoBehaviour
     }
     private void RotateAroundPhare() {
         parent.gameObject.GetComponent<BezierFollow>().enabled = true;
-        needBirdsLookAt = true;
+        needBirdsLookAtPhare = true;
     }
     public void DiveBirds() { 
-        Debug.Log("Dive");
         parent.gameObject.GetComponent<BezierFollow>().enabled = false;
+        needBirdsLookAtPhare = false;
+
+        foreach (GameObject bird in allBirds) {
+            bird.transform.DOLocalRotate(new Vector3(bird.transform.eulerAngles.x + 70, bird.transform.eulerAngles.y, bird.transform.eulerAngles.z), 2f);
+        }
 
         Sequence seq = DOTween.Sequence(); 
-        seq.Append(parent.DOMove(parent.position + new Vector3(0, 2f, 0), 0.4f).SetEase(Ease.InOutCubic)); 
-        seq.Append(parent.DOMove(new Vector3(65, -320, 319), 1f).SetEase(Ease.InQuint));
+        seq.Append(parent.DOMove(new Vector3(65, -520, 319), 3f).SetEase(Ease.InQuint));
 
-        seq.PrependInterval(1);
-
-    // DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, Color.blue, 1f);
-    // DOTween.To(() => MainCamera.backgroundColor, x => MainCamera.backgroundColor = x, Color.blue, 1f);
+        DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, Color.blue, 1f);
+        DOTween.To(() => Camera.main.backgroundColor, x => Camera.main.backgroundColor = x, Color.blue, 1f);
         seq.OnComplete(() => { 
             GameManager.Instance.BirdSceneCompleted();
             GameManager.Instance.InteractionCompleteHandler();
@@ -128,7 +132,7 @@ public class BirdManager : MonoBehaviour
         Vector3 birdsPosition = parent.transform.position;
         Vector3 birdsRotation = parent.transform.eulerAngles;
 
-        parent.transform.position = new Vector3(birdsPosition.x, birdsPosition.y, birdsPosition.z);
+        parent.transform.position = new Vector3(birdsPosition.x, birdsPosition.y, birdsPosition.z + birdsSpeed);
         // parent.transform.position = new Vector3(birdsPosition.x + (userKinectPosition.x * 2), birdsPosition.y, birdsPosition.z + birdsSpeed);
         // if(userKinectPosition.x > 0.5) {
         //     parent.transform.DORotate(new Vector3(0, 0, -35), 0.4f).SetEase(Ease.InOutCubic);
