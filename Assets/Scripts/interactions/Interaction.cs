@@ -19,6 +19,7 @@ public class Interaction : MonoBehaviour
 
     public void Enable()
     {
+        Debug.Log("Listening " + action);
         enable = true;
         
         Invoke("PlayVoiceoverAndSubtitles", 1f);
@@ -27,7 +28,6 @@ public class Interaction : MonoBehaviour
 
     public void Disable()
     {
-        Debug.Log("Listening " + action);
         enable = false;
 
         if (hasPicto) PictosPositionsManager.Instance.HidePicto();
