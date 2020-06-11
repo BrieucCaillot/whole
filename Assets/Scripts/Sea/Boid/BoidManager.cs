@@ -11,6 +11,7 @@ public class BoidManager : MonoBehaviour
     public BoidSettings initalSettings;
     public BoidSettings separationSettings;
     public BoidSettings groupingSettings;
+    public BoidSettings speedSettings;
 
     public ComputeShader compute;
     public Transform[] targets;
@@ -46,6 +47,13 @@ public class BoidManager : MonoBehaviour
     public void Grouping()
     {
         settings = groupingSettings;
+
+        UpdateBoidsSettings(settings);
+    }
+
+    public void Speed()
+    {
+        settings = speedSettings;
 
         UpdateBoidsSettings(settings);
     }
