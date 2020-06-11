@@ -10,7 +10,8 @@ public class UserDetectedInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetKeyDown("d");
+        // return Input.GetKeyDown("d");
+        return Input.GetMouseButtonDown(0);
 
         // return GameManager.Instance.kinectManager.IsUserDetected();
     }

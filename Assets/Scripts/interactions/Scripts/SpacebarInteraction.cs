@@ -8,6 +8,6 @@ public class SpacebarInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetKeyDown(KeyCode.Space);
+        return Input.GetMouseButtonDown(0);
     }
 }

@@ -615,7 +615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &413371382
 Transform:
   m_ObjectHideFlags: 0
@@ -690,6 +690,11 @@ MonoBehaviour:
   - {fileID: -4252126543820095631, guid: 2c6c9324b4b03ce4095dd01f518ffa59, type: 3}
   - {fileID: 452912484784109575, guid: d65847de487f9d247ae5daf5a4dac142, type: 3}
   - {fileID: 6802040410382527291, guid: e9cc6d92f46308d44a4a0fd2456cbc36, type: 3}
+  - {fileID: 5160862660993360851, guid: 65a76f4323b82463bb35981cff951538, type: 3}
+  - {fileID: 5160862660993360851, guid: cca05a1d44566974992cc521ce88ed73, type: 3}
+  - {fileID: 5160862660993360851, guid: c1c07d688d94cdf4dba48fbccc16e3d3, type: 3}
+  - {fileID: 5160862660993360851, guid: 2932ed432419fdc438899d433725f9dc, type: 3}
+  - {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
 --- !u!4 &454243708
 Transform:
   m_ObjectHideFlags: 0
@@ -892,7 +897,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1037829001
 Transform:
   m_ObjectHideFlags: 0
@@ -1436,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00db858c1f8ff90478dad0aa1bac9a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TwoUsers: 1
+  TwoUsers: 0
   mainCamera: {fileID: 1865643143}
   ComputeUserMap: 0
   ComputeColorMap: 0
@@ -1504,7 +1509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1980696199
 RectTransform:
   m_ObjectHideFlags: 0

@@ -44,6 +44,11 @@ public class GameManager : Singleton<GameManager>
 
     void SetupBoidsActions()
     {
+        actions.Add("separation", boidManager.Separation);
+        actions.Add("grouping", boidManager.Grouping);
+        actions.Add("redCurrent", boidManager.SpeedUp);
+        actions.Add("blueCurrent", boidManager.SpeedDown);
+        actions.Add("hideCurrents", boidManager.SpeedDown);
 
     }
 
@@ -98,7 +103,7 @@ public class GameManager : Singleton<GameManager>
 
     public void IntroSceneCompleted() {
         SceneManager.LoadScene("Birds");
-        // InteractionCompleteHandler();
+        InteractionCompleteHandler();
     }
 
     public void BirdSceneCompleted() {

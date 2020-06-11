@@ -6,6 +6,9 @@ public class BoidManager : MonoBehaviour
 {
     const int threadGroupSize = 1024;
 
+    public GameObject redCurrent;
+    public GameObject blueCurrent;
+
     private BoidSettings settings;
 
     public BoidSettings initalSettings;
@@ -50,30 +53,52 @@ public class BoidManager : MonoBehaviour
         UpdateBoidsSettings(settings);
     }
 
+    public void ShowRedCurrent() {
+        redCurrent.SetActive(true);
+    }
+
+    public void ShowBlueCurrent() {
+        blueCurrent.SetActive(true);
+        redCurrent.SetActive(false);
+    }
+
+    public void HideCurrents() {
+        redCurrent.SetActive(false);
+        blueCurrent.SetActive(false);
+    }
+
+    public void SpeedDown() {
+        ShowBlueCurrent();
+    }
+
+    public void SpeedUp() {
+        ShowRedCurrent();
+    }
+
     public void UpdateTargetPosition(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {
         if(targets[0].gameObject) {
             GameObject firstTarget = targets[0].gameObject;
             if(isPlayerOneCalibrated){
                 Vector3 firstTargetPos = firstTarget.transform.position;
                 firstTarget.SetActive(true);
-                firstTarget.transform.position = new Vector3(firstUserKinectPosition.x * 10, firstUserKinectPosition.y* 10, firstTargetPos.z);
+                firstTarget.transform.position = new Vector3(firstUserKinectPosition.x * 20, firstTargetPos.y, firstTargetPos.z);
             }else{
                 firstTarget.SetActive(false);
             }
         }
 
-        if(targets[1].gameObject) {
-            GameObject secondTarget = targets[1].gameObject;
+        // if(targets[1].gameObject) {
+        //     GameObject secondTarget = targets[1].gameObject;
 
-            if(isPlayerTwoCalibrated){
-                Vector3 secondTargetPos = secondTarget.transform.position;
-                secondTarget.SetActive(true);
-                secondTarget.transform.position = new Vector3(secondUserKinectPosition.x* 10, secondUserKinectPosition.y* 10, secondTargetPos.z);
-            }
-            else {
-                secondTarget.SetActive(false);
-            }
-        }
+        //     if(isPlayerTwoCalibrated){
+        //         Vector3 secondTargetPos = secondTarget.transform.position;
+        //         secondTarget.SetActive(true);
+        //         secondTarget.transform.position = new Vector3(secondUserKinectPosition.x* 10, secondUserKinectPosition.y* 10, secondTargetPos.z);
+        //     }
+        //     else {
+        //         secondTarget.SetActive(false);
+        //     }
+        // }
 
     } 
     

@@ -10,8 +10,7 @@ public class PsiInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetKeyDown("a");
-
+        return Input.GetMouseButtonDown(0);
         // return PsiGesture.isPsiDone;
     }
 }

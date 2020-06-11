@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a71cb29f07ceb448d9399bbefcd0f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enable: 1
-  handleOnComplete: 1
+  handleOnComplete: 0
+  InteractionKey: 0
+  hasPicto: 0
   action: vPositionBirds
   delay: 0

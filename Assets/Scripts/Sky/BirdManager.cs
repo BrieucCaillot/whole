@@ -109,8 +109,8 @@ public class BirdManager : MonoBehaviour
         Sequence seq = DOTween.Sequence(); 
         seq.Append(parent.DOMove(new Vector3(65, -520, 319), 3f).SetEase(Ease.InQuint));
 
-        DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, Color.blue, 1f);
-        DOTween.To(() => Camera.main.backgroundColor, x => Camera.main.backgroundColor = x, Color.blue, 1f);
+        DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, Color.blue, 1f).SetDelay(2);
+        DOTween.To(() => Camera.main.backgroundColor, x => Camera.main.backgroundColor = x, Color.blue, 1f).SetDelay(2);
         seq.OnComplete(() => { 
             GameManager.Instance.BirdSceneCompleted();
             GameManager.Instance.InteractionCompleteHandler();
@@ -133,7 +133,7 @@ public class BirdManager : MonoBehaviour
         Vector3 birdsRotation = parent.transform.eulerAngles;
 
         parent.transform.position = new Vector3(birdsPosition.x, birdsPosition.y, birdsPosition.z + birdsSpeed);
-        // parent.transform.position = new Vector3(birdsPosition.x + (userKinectPosition.x * 2), birdsPosition.y, birdsPosition.z + birdsSpeed);
+        // parent.transform.position = new Vector3(birdsPosition.x + (firstUserKinectPosition.x * 0.5), birdsPosition.y, birdsPosition.z + birdsSpeed);
         // if(userKinectPosition.x > 0.5) {
         //     parent.transform.DORotate(new Vector3(0, 0, -35), 0.4f).SetEase(Ease.InOutCubic);
         // }

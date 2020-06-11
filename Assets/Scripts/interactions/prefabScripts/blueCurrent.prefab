@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6604255598786091766}
   - component: {fileID: 5160862660993360851}
   m_Layer: 0
-  m_Name: SpacebarInteraction
+  m_Name: blueCurrent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enable: 1
   handleOnComplete: 1
-  action: FlyBirdsFaster
+  InteractionKey: 0
+  hasPicto: 0
+  action: blueCurrent
   delay: 2
