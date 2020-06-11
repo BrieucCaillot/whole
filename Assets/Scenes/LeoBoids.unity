@@ -3734,6 +3734,7 @@ MonoBehaviour:
   initalSettings: {fileID: 11400000, guid: d7bb87f45cee04e33aff05204261867c, type: 2}
   separationSettings: {fileID: 11400000, guid: 08106b8f095894efe8f5ba4a5b496d3b, type: 2}
   groupingSettings: {fileID: 11400000, guid: a83f318d3ead241c491af44830eef242, type: 2}
+  speedSettings: {fileID: 0}
   compute: {fileID: 7200000, guid: 4d0b33073c5fe4103b45029a7476c3db, type: 3}
   targets:
   - {fileID: 346483103}

@@ -7,11 +7,15 @@ using System;
 public class Interaction : MonoBehaviour
 {
     public bool enable = false;
+    public bool isAudioComplete = false;
+    public bool isTimeoutCompleted = false;
+
+    public string action;
+    public bool hasPicto = false;
+    public float audioDuration = 0f;
+    public float delay = 0f;
     public bool handleOnComplete = true;
     public InteractionsList InteractionKey;
-    public bool hasPicto = false;
-    public string action;
-    public float delay = 0f;
 
     public void Enable()
     {
@@ -35,9 +39,11 @@ public class Interaction : MonoBehaviour
 
     public void Trigger()
     {
+        Debug.Log("Trigger " + action);
+
         if (handleOnComplete)
         {
-            Invoke("InteractionComplete", delay);
+            Invoke("TimeoutCompletedHandler", delay);
         }
     }
 
@@ -60,10 +66,30 @@ public class Interaction : MonoBehaviour
     {
         VoiceoverManager.Instance.PlayVoiceover(GetInteractionName());
         SubtitleManager.Instance.GetSubtitles(GetInteractionName());
+        Invoke("AudioCompleteHandler", audioDuration);
     }
 
     public void InteractionComplete()
     {
-        GameManager.Instance.InteractionCompleteHandler();
+        if (isAudioComplete && isTimeoutCompleted) {
+            Debug.Log("Interaction Completed " + action);
+            GameManager.Instance.InteractionCompleteHandler();
+        };
+    }
+
+    public void AudioCompleteHandler()
+    {
+        Debug.Log("Audio Completed " + action);
+
+        isAudioComplete = true;
+        InteractionComplete();
+    }
+
+    public void TimeoutCompletedHandler()
+    {
+        Debug.Log("Timeout Completed " + action);
+
+        isTimeoutCompleted = true;
+        InteractionComplete();
     }
 }
