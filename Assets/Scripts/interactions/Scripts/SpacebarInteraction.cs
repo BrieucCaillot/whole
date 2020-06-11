@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpacebarInteraction : Interaction
 {
@@ -10,6 +8,6 @@ public class SpacebarInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetKeyDown("space");
+        return Input.GetKeyDown(KeyCode.Space);
     }
 }

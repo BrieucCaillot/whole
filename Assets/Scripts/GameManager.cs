@@ -68,10 +68,10 @@ public class GameManager : Singleton<GameManager>
     void Update()
     {
 
-        // isPlayerOneCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer1ID());
-        // isPlayerTwoCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer2ID());
-        isPlayerOneCalibrated = false;
-        isPlayerTwoCalibrated = false;
+        isPlayerOneCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer1ID());
+        isPlayerTwoCalibrated = GameManager.Instance.kinectManager.IsPlayerCalibrated(GameManager.Instance.kinectManager.GetPlayer2ID());
+        // isPlayerOneCalibrated = false;
+        // isPlayerTwoCalibrated = false;
 
         // GO = GameObject
         if(!birdGameObject){
@@ -86,7 +86,7 @@ public class GameManager : Singleton<GameManager>
         }
             
         if(boidManager) {
-            // boidManager.UpdateTargetPosition(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
+            boidManager.UpdateTargetPosition(userKinectPosition.getFirstUserVector(), userKinectPosition.getSecondUserVector(), isPlayerOneCalibrated, isPlayerTwoCalibrated);
         }
     }
 
@@ -98,7 +98,7 @@ public class GameManager : Singleton<GameManager>
 
     public void IntroSceneCompleted() {
         SceneManager.LoadScene("Birds");
-        InteractionCompleteHandler();
+        // InteractionCompleteHandler();
     }
 
     public void BirdSceneCompleted() {
@@ -111,7 +111,9 @@ public class GameManager : Singleton<GameManager>
 
     public void InteractionHandler(Interaction interaction)
     {
-        actions[interaction.GetAction()]();
+        if(interaction.GetAction() != "") {
+            actions[interaction.GetAction()]();
+        }
     }
     
     public void InteractionCompleteHandler()

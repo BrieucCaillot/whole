@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.IO;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,7 @@ public class SubtitleManager : Singleton<SubtitleManager>
     private void Start()
     {
         textComponent = gameObject.GetComponent<Text>();
+        textComponent.DOFade(0, 1f);
     }
 
     public void GetSubtitles(string actionName)
@@ -23,7 +25,7 @@ public class SubtitleManager : Singleton<SubtitleManager>
         if (!IsActive())
         {
             GetSubtitlesFromJson(actionName);
-            // StartCoroutine(DisplaySubtitles());    
+            StartCoroutine(DisplaySubtitles());    
         }
     }
 
@@ -51,18 +53,18 @@ public class SubtitleManager : Singleton<SubtitleManager>
 
         foreach (Subtitle subtitle in allSubtitles)
         {
-            StartCoroutine(AnimationManager.FadeTextToFullAlpha(1f, textComponent));
+            textComponent.DOFade(1, 1f);
             textComponent.text = subtitle.content;
             
             yield return new WaitForSeconds(subtitle.duration - 1);
             
-            StartCoroutine(AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+            textComponent.DOFade(0, 1f);
             
             yield return new WaitForSeconds(1);
             
             if (index == allSubtitles.Length - 1)
             {
-                StartCoroutine(AnimationManager.FadeTextToZeroAlpha(1f, textComponent));
+                textComponent.DOFade(0, 1f);
                 
                 textComponent.text = "";
                 allSubtitles = null;
