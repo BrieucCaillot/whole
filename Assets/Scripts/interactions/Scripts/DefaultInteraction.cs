@@ -2,11 +2,12 @@
 
 public class DefaultInteraction : Interaction
 {
+    public float defaultDelay = 2f;
     private bool go = false;
 
     void Start()
     {
-        Invoke("Go", 2f);
+        Invoke("Go", defaultDelay);
 
     }
 
