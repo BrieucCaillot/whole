@@ -16,18 +16,16 @@ public class Interaction : MonoBehaviour
     public void Enable()
     {
         enable = true;
-
-        Debug.Log("listening " + action);
-
+        
         Invoke("PlayVoiceoverAndSubtitles", 1f);
-        if (hasPicto) TogglePictogram();
+        if (hasPicto) PictosPositionsManager.Instance.ShowPicto(InteractionKey.ToString());
     }
 
     public void Disable()
     {
         enable = false;
 
-        if (hasPicto) TogglePictogram();
+        if (hasPicto) PictosPositionsManager.Instance.HidePicto();
     }
 
     public bool IsEnabled()
@@ -42,7 +40,7 @@ public class Interaction : MonoBehaviour
             Invoke("InteractionComplete", delay);
         }
         if (hasPicto) {
-            TogglePictogram();
+            // TogglePictogram();
         }
         
         
@@ -70,11 +68,6 @@ public class Interaction : MonoBehaviour
 
         VoiceoverManager.Instance.PlayVoiceover(GetInteractionName());
         SubtitleManager.Instance.GetSubtitles(GetInteractionName());
-    }
-
-    public void TogglePictogram()
-    {
-        PictosPositionsManager.Instance.Position(InteractionKey.ToString());
     }
 
     public void InteractionComplete()

@@ -6348,6 +6348,7 @@ MonoBehaviour:
   initalSettings: {fileID: 11400000, guid: d7bb87f45cee04e33aff05204261867c, type: 2}
   separationSettings: {fileID: 11400000, guid: 08106b8f095894efe8f5ba4a5b496d3b, type: 2}
   groupingSettings: {fileID: 11400000, guid: a83f318d3ead241c491af44830eef242, type: 2}
+  speedSettings: {fileID: 11400000, guid: d7bb87f45cee04e33aff05204261867c, type: 2}
   compute: {fileID: 7200000, guid: 4d0b33073c5fe4103b45029a7476c3db, type: 3}
   targets:
   - {fileID: 346483103}
@@ -8992,7 +8993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 1163748588}
-  m_PathPosition: 0.9699249
+  m_PathPosition: 0.2294426
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0

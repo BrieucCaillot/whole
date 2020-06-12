@@ -14,6 +14,7 @@ public class BoidManager : MonoBehaviour
     public BoidSettings initalSettings;
     public BoidSettings separationSettings;
     public BoidSettings groupingSettings;
+    public BoidSettings speedSettings;
 
     public ComputeShader compute;
     public Transform[] targets;
@@ -65,14 +66,18 @@ public class BoidManager : MonoBehaviour
     public void HideCurrents() {
         redCurrent.SetActive(false);
         blueCurrent.SetActive(false);
+        ResetSettings();
     }
 
     public void SpeedDown() {
         ShowBlueCurrent();
+        Grouping();
     }
 
     public void SpeedUp() {
         ShowRedCurrent();
+        settings = speedSettings;
+        UpdateBoidsSettings(settings);
     }
 
     public void UpdateTargetPosition(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {

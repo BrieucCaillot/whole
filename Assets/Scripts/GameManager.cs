@@ -48,8 +48,7 @@ public class GameManager : Singleton<GameManager>
         actions.Add("grouping", boidManager.Grouping);
         actions.Add("redCurrent", boidManager.SpeedUp);
         actions.Add("blueCurrent", boidManager.SpeedDown);
-        actions.Add("hideCurrents", boidManager.SpeedDown);
-
+        actions.Add("hideCurrents", boidManager.HideCurrents);
     }
 
     private void GetBirdsGameObject() {

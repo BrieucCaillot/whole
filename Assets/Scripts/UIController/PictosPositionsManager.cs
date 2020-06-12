@@ -16,22 +16,22 @@ public class PictosPositionsManager : Singleton<PictosPositionsManager>
         Image.DOFade(0, 0);
     }
 
-    public void Position(string name)
+    public void ShowPicto(string name)
     {
-        if (Animator.GetCurrentAnimatorStateInfo(0).IsName(name))
-        {
-            PictoLoadingManager.Loader();
-            Image.DOFade(0, durationDisappear);
-            Animator.ResetTrigger(name);
-            Animator.SetTrigger("Default");
-        }
-        else
-        {
-            PictoLoadingManager.Loader();
-            Image.DOFade(1, durationAppear);
-            Animator.SetTrigger(name);
-            Animator.speed = 1;
-        }
+        Debug.Log("SHOW PICTO");
+        PictoLoadingManager.Loader();
+        Image.DOFade(1, durationAppear);
+        Animator.SetTrigger(name);
+        Animator.speed = 1;
+    }
+
+    public void HidePicto()
+    {
+        Debug.Log("HIDE PICTO");
+        PictoLoadingManager.Loader();
+        Image.DOFade(0, durationDisappear);
+        Animator.ResetTrigger(name);
+        Animator.SetTrigger("Default");
     }
 
     private void LateUpdate()
