@@ -10,7 +10,7 @@ public class SquatInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetMouseButtonDown(0);
-        // return SquatGesture.isSquatDone;
+        // return Input.GetMouseButtonDown(0);
+        return SquatGesture.isSquatDone;
     }
 }

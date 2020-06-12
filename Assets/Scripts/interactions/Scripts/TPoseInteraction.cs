@@ -10,7 +10,7 @@ public class TPoseInteraction : Interaction
 
     public override bool Listen()
     {
-        return Input.GetMouseButtonDown(0);
-        // return TPoseGesture.isTPoseDone;
+        // return Input.GetMouseButtonDown(0);
+        return TPoseGesture.isTPoseDone;
     }
 }

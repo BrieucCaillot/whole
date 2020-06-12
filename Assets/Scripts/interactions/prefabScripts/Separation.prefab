@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6604255598786091766}
   - component: {fileID: 5160862660993360851}
   m_Layer: 0
-  m_Name: SpacebarInteraction
+  m_Name: redCurrent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,5 +46,5 @@ MonoBehaviour:
   handleOnComplete: 1
   InteractionKey: 0
   hasPicto: 0
-  action: separation
+  action: redCurrent
   delay: 2

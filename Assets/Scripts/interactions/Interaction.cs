@@ -7,14 +7,19 @@ using System;
 public class Interaction : MonoBehaviour
 {
     private bool enable = false;
+    private bool isAudioComplete = false;
+    private bool isTimeoutCompleted = false;
+
+    public string action;
+    public bool hasPicto = false;
+    public float audioDuration = 0f;
+    public float delay = 0f;
     public bool handleOnComplete = true;
     public InteractionsList InteractionKey;
-    public bool hasPicto = false;
-    public string action;
-    public float delay = 0f;
 
     public void Enable()
     {
+        Debug.Log("Listening " + action);
         enable = true;
         
         Invoke("PlayVoiceoverAndSubtitles", 1f);
@@ -35,15 +40,12 @@ public class Interaction : MonoBehaviour
 
     public void Trigger()
     {
+        Debug.Log("Trigger " + action);
+
         if (handleOnComplete)
         {
-            Invoke("InteractionComplete", delay);
-        }
-        if (hasPicto) {
-            // TogglePictogram();
-        }
-        
-        
+            Invoke("TimeoutCompletedHandler", delay);
+        }        
     }
 
     public virtual bool Listen()
@@ -63,16 +65,30 @@ public class Interaction : MonoBehaviour
 
     public void PlayVoiceoverAndSubtitles()
     {
-        // Debug.Log("Play Voice " + action);
-        if(GetInteractionName() == "01_default") return;
+        if(GetInteractionName() == "00_default") return;
 
         VoiceoverManager.Instance.PlayVoiceover(GetInteractionName());
         SubtitleManager.Instance.GetSubtitles(GetInteractionName());
+        Invoke("AudioCompleteHandler", audioDuration);
     }
 
     public void InteractionComplete()
     {
-        Debug.Log("complete  " + action);
-        GameManager.Instance.InteractionCompleteHandler();
+        if (isAudioComplete && isTimeoutCompleted) {
+            Debug.Log("Interaction Completed " + action);
+            GameManager.Instance.InteractionCompleteHandler();
+        };
+    }
+
+    public void AudioCompleteHandler()
+    {
+        isAudioComplete = true;
+        InteractionComplete();
+    }
+
+    public void TimeoutCompletedHandler()
+    {
+        isTimeoutCompleted = true;
+        InteractionComplete();
     }
 }

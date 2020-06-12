@@ -22,11 +22,11 @@ public class SubtitleManager : Singleton<SubtitleManager>
 
     public void GetSubtitles(string actionName)
     {
-        if (!IsActive())
-        {
+        // if (!IsActive())
+        // {
             GetSubtitlesFromJson(actionName);
             StartCoroutine(DisplaySubtitles());    
-        }
+        // }
     }
 
     private static void GetSubtitlesFromJson(string actionName)
@@ -50,7 +50,6 @@ public class SubtitleManager : Singleton<SubtitleManager>
     IEnumerator DisplaySubtitles()
     {
         int index = 0;
-
         foreach (Subtitle subtitle in allSubtitles)
         {
             textComponent.DOFade(1, 1f);

@@ -92,18 +92,18 @@ public class BoidManager : MonoBehaviour
             }
         }
 
-        // if(targets[1].gameObject) {
-        //     GameObject secondTarget = targets[1].gameObject;
+        if(targets[1].gameObject) {
+            GameObject secondTarget = targets[1].gameObject;
 
-        //     if(isPlayerTwoCalibrated){
-        //         Vector3 secondTargetPos = secondTarget.transform.position;
-        //         secondTarget.SetActive(true);
-        //         secondTarget.transform.position = new Vector3(secondUserKinectPosition.x* 10, secondUserKinectPosition.y* 10, secondTargetPos.z);
-        //     }
-        //     else {
-        //         secondTarget.SetActive(false);
-        //     }
-        // }
+            if(isPlayerTwoCalibrated){
+                Vector3 secondTargetPos = secondTarget.transform.position;
+                secondTarget.SetActive(true);
+                secondTarget.transform.position = new Vector3(secondUserKinectPosition.x* 10, secondUserKinectPosition.y* 10, secondTargetPos.z);
+            }
+            else {
+                secondTarget.SetActive(false);
+            }
+        }
 
     } 
     

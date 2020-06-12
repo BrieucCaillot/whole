@@ -16,7 +16,7 @@ public class BirdManager : MonoBehaviour
 
     private bool isComplete = false;
 
-    private float birdsSpeed = 0.5f;
+    private float birdsSpeed = 0.8f;
 
     void Start()
     {
@@ -31,7 +31,7 @@ public class BirdManager : MonoBehaviour
     {
         for (int i = 0; i < numOfBirds; i++)
         {
-            int randomPositionNumber = numOfBirds / 4;
+            int randomPositionNumber = numOfBirds;
             Vector3 randomBirdPosition = new Vector3(Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber));
             allBirds.Add((GameObject) Instantiate(birdPreFab, parentPosition + randomBirdPosition, Quaternion.identity, parent));
         }
@@ -41,15 +41,60 @@ public class BirdManager : MonoBehaviour
     {
         UpdateLookAtBirds();
     }
+
     private void UpdateLookAtBirds() {
-        if(needBirdsLookAtPhare) {
-            foreach (GameObject bird in allBirds)
-            {
+        foreach (GameObject bird in allBirds) {
+            if(needBirdsLookAtPhare) {
                 bird.transform.LookAt(new Vector3(45.4f, 330.1f, -2.3f));
                 bird.transform.eulerAngles = new Vector3(bird.transform.eulerAngles.x, bird.transform.eulerAngles.y - 70, bird.transform.eulerAngles.z - 20);
+            } 
+            else {
+                // bird.transform.eulerAngles = new Vector3(0, 0, Random.Range(-6, 6));
             }
         }
     }
+
+    public void DiveBirds() { 
+        parent.gameObject.GetComponent<BezierFollow>().enabled = false;
+        needBirdsLookAtPhare = false;
+
+        foreach (GameObject bird in allBirds) {
+            bird.transform.DOLocalRotate(new Vector3(bird.transform.eulerAngles.x + 70, bird.transform.eulerAngles.y, bird.transform.eulerAngles.z), 2f);
+        }
+
+        Sequence seq = DOTween.Sequence(); 
+        seq.Append(parent.DOMove(new Vector3(65, -520, 319), 3f).SetEase(Ease.InQuint));
+
+        DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, new Color(0.2117f, 0.2470588f, 0.6745098f, 1), 1f).SetDelay(2);
+        DOTween.To(() => Camera.main.backgroundColor, x => Camera.main.backgroundColor = x, new Color(0.2117f, 0.2470588f, 0.6745098f, 1), 1f).SetDelay(2);
+        seq.OnComplete(() => { 
+            GameManager.Instance.BirdSceneCompleted();
+            // GameManager.Instance.InteractionCompleteHandler();
+            }
+        ); 
+    }
+
+    
+    public void FlyBirdsNormal(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {
+        Debug.Log("hello");
+        Vector3 birdsPosition = parent.transform.position;
+        Vector3 birdsRotation = parent.transform.eulerAngles;
+
+        parent.transform.position = new Vector3(birdsPosition.x, birdsPosition.y, birdsPosition.z + birdsSpeed);
+        // parent.transform.position = new Vector3(birdsPosition.x + (firstUserKinectPosition.x * 0.5), birdsPosition.y, birdsPosition.z + birdsSpeed);
+    }
+
+    public void FlyBirdsFaster() {
+        foreach (GameObject bird in allBirds)
+        {
+            bird.GetComponent<Animator>().Play("SpeedUp", 0, 0.5f);
+
+            int randomPositionNumber = numOfBirds / 4;
+            Vector3 randomBirdPosition = new Vector3(Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber));
+            bird.transform.DOLocalMove(randomBirdPosition, 6f).SetEase(Ease.InOutCubic);
+        }
+    }
+
     public void VPositionBirds() 
     { 
         Debug.Log("VPos");
@@ -72,8 +117,8 @@ public class BirdManager : MonoBehaviour
             allBirds[i].transform.DOLocalMove(new Vector3(VBirdPosition.x, VBirdPosition.y, VBirdPosition.z), 6f).SetEase(Ease.InOutCubic).OnComplete(() => {
                 if(!isComplete) {
                     isComplete = true;
-                    GameManager.Instance.InteractionCompleteHandler();
-                    GoToCircleRoute();
+                    // GameManager.Instance.InteractionCompleteHandler();
+                    Invoke("GoToCircleRoute", 5f);
                 }
             }); 
         }
@@ -81,14 +126,14 @@ public class BirdManager : MonoBehaviour
     }
 
     private void GoToCircleRoute() { 
-        parent.DOMove(new Vector3(parent.transform.position.x, parent.transform.position.y, -500f), 5f).SetEase(Ease.InOutCubic).OnComplete(() => {
+        // parent.DOMove(new Vector3(parent.transform.position.x, parent.transform.position.y, -500f), 5f).SetEase(Ease.InOutCubic).OnComplete(() => {
             foreach (GameObject bird in allBirds)
             {
                 int randomPositionNumber = numOfBirds / 4;
                 Vector3 randomBirdPosition = new Vector3(Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber), Random.Range(-randomPositionNumber, randomPositionNumber));
                 bird.transform.DOLocalMove(randomBirdPosition, 6f).SetEase(Ease.InOutCubic);
             }
-        });
+        // });
 
         parent.DOMove(new Vector3(58.89471f, 296, -150.5997f), 20f).SetEase(Ease.InCubic).OnComplete(() => {
             RotateAroundPhare();
@@ -97,48 +142,5 @@ public class BirdManager : MonoBehaviour
     private void RotateAroundPhare() {
         parent.gameObject.GetComponent<BezierFollow>().enabled = true;
         needBirdsLookAtPhare = true;
-    }
-    public void DiveBirds() { 
-        parent.gameObject.GetComponent<BezierFollow>().enabled = false;
-        needBirdsLookAtPhare = false;
-
-        foreach (GameObject bird in allBirds) {
-            bird.transform.DOLocalRotate(new Vector3(bird.transform.eulerAngles.x + 70, bird.transform.eulerAngles.y, bird.transform.eulerAngles.z), 2f);
-        }
-
-        Sequence seq = DOTween.Sequence(); 
-        seq.Append(parent.DOMove(new Vector3(65, -520, 319), 3f).SetEase(Ease.InQuint));
-
-        DOTween.To(() => RenderSettings.fogColor, x => RenderSettings.fogColor = x, Color.blue, 1f).SetDelay(2);
-        DOTween.To(() => Camera.main.backgroundColor, x => Camera.main.backgroundColor = x, Color.blue, 1f).SetDelay(2);
-        seq.OnComplete(() => { 
-            GameManager.Instance.BirdSceneCompleted();
-            GameManager.Instance.InteractionCompleteHandler();
-            }
-        ); 
-    }
-
-    public void FlyBirdsFaster() {
-        Debug.Log("FlyFaster");
-        parent.DOMove(new Vector3(parent.transform.position.x, parent.transform.position.y, -1000f), 20f).SetEase(Ease.InOutCubic);
-        foreach (GameObject bird in allBirds)
-            {
-                bird.GetComponent<Animator>().Play("SpeedUp", 0, 0f);
-            }
-        GameManager.Instance.InteractionCompleteHandler();
-    }
-
-    public void FlyBirdsNormal(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {
-        Vector3 birdsPosition = parent.transform.position;
-        Vector3 birdsRotation = parent.transform.eulerAngles;
-
-        parent.transform.position = new Vector3(birdsPosition.x, birdsPosition.y, birdsPosition.z + birdsSpeed);
-        // parent.transform.position = new Vector3(birdsPosition.x + (firstUserKinectPosition.x * 0.5), birdsPosition.y, birdsPosition.z + birdsSpeed);
-        // if(userKinectPosition.x > 0.5) {
-        //     parent.transform.DORotate(new Vector3(0, 0, -35), 0.4f).SetEase(Ease.InOutCubic);
-        // }
-        // else if(userKinectPosition.x < -0.5) {
-        //     parent.transform.DORotate(new Vector3(0, 0, 35), 0.4f).SetEase(Ease.InOutCubic);
-        // }
     }
 }

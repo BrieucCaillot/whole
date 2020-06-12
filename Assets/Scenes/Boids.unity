@@ -3496,7 +3496,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &346483103
 Transform:
   m_ObjectHideFlags: 0
@@ -5932,8 +5932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 93627389186640121, guid: 680f18903a23f431fbebbe23da3c9ab7, type: 3}
   id: 0
-  spawnRadius: 10
-  spawnCount: 1500
+  spawnRadius: 100
+  spawnCount: 3500
   colour: {r: 1, g: 0.36320752, b: 0.36320752, a: 1}
   showSpawnRegion: 1
 --- !u!1001 &516432119
@@ -6352,6 +6352,7 @@ MonoBehaviour:
   compute: {fileID: 7200000, guid: 4d0b33073c5fe4103b45029a7476c3db, type: 3}
   targets:
   - {fileID: 346483103}
+  - {fileID: 416955136}
 --- !u!1001 &534967537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8993,7 +8994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 1163748588}
-  m_PathPosition: 0.2294426
+  m_PathPosition: 0.46684
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
