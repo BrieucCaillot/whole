@@ -7,14 +7,12 @@ public class DefaultInteraction : Interaction
     void Start()
     {
         Invoke("Go", 2f);
-        Debug.Log(go);
 
     }
 
     void Go()
     {
         go = true;
-        Debug.Log(go);
     }
 
     public override string GetAction() {
