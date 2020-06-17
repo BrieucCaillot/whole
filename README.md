@@ -148,10 +148,36 @@ Projet
 
 ---
 
+### Scenes managment
+
+You can run each scene separatly for development purposes. But the production scene is "StartupScene" which uses the kinect manager and load every scene asynchronously depending on the users interactions.
+
+### Interaction Managment
+
+If you want to use interactions outside of the StartupScene, you will need to create a GameManager and InteractionManager. but you will have to remove it for development and use the GameManager and InteractionManager in the StartupScene. 
+
+To add a new interaction in the interactionManager, you will need to create a GameObject, and add the script with the interaction you want to use. If the interaction you want does not exist yet, you can create your own script and extend it with Interactions.cs. it just need to return true in the Listen function when the interaction is completed. When the gameObject is created you can drag it to the interaction list in the interaction manager. 
+
+Each interaction GameObject should have an string "action" that triggers a function in the GameManager, is defined. if the interaction have a pictogram attached and audio, you have to select the InteractionKey corresponding to the audio/picto defined in InteractionList.cs and enable "hasPicto".
+
+To prevent the interaction to abort too soon, you can enter the audio duration in the GameObject and add an additional delay if needed. 
+
+If you want to trigger the onComplete event somewhere outside of the interaction script, you can uncheck "Handle on Complete". 
+
+Each interaction is enabled one after the other depending on the order of the interactions array, when the complete function is called.
+
+### Kinect managment
+
+If you are working without the kinect device, you can still run the scenes just by removing every interaction using the kinect, you might have warnings but you can just ignore them.
+
+To make the kinect work : ??
+
+If you want to create a new kind of interaction with the kinect you will need to create a KinectGesture GameObject linked to a new GestureScript that you need to create.
+
 ### Credits
 
 - [Serge Bocancea](https://fr.linkedin.com/in/serge-bocancea-70868a152) 👨‍💻
 - [Brieuc Caillot](https://www.linkedin.com/in/brieuccaillot/) 👨‍💻
-- [Léo Mouraire](https://fr.linkedin.com/in/l%C3%A9o-mouraire-5b53b8143) 👨‍💻
+- [Léo Mouraire](https://leomouraire.com) 👨‍💻
 - [Pauline Fuchs](https://fr.linkedin.com/in/pauline-fuchs) 👩‍💻
 - [Emma Rimbert](https://fr.linkedin.com/in/emma-rimbert-09470319b) 👩‍💻
