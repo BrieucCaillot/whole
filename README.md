@@ -170,9 +170,16 @@ Each interaction is enabled one after the other depending on the order of the in
 
 If you are working without the kinect device, you can still run the scenes just by removing every interaction using the kinect, you might have warnings but you can just ignore them.
 
-To make the kinect work : ??
+To make the kinect work : 
+
+Install the Kinect SDK 1.8 (only KinectV1) on your windows device. Kinect with MS-SDK package is already installed in our project.
+https://www.microsoft.com/en-us/download/details.aspx?id=40278
+
+There's already a list of available gestures, but if you want to add custom ones, check the Gesture pdf in Kinect with MS-SDK asset.
 
 If you want to create a new kind of interaction with the kinect you will need to create a KinectGesture GameObject linked to a new GestureScript that you need to create.
+
+We are actually working on a new version with depth and position user data, to delete current gestures and interactions.
 
 ### Credits
 
