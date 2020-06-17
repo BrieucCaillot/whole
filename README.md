@@ -158,7 +158,7 @@ If you want to use interactions outside of the StartupScene, you will need to cr
 
 To add a new interaction in the interactionManager, you will need to create a GameObject, and add the script with the interaction you want to use. If the interaction you want does not exist yet, you can create your own script and extend it with Interactions.cs. it just need to return true in the Listen function when the interaction is completed. When the gameObject is created you can drag it to the interaction list in the interaction manager. 
 
-Each interaction GameObject should have an string "action" that triggers a function in the GameManager, is defined. if the interaction have a pictogram attached and audio, you have to select the InteractionKey corresponding to the audio/picto defined in InteractionList.cs and enable "hasPicto".
+Each interaction GameObject should have a string "action" that triggers a function in the GameManager, if defined. if the interaction have a pictogram attached and audio, you have to select the InteractionKey corresponding to the audio/picto defined in InteractionList.cs and enable "hasPicto".
 
 To prevent the interaction to abort too soon, you can enter the audio duration in the GameObject and add an additional delay if needed. 
 
@@ -170,7 +170,7 @@ Each interaction is enabled one after the other depending on the order of the in
 
 If you are working without the kinect device, you can still run the scenes just by removing every interaction using the kinect, you might have warnings but you can just ignore them.
 
-To make the kinect work : 
+#### To make the kinect work
 
 Install the Kinect SDK 1.8 (only KinectV1) on your windows device. Kinect with MS-SDK package is already installed in our project.
 https://www.microsoft.com/en-us/download/details.aspx?id=40278
