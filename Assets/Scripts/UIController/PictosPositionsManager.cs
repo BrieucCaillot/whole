@@ -18,7 +18,6 @@ public class PictosPositionsManager : Singleton<PictosPositionsManager>
 
     public void ShowPicto(string name)
     {
-        Debug.Log("SHOW PICTO");
         PictoLoadingManager.Loader();
         Image.DOFade(1, durationAppear);
         Animator.SetTrigger(name);
@@ -27,7 +26,6 @@ public class PictosPositionsManager : Singleton<PictosPositionsManager>
 
     public void HidePicto()
     {
-        Debug.Log("HIDE PICTO");
         PictoLoadingManager.Loader();
         Image.DOFade(0, durationDisappear);
         Animator.ResetTrigger(name);

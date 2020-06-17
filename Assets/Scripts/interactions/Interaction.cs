@@ -19,7 +19,7 @@ public class Interaction : MonoBehaviour
 
     public void Enable()
     {
-        Debug.Log("Listening " + action);
+        // Debug.Log("Listening " + action);
         enable = true;
         
         Invoke("PlayVoiceoverAndSubtitles", 1f);
@@ -40,7 +40,7 @@ public class Interaction : MonoBehaviour
 
     public void Trigger()
     {
-        Debug.Log("Trigger " + action);
+        // Debug.Log("Trigger " + action);
 
         if (handleOnComplete)
         {
@@ -75,7 +75,7 @@ public class Interaction : MonoBehaviour
     public void InteractionComplete()
     {
         if (isAudioComplete && isTimeoutCompleted) {
-            Debug.Log("Interaction Completed " + action);
+            // Debug.Log("Interaction Completed " + action);
             GameManager.Instance.InteractionCompleteHandler();
         };
     }

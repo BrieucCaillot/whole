@@ -467,6 +467,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1354520991}
     m_Modifications:
+    - target: {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b,
+        type: 3}
+      propertyPath: audioDuration
+      value: 38
+      objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: 62ea9a286bc7292459080b2834eef35b,
         type: 3}
       propertyPath: m_Name
@@ -547,6 +552,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &334367285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6604255598786091765, guid: 62ea9a286bc7292459080b2834eef35b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1084496215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &334367286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334367285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b243981313c24ac8b83cab2a860c534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: 
+  hasPicto: 0
+  audioDuration: 38
+  delay: 0
+  handleOnComplete: 1
+  InteractionKey: 1
+  defaultDelay: 2
 --- !u!1 &364299952
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,13 +828,13 @@ MonoBehaviour:
   index: 0
   interactions:
   - {fileID: 498379478}
-  - {fileID: 1084496217}
+  - {fileID: 334367286}
   - {fileID: 178091519}
   - {fileID: 1676370810}
-  - {fileID: 0}
+  - {fileID: 590829155}
   - {fileID: 444824779}
-  - {fileID: 1570907836}
-  - {fileID: 739490606}
+  - {fileID: 1151597455}
+  - {fileID: 1527185724}
   - {fileID: 1964047982}
   - {fileID: 278398796}
   - {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
@@ -978,7 +1008,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
 --- !u!4 &590829153 stripped
 Transform:
@@ -986,18 +1017,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 590829152}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &739490606 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5160862660993360851, guid: 2a5418cfbfc17fd4583fc341be9d628e,
+--- !u!1 &590829154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6604255598786091765, guid: 62ea9a286bc7292459080b2834eef35b,
     type: 3}
-  m_PrefabInstance: {fileID: 1131723128}
+  m_PrefabInstance: {fileID: 590829152}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &590829155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590829154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b243981313c24ac8b83cab2a860c534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  action: 
+  hasPicto: 0
+  audioDuration: 32
+  delay: 0
+  handleOnComplete: 1
+  InteractionKey: 4
+  defaultDelay: 2
 --- !u!1 &781945683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,7 +1386,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 62ea9a286bc7292459080b2834eef35b, type: 3}
 --- !u!4 &1084496216 stripped
 Transform:
@@ -1350,18 +1395,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1084496215}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1084496217 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5160862660993360851, guid: 62ea9a286bc7292459080b2834eef35b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1084496215}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1131723128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1383,6 +1416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: hasPicto
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: 2a5418cfbfc17fd4583fc341be9d628e,
+        type: 3}
+      propertyPath: audioDuration
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: 2a5418cfbfc17fd4583fc341be9d628e,
         type: 3}
@@ -1444,7 +1482,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5160862660993360851, guid: 2a5418cfbfc17fd4583fc341be9d628e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2a5418cfbfc17fd4583fc341be9d628e, type: 3}
 --- !u!4 &1131723129 stripped
 Transform:
@@ -1452,6 +1491,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1131723128}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1151597454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6604255598786091765, guid: a24512697dfde43e1ac91bc4867730bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598857321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1151597455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151597454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a71cb29f07ceb448d9399bbefcd0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: grouping
+  hasPicto: 0
+  audioDuration: 22
+  delay: 0
+  handleOnComplete: 1
+  InteractionKey: 6
 --- !u!1001 &1203228558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1792,18 +1855,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8814caef5f042cd438df0dfcd3a8b169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1570907836 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5160862660993360851, guid: a24512697dfde43e1ac91bc4867730bb,
+--- !u!1 &1527185723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6604255598786091765, guid: 2a5418cfbfc17fd4583fc341be9d628e,
     type: 3}
-  m_PrefabInstance: {fileID: 1598857321}
+  m_PrefabInstance: {fileID: 1131723128}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1527185724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527185723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a44ef9319d0b4e54980b730152d164d, type: 3}
+  m_Script: {fileID: 11500000, guid: aaf3a53e6b11c4e40aa0cd9fe4991611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  action: separation
+  hasPicto: 0
+  audioDuration: 37
+  delay: 2
+  handleOnComplete: 1
+  InteractionKey: 12
 --- !u!1001 &1598857321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1891,7 +1966,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5160862660993360851, guid: a24512697dfde43e1ac91bc4867730bb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a24512697dfde43e1ac91bc4867730bb, type: 3}
 --- !u!4 &1598857322 stripped
 Transform:
@@ -2415,6 +2491,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1354520991}
     m_Modifications:
+    - target: {fileID: 5160862660993360851, guid: 2932ed432419fdc438899d433725f9dc,
+        type: 3}
+      propertyPath: InteractionKey
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: 2932ed432419fdc438899d433725f9dc,
+        type: 3}
+      propertyPath: audioDuration
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: 2932ed432419fdc438899d433725f9dc,
         type: 3}
       propertyPath: m_Name
@@ -2506,6 +2592,16 @@ PrefabInstance:
         type: 3}
       propertyPath: hasPicto
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: c1c07d688d94cdf4dba48fbccc16e3d3,
+        type: 3}
+      propertyPath: InteractionKey
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160862660993360851, guid: c1c07d688d94cdf4dba48fbccc16e3d3,
+        type: 3}
+      propertyPath: audioDuration
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 6604255598786091765, guid: c1c07d688d94cdf4dba48fbccc16e3d3,
         type: 3}

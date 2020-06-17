@@ -22,11 +22,8 @@ public class SubtitleManager : Singleton<SubtitleManager>
 
     public void GetSubtitles(string actionName)
     {
-        // if (!IsActive())
-        // {
             GetSubtitlesFromJson(actionName);
             StartCoroutine(DisplaySubtitles());    
-        // }
     }
 
     private static void GetSubtitlesFromJson(string actionName)

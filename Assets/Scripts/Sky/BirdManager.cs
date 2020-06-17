@@ -76,7 +76,6 @@ public class BirdManager : MonoBehaviour
 
     
     public void FlyBirdsNormal(Vector3 firstUserKinectPosition, Vector3 secondUserKinectPosition, bool isPlayerOneCalibrated, bool isPlayerTwoCalibrated) {
-        Debug.Log("hello");
         Vector3 birdsPosition = parent.transform.position;
         Vector3 birdsRotation = parent.transform.eulerAngles;
 
